@@ -1,0 +1,21 @@
+# regenerable
+cache/
+data/zoo/
+data/traces/
+data_zoo
+data_traces
+sim_inputs/
+logs/
+__pycache__/
+*.pyc
+results/simfold/preds_*.npz   # rebuilt by scripts/eval_sim_folds.py from the stored weights
+ns3_inputs/
+results/ns3fold/preds_*.npz
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.out
+paper/build.log

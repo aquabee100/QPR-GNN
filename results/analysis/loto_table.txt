@@ -1,0 +1,132 @@
+Leave-one-topology-out on the archive: single-model accuracy on the COMPLETE held-out topology.
+Metric per seed, mean ± std over seeds (n). avg = mean over the 3 topologies; pooled = flow-weighted.
+
+=== MAPE % ===
+model                                                test_abilene           test_nobel       test_germany50     avg
+M/M/1 (per-flow packet size)                    7.435 ± 0.000 (1)   17.739 ± 0.000 (1)   11.188 ± 0.000 (1)  12.120
+M/M/1/K, aggregate (= our prior alone)          6.664 ± 0.000 (1)   16.486 ± 0.000 (1)   10.106 ± 0.000 (1)  11.085
+M/G/1 (Pollaczek-Khinchine)                    10.221 ± 0.000 (1)   20.426 ± 0.000 (1)   13.010 ± 0.000 (1)  14.553
+MLP                                             5.068 ± 0.046 (5)   11.765 ± 0.020 (5)   11.731 ± 0.265 (5)   9.521
+Gradient-boosted trees                          5.102 ± 0.018 (5)   11.561 ± 0.047 (5)   11.652 ± 0.000 (5)   9.438
+RouteNet-style (25k)                            3.860 ± 0.067 (5)    9.494 ± 0.213 (5)    9.175 ± 0.364 (5)   7.509
+RouteNet-style (87k)                            3.941 ± 0.068 (5)    9.217 ± 0.053 (5)    8.996 ± 0.090 (5)   7.385
+RouteNet-Fermi                                  3.643 ± 0.164 (5)    8.834 ± 0.323 (5)    9.318 ± 0.098 (5)   7.265
+QT-RouteNet                                    25.458 ± 1.070 (5)   33.099 ± 1.172 (5)   41.192 ± 1.240 (5)  33.250
+QT-RouteNet + transmission term                 5.043 ± 0.317 (5)   11.472 ± 0.117 (5)   10.315 ± 0.771 (5)   8.943
+GCN                                             4.952 ± 0.075 (5)   11.776 ± 0.109 (5)   11.351 ± 0.370 (5)   9.360
+GAT                                             5.114 ± 0.081 (5)   11.937 ± 0.098 (5)   11.120 ± 0.188 (5)   9.390
+Graph transformer (GPS-style)                   5.831 ± 0.260 (5)   11.991 ± 0.106 (5)   12.358 ± 0.612 (5)  10.060
+MLP + prior                                     3.247 ± 0.181 (5)    9.232 ± 0.131 (5)    8.717 ± 0.185 (5)   7.065
+GBDT + prior                                    3.488 ± 0.037 (5)    8.659 ± 0.012 (5)    8.446 ± 0.000 (5)   6.864
+GAT + prior                                     3.048 ± 0.050 (5)    9.392 ± 0.102 (5)    8.621 ± 0.058 (5)   7.021
+RouteNet-style + prior features                 3.092 ± 0.253 (5)    8.035 ± 0.180 (5)    8.727 ± 0.304 (5)   6.618
+Ours, prior as readout base only                2.831 ± 0.136 (5)    8.147 ± 0.113 (5)    8.455 ± 0.210 (5)   6.478
+QPR-GNN (ours)                                  2.776 ± 0.062 (5)    7.892 ± 0.436 (5)    8.491 ± 0.331 (5)   6.386
+
+=== median APE % ===
+model                                                test_abilene           test_nobel       test_germany50     avg
+M/M/1 (per-flow packet size)                    3.604 ± 0.000 (1)    9.890 ± 0.000 (1)    5.339 ± 0.000 (1)   6.278
+M/M/1/K, aggregate (= our prior alone)          2.873 ± 0.000 (1)    8.867 ± 0.000 (1)    4.163 ± 0.000 (1)   5.301
+M/G/1 (Pollaczek-Khinchine)                     6.468 ± 0.000 (1)   13.055 ± 0.000 (1)    7.391 ± 0.000 (1)   8.972
+MLP                                             2.342 ± 0.016 (5)    5.946 ± 0.044 (5)    5.608 ± 0.044 (5)   4.632
+Gradient-boosted trees                          2.315 ± 0.003 (5)    5.836 ± 0.033 (5)    5.598 ± 0.000 (5)   4.583
+RouteNet-style (25k)                            2.080 ± 0.019 (5)    4.691 ± 0.102 (5)    4.095 ± 0.183 (5)   3.622
+RouteNet-style (87k)                            2.313 ± 0.122 (5)    4.556 ± 0.025 (5)    4.017 ± 0.137 (5)   3.629
+RouteNet-Fermi                                  1.251 ± 0.064 (5)    3.586 ± 0.167 (5)    3.311 ± 0.181 (5)   2.716
+QT-RouteNet                                    21.974 ± 0.819 (5)   27.821 ± 0.978 (5)   35.304 ± 3.810 (5)  28.366
+QT-RouteNet + transmission term                 2.416 ± 0.215 (5)    4.836 ± 0.229 (5)    5.074 ± 1.020 (5)   4.109
+GCN                                             2.348 ± 0.028 (5)    5.711 ± 0.050 (5)    5.195 ± 0.147 (5)   4.418
+GAT                                             2.440 ± 0.025 (5)    5.969 ± 0.047 (5)    5.095 ± 0.024 (5)   4.502
+Graph transformer (GPS-style)                   2.799 ± 0.096 (5)    5.960 ± 0.097 (5)    5.444 ± 0.183 (5)   4.734
+MLP + prior                                     1.207 ± 0.083 (5)    4.014 ± 0.099 (5)    2.922 ± 0.038 (5)   2.714
+GBDT + prior                                    1.284 ± 0.020 (5)    3.699 ± 0.018 (5)    3.078 ± 0.000 (5)   2.687
+GAT + prior                                     1.197 ± 0.052 (5)    4.082 ± 0.078 (5)    2.926 ± 0.009 (5)   2.735
+RouteNet-style + prior features                 1.372 ± 0.229 (5)    3.684 ± 0.097 (5)    3.115 ± 0.202 (5)   2.723
+Ours, prior as readout base only                1.263 ± 0.139 (5)    3.664 ± 0.060 (5)    3.118 ± 0.147 (5)   2.682
+QPR-GNN (ours)                                  1.158 ± 0.111 (5)    3.663 ± 0.266 (5)    2.944 ± 0.116 (5)   2.588
+
+=== 90th-percentile APE % ===
+model                                                test_abilene           test_nobel       test_germany50     avg
+M/M/1 (per-flow packet size)                   18.646 ± 0.000 (1)   47.917 ± 0.000 (1)   29.470 ± 0.000 (1)  32.011
+M/M/1/K, aggregate (= our prior alone)         17.128 ± 0.000 (1)   45.369 ± 0.000 (1)   27.292 ± 0.000 (1)  29.930
+M/G/1 (Pollaczek-Khinchine)                    23.153 ± 0.000 (1)   51.525 ± 0.000 (1)   32.507 ± 0.000 (1)  35.729
+MLP                                            12.081 ± 0.142 (5)   31.425 ± 0.111 (5)   30.091 ± 0.844 (5)  24.533
+Gradient-boosted trees                         12.009 ± 0.028 (5)   30.937 ± 0.155 (5)   30.212 ± 0.000 (5)  24.386
+RouteNet-style (25k)                            8.478 ± 0.122 (5)   24.383 ± 0.637 (5)   22.036 ± 0.893 (5)  18.299
+RouteNet-style (87k)                            8.373 ± 0.036 (5)   23.578 ± 0.147 (5)   21.530 ± 0.190 (5)  17.827
+RouteNet-Fermi                                  8.491 ± 0.431 (5)   23.635 ± 1.492 (5)   23.140 ± 0.156 (5)  18.422
+QT-RouteNet                                    49.735 ± 2.358 (5)   61.450 ± 1.701 (5)   70.379 ± 1.992 (5)  60.522
+QT-RouteNet + transmission term                11.387 ± 1.211 (5)   31.354 ± 0.877 (5)   24.130 ± 1.886 (5)  22.290
+GCN                                            11.760 ± 0.184 (5)   31.719 ± 0.359 (5)   29.521 ± 1.161 (5)  24.333
+GAT                                            12.395 ± 0.232 (5)   31.820 ± 0.464 (5)   28.572 ± 0.632 (5)  24.262
+Graph transformer (GPS-style)                  13.961 ± 0.788 (5)   31.968 ± 0.193 (5)   33.231 ± 2.087 (5)  26.387
+MLP + prior                                     8.133 ± 0.589 (5)   25.322 ± 0.370 (5)   22.505 ± 0.482 (5)  18.653
+GBDT + prior                                    8.842 ± 0.133 (5)   24.016 ± 0.070 (5)   21.423 ± 0.000 (5)  18.094
+GAT + prior                                     7.386 ± 0.078 (5)   25.876 ± 0.292 (5)   21.942 ± 0.167 (5)  18.401
+RouteNet-style + prior features                 7.057 ± 0.558 (5)   20.330 ± 0.605 (5)   20.255 ± 0.573 (5)  15.880
+Ours, prior as readout base only                6.490 ± 0.238 (5)   20.587 ± 0.347 (5)   19.936 ± 0.665 (5)  15.671
+QPR-GNN (ours)                                  6.466 ± 0.071 (5)   19.911 ± 1.220 (5)   20.253 ± 0.923 (5)  15.543
+
+=== log-MAE ===
+model                                                test_abilene           test_nobel       test_germany50     avg
+M/M/1 (per-flow packet size)                    0.086 ± 0.000 (1)    0.231 ± 0.000 (1)    0.132 ± 0.000 (1)   0.150
+M/M/1/K, aggregate (= our prior alone)          0.077 ± 0.000 (1)    0.210 ± 0.000 (1)    0.114 ± 0.000 (1)   0.134
+M/G/1 (Pollaczek-Khinchine)                     0.119 ± 0.000 (1)    0.270 ± 0.000 (1)    0.153 ± 0.000 (1)   0.181
+MLP                                             0.053 ± 0.001 (5)    0.135 ± 0.001 (5)    0.118 ± 0.002 (5)   0.102
+Gradient-boosted trees                          0.053 ± 0.000 (5)    0.129 ± 0.000 (5)    0.119 ± 0.000 (5)   0.100
+RouteNet-style (25k)                            0.038 ± 0.000 (5)    0.103 ± 0.003 (5)    0.093 ± 0.002 (5)   0.078
+RouteNet-style (87k)                            0.039 ± 0.001 (5)    0.099 ± 0.001 (5)    0.091 ± 0.001 (5)   0.076
+RouteNet-Fermi                                  0.036 ± 0.002 (5)    0.095 ± 0.004 (5)    0.091 ± 0.002 (5)   0.074
+QT-RouteNet                                     0.279 ± 0.015 (5)    0.383 ± 0.013 (5)    0.505 ± 0.057 (5)   0.389
+QT-RouteNet + transmission term                 0.054 ± 0.002 (5)    0.122 ± 0.002 (5)    0.108 ± 0.012 (5)   0.095
+GCN                                             0.052 ± 0.001 (5)    0.136 ± 0.002 (5)    0.113 ± 0.002 (5)   0.100
+GAT                                             0.054 ± 0.001 (5)    0.137 ± 0.002 (5)    0.112 ± 0.001 (5)   0.101
+Graph transformer (GPS-style)                   0.059 ± 0.002 (5)    0.137 ± 0.001 (5)    0.120 ± 0.004 (5)   0.105
+MLP + prior                                     0.032 ± 0.001 (5)    0.103 ± 0.002 (5)    0.085 ± 0.001 (5)   0.074
+GBDT + prior                                    0.034 ± 0.000 (5)    0.096 ± 0.000 (5)    0.084 ± 0.000 (5)   0.071
+GAT + prior                                     0.031 ± 0.000 (5)    0.105 ± 0.002 (5)    0.084 ± 0.000 (5)   0.073
+RouteNet-style + prior features                 0.030 ± 0.003 (5)    0.085 ± 0.002 (5)    0.081 ± 0.002 (5)   0.066
+Ours, prior as readout base only                0.028 ± 0.001 (5)    0.085 ± 0.002 (5)    0.081 ± 0.002 (5)   0.065
+QPR-GNN (ours)                                  0.028 ± 0.001 (5)    0.084 ± 0.005 (5)    0.080 ± 0.002 (5)   0.064
+
+=== pooled MAPE % (all held-out flows, flow-weighted; mean over seeds) ===
+M/M/1 (per-flow packet size)                  10.671
+M/M/1/K, aggregate (= our prior alone)         9.657
+M/G/1 (Pollaczek-Khinchine)                   12.792
+MLP                                           10.060
+Gradient-boosted trees                        10.001
+RouteNet-style (25k)                           7.861
+RouteNet-style (87k)                           7.741
+RouteNet-Fermi                                 7.862
+QT-RouteNet                                   36.714
+QT-RouteNet + transmission term                9.066
+GCN                                            9.772
+GAT                                            9.664
+Graph transformer (GPS-style)                 10.695
+MLP + prior                                    7.377
+GBDT + prior                                   7.214
+GAT + prior                                    7.272
+RouteNet-style + prior features                7.267
+Ours, prior as readout base only               7.023
+QPR-GNN (ours)                                 7.017
+
+=== ENSEMBLE of the seeds (predictions averaged; a different estimand, for reference only) ===
+M/M/1 (per-flow packet size)                                7.435               17.739               11.188
+M/M/1/K, aggregate (= our prior alone)                      6.664               16.486               10.106
+M/G/1 (Pollaczek-Khinchine)                                10.221               20.426               13.010
+MLP                                                         5.040               11.717               11.686
+Gradient-boosted trees                                      5.086               11.504               11.652
+RouteNet-style (25k)                                        3.798                9.307                8.980
+RouteNet-style (87k)                                        3.854                9.090                8.855
+RouteNet-Fermi                                              3.368                8.372                8.842
+QT-RouteNet                                                24.707               32.213               38.406
+QT-RouteNet + transmission term                             4.768               11.180                9.985
+GCN                                                         4.900               11.697               11.259
+GAT                                                         5.072               11.845               11.041
+Graph transformer (GPS-style)                               5.683               11.848               12.238
+MLP + prior                                                 3.167                9.175                8.679
+GBDT + prior                                                3.464                8.609                8.446
+GAT + prior                                                 3.014                9.333                8.573
+RouteNet-style + prior features                             2.845                7.853                8.521
+Ours, prior as readout base only                            2.728                8.010                8.270
+QPR-GNN (ours)                                              2.681                7.736                8.286

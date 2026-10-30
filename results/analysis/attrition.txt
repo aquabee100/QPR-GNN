@@ -1,0 +1,6 @@
+train/geant      archives  391 (incomplete 0) | sample lines   782 | not stable   1 | parsed  781 | dropped: a flow with delay <= 0  24 | kept  757
+                 excluded scenarios: flows with delay <= 0 per scenario [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]...; mean drop count of those flows 0.0 (same rule as the official generator)
+test/abilene     archives 1000 (incomplete 1) | sample lines   999 | not stable   3 | parsed  996 | dropped: a flow with delay <= 0   0 | kept  996
+test/nobel       archives   71 (incomplete 0) | sample lines   141 | not stable   0 | parsed  141 | dropped: a flow with delay <= 0   0 | kept  141
+test/germany50   archives  288 (incomplete 0) | sample lines   288 | not stable   0 | parsed  288 | dropped: a flow with delay <= 0   2 | kept  286
+                 excluded scenarios: flows with delay <= 0 per scenario [1, 1]...; mean drop count of those flows 0.0 (same rule as the official generator)

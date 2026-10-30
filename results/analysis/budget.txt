@@ -1,0 +1,5 @@
+Germany50 held out, seed 0. MAPE %: held-out | in-distribution test splits (GEANT, Abilene, Nobel-EU) | best validation
+RouteNet-Fermi, 75 epochs, batch 8 (standard)        9.33 |  3.48  2.00  6.96 |  3.81
+RouteNet-Fermi, official schedule                    9.73 |  3.07  1.42  5.86 |  3.22
+QPR-GNN (ours), 25 epochs, batch 8 (standard)        8.83 |  3.86  1.93  6.66 |  3.80
+QPR-GNN (ours), official schedule                    7.97 |  3.16  1.23  5.20 |  3.07

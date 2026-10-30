@@ -1,0 +1,9 @@
+Prior ablation: per-hop readout base = prior x exp(learned correction); same backbone (25k), inputs and
+protocol. Held-out MAPE % (single model, mean ± std over 5 seeds).
+
+per-hop prior                                             test_abilene        test_nobel    test_germany50     avg
+transmission time only, tx (no queueing prior)          4.107 ± 0.160    9.538 ± 0.115    9.220 ± 0.163   7.622
+tx / (1 - rho)  (M/M/1 on the flow's packet size)       3.860 ± 0.067    9.494 ± 0.213    9.175 ± 0.364   7.509
+tx + FIFO M/M/1 waiting (infinite buffer)               2.797 ± 0.063    8.202 ± 0.272    8.723 ± 0.341   6.574
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR)             3.016 ± 0.083    8.336 ± 0.333    8.628 ± 0.226   6.660
+tx + FIFO M/M/1/K waiting (our prior)                   2.831 ± 0.136    8.147 ± 0.113    8.455 ± 0.210   6.478

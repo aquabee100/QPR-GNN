@@ -1,0 +1,76 @@
+prior,fold,seed,mape
+"transmission time only, tx (no queueing prior)",test_abilene,0,4.238964
+"transmission time only, tx (no queueing prior)",test_abilene,1,4.0714536
+"transmission time only, tx (no queueing prior)",test_abilene,2,4.2943335
+"transmission time only, tx (no queueing prior)",test_abilene,3,4.02627
+"transmission time only, tx (no queueing prior)",test_abilene,4,3.902556
+"transmission time only, tx (no queueing prior)",test_nobel,0,9.429783
+"transmission time only, tx (no queueing prior)",test_nobel,1,9.66183
+"transmission time only, tx (no queueing prior)",test_nobel,2,9.444007
+"transmission time only, tx (no queueing prior)",test_nobel,3,9.659569
+"transmission time only, tx (no queueing prior)",test_nobel,4,9.493945
+"transmission time only, tx (no queueing prior)",test_germany50,0,9.309533
+"transmission time only, tx (no queueing prior)",test_germany50,1,9.0294895
+"transmission time only, tx (no queueing prior)",test_germany50,2,9.180081
+"transmission time only, tx (no queueing prior)",test_germany50,3,9.132261
+"transmission time only, tx (no queueing prior)",test_germany50,4,9.450181
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_abilene,0,3.881675
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_abilene,1,3.7858584
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_abilene,2,3.9002624
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_abilene,3,3.795121
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_abilene,4,3.9376383
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_nobel,0,9.447154
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_nobel,1,9.458921
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_nobel,2,9.860335
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_nobel,3,9.31492
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_nobel,4,9.387585
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_germany50,0,9.696799
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_germany50,1,9.174552
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_germany50,2,8.732988
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_germany50,3,8.964472
+tx / (1 - rho)  (M/M/1 on the flow's packet size),test_germany50,4,9.304086
+tx + FIFO M/M/1 waiting (infinite buffer),test_abilene,0,2.7802055
+tx + FIFO M/M/1 waiting (infinite buffer),test_abilene,1,2.6990128
+tx + FIFO M/M/1 waiting (infinite buffer),test_abilene,2,2.8572786
+tx + FIFO M/M/1 waiting (infinite buffer),test_abilene,3,2.8416185
+tx + FIFO M/M/1 waiting (infinite buffer),test_abilene,4,2.8084922
+tx + FIFO M/M/1 waiting (infinite buffer),test_nobel,0,8.117796
+tx + FIFO M/M/1 waiting (infinite buffer),test_nobel,1,8.618006
+tx + FIFO M/M/1 waiting (infinite buffer),test_nobel,2,8.317809
+tx + FIFO M/M/1 waiting (infinite buffer),test_nobel,3,7.964391
+tx + FIFO M/M/1 waiting (infinite buffer),test_nobel,4,7.989967
+tx + FIFO M/M/1 waiting (infinite buffer),test_germany50,0,8.298298
+tx + FIFO M/M/1 waiting (infinite buffer),test_germany50,1,8.884453
+tx + FIFO M/M/1 waiting (infinite buffer),test_germany50,2,8.676576
+tx + FIFO M/M/1 waiting (infinite buffer),test_germany50,3,8.554598
+tx + FIFO M/M/1 waiting (infinite buffer),test_germany50,4,9.200419
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_abilene,0,3.007529
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_abilene,1,3.1501763
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_abilene,2,2.9580913
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_abilene,3,3.0266826
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_abilene,4,2.9382744
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_nobel,0,8.519515
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_nobel,1,8.366593
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_nobel,2,8.614859
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_nobel,3,8.416045
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_nobel,4,7.765316
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_germany50,0,8.696173
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_germany50,1,8.512962
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_germany50,2,8.984209
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_germany50,3,8.5548725
+tx + QoS-aware M/M/1/K waiting (SP/WFQ/DRR),test_germany50,4,8.393407
+tx + FIFO M/M/1/K waiting (our prior),test_abilene,0,2.8742964
+tx + FIFO M/M/1/K waiting (our prior),test_abilene,1,2.7929676
+tx + FIFO M/M/1/K waiting (our prior),test_abilene,2,2.885841
+tx + FIFO M/M/1/K waiting (our prior),test_abilene,3,2.6193843
+tx + FIFO M/M/1/K waiting (our prior),test_abilene,4,2.9832554
+tx + FIFO M/M/1/K waiting (our prior),test_nobel,0,8.298339
+tx + FIFO M/M/1/K waiting (our prior),test_nobel,1,8.2337265
+tx + FIFO M/M/1/K waiting (our prior),test_nobel,2,8.098846
+tx + FIFO M/M/1/K waiting (our prior),test_nobel,3,8.0338955
+tx + FIFO M/M/1/K waiting (our prior),test_nobel,4,8.071295
+tx + FIFO M/M/1/K waiting (our prior),test_germany50,0,8.500544
+tx + FIFO M/M/1/K waiting (our prior),test_germany50,1,8.618496
+tx + FIFO M/M/1/K waiting (our prior),test_germany50,2,8.1525755
+tx + FIFO M/M/1/K waiting (our prior),test_germany50,3,8.662766
+tx + FIFO M/M/1/K waiting (our prior),test_germany50,4,8.341388

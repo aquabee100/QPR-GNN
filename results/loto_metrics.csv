@@ -1,0 +1,250 @@
+model,group,fold,seed,mape,medape,p90,logmae
+M/M/1 (per-flow packet size),classical analytic,test_abilene,0,7.434551,3.6040075,18.646254,0.08580471575260162
+"M/M/1/K, aggregate (= our prior alone)",classical analytic,test_abilene,0,6.663972,2.8734314,17.127666,0.07710281014442444
+M/G/1 (Pollaczek-Khinchine),classical analytic,test_abilene,0,10.221469,6.4682417,23.153442,0.11858156323432922
+MLP,classical ML,test_abilene,0,5.1097364,2.354732,12.205142,0.05371888354420662
+MLP,classical ML,test_abilene,1,5.008793,2.338823,11.909049,0.05245817452669144
+MLP,classical ML,test_abilene,2,5.0299363,2.3145127,11.976322,0.05237256735563278
+MLP,classical ML,test_abilene,3,5.090861,2.3492467,12.076874,0.05314001441001892
+MLP,classical ML,test_abilene,4,5.101277,2.352325,12.239531,0.05318456515669823
+Gradient-boosted trees,classical ML,test_abilene,0,5.110442,2.315216,11.983815,0.05321202799677849
+Gradient-boosted trees,classical ML,test_abilene,1,5.110934,2.3160906,12.035392,0.053231727331876755
+Gradient-boosted trees,classical ML,test_abilene,2,5.085937,2.3144479,12.000168,0.05310219153761864
+Gradient-boosted trees,classical ML,test_abilene,3,5.080982,2.3110151,12.040452,0.05309627950191498
+Gradient-boosted trees,classical ML,test_abilene,4,5.12331,2.3189657,11.983674,0.05329155921936035
+RouteNet-style (25k),current GNN,test_abilene,0,3.881675,2.0622811,8.543952,0.038563214242458344
+RouteNet-style (25k),current GNN,test_abilene,1,3.7858584,2.077792,8.353585,0.03788617253303528
+RouteNet-style (25k),current GNN,test_abilene,2,3.9002624,2.0727186,8.465929,0.03848925605416298
+RouteNet-style (25k),current GNN,test_abilene,3,3.795121,2.0745273,8.3778715,0.037868302315473557
+RouteNet-style (25k),current GNN,test_abilene,4,3.9376383,2.1121898,8.650686,0.03881601616740227
+RouteNet-style (87k),current GNN,test_abilene,0,4.0010514,2.4766178,8.390579,0.04040553420782089
+RouteNet-style (87k),current GNN,test_abilene,1,3.8391333,2.1813633,8.399148,0.03834066912531853
+RouteNet-style (87k),current GNN,test_abilene,2,4.006533,2.2217581,8.344202,0.039274945855140686
+RouteNet-style (87k),current GNN,test_abilene,3,3.9399862,2.3923783,8.405779,0.03936178237199783
+RouteNet-style (87k),current GNN,test_abilene,4,3.9198728,2.2939577,8.326101,0.03911934420466423
+RouteNet-Fermi,latest GNN,test_abilene,0,3.8119178,1.2114981,8.390398,0.03705504164099693
+RouteNet-Fermi,latest GNN,test_abilene,1,3.730002,1.2551731,9.025333,0.037363018840551376
+RouteNet-Fermi,latest GNN,test_abilene,2,3.6182952,1.165286,8.706382,0.036792684346437454
+RouteNet-Fermi,latest GNN,test_abilene,3,3.6743388,1.3251138,8.473498,0.03694719076156616
+RouteNet-Fermi,latest GNN,test_abilene,4,3.3787575,1.2956643,7.8592525,0.033678580075502396
+QT-RouteNet,queueing-informed GNN,test_abilene,0,25.065685,21.168276,49.331726,0.26543453335762024
+QT-RouteNet,queueing-informed GNN,test_abilene,1,24.638937,21.546576,47.851402,0.2706010341644287
+QT-RouteNet,queueing-informed GNN,test_abilene,2,25.836424,23.016054,50.01476,0.29745328426361084
+QT-RouteNet,queueing-informed GNN,test_abilene,3,24.59777,21.457825,47.87195,0.26739081740379333
+QT-RouteNet,queueing-informed GNN,test_abilene,4,27.151918,22.68067,53.604977,0.29277941584587097
+QT-RouteNet + transmission term,queueing-informed GNN,test_abilene,0,4.654975,2.2672956,10.246793,0.05064411461353302
+QT-RouteNet + transmission term,queueing-informed GNN,test_abilene,1,5.460868,2.2968442,13.439078,0.055724792182445526
+QT-RouteNet + transmission term,queueing-informed GNN,test_abilene,2,5.093627,2.6818485,10.917058,0.054762110114097595
+QT-RouteNet + transmission term,queueing-informed GNN,test_abilene,3,5.1909356,2.6148334,11.307235,0.05606861039996147
+QT-RouteNet + transmission term,queueing-informed GNN,test_abilene,4,4.8170137,2.2206523,11.023142,0.05188728868961334
+GCN,modern GNN,test_abilene,0,5.0051155,2.3711665,11.984824,0.05242578685283661
+GCN,modern GNN,test_abilene,1,5.037796,2.3537495,11.899348,0.05192922055721283
+GCN,modern GNN,test_abilene,2,4.845213,2.3051853,11.561351,0.0505596324801445
+GCN,modern GNN,test_abilene,3,4.918244,2.33788,11.60047,0.050879936665296555
+GCN,modern GNN,test_abilene,4,4.9535413,2.3744912,11.752704,0.051770858466625214
+GAT,modern GNN,test_abilene,0,5.236138,2.4628587,12.677452,0.054857902228832245
+GAT,modern GNN,test_abilene,1,5.1088614,2.4283137,12.501047,0.0537080243229866
+GAT,modern GNN,test_abilene,2,5.1362276,2.424854,12.475228,0.05380553379654884
+GAT,modern GNN,test_abilene,3,5.026752,2.4144692,12.096458,0.05219279229640961
+GAT,modern GNN,test_abilene,4,5.0598803,2.4702635,12.226055,0.05297715589404106
+Graph transformer (GPS-style),modern GNN,test_abilene,0,5.746221,2.8463907,13.703299,0.05836695060133934
+Graph transformer (GPS-style),modern GNN,test_abilene,1,5.9143486,2.8662033,13.598268,0.05923394858837128
+Graph transformer (GPS-style),modern GNN,test_abilene,2,5.5475006,2.6431446,13.383349,0.05791942775249481
+Graph transformer (GPS-style),modern GNN,test_abilene,3,5.7142234,2.7688525,13.773634,0.05938971787691116
+Graph transformer (GPS-style),modern GNN,test_abilene,4,6.233513,2.8683503,15.345438,0.06223675608634949
+MLP + prior,matched information,test_abilene,0,3.220482,1.1853821,8.089987,0.03198853135108948
+MLP + prior,matched information,test_abilene,1,3.5371158,1.3505491,9.048084,0.034743212163448334
+MLP + prior,matched information,test_abilene,2,3.0991204,1.1357697,7.766627,0.03115425817668438
+MLP + prior,matched information,test_abilene,3,3.2838728,1.1861718,8.258347,0.032300446182489395
+MLP + prior,matched information,test_abilene,4,3.0946465,1.1747782,7.502143,0.031068850308656693
+GBDT + prior,matched information,test_abilene,0,3.4776835,1.2734674,8.784981,0.03413670137524605
+GBDT + prior,matched information,test_abilene,1,3.4434323,1.2715552,8.689259,0.03386787325143814
+GBDT + prior,matched information,test_abilene,2,3.5342698,1.3076074,8.958162,0.034683454781770706
+GBDT + prior,matched information,test_abilene,3,3.5160866,1.3038386,9.00407,0.034554969519376755
+GBDT + prior,matched information,test_abilene,4,3.4673955,1.2640731,8.773785,0.034075502306222916
+GAT + prior,matched information,test_abilene,0,3.0931914,1.2254152,7.433822,0.030946392565965652
+GAT + prior,matched information,test_abilene,1,3.0796652,1.2537837,7.426057,0.030995307490229607
+GAT + prior,matched information,test_abilene,2,3.066193,1.2096999,7.4557595,0.030830522999167442
+GAT + prior,matched information,test_abilene,3,3.0364177,1.1771374,7.3479652,0.030514728277921677
+GAT + prior,matched information,test_abilene,4,2.9668493,1.1177133,7.2662063,0.030108967795968056
+RouteNet-style + prior features,matched information,test_abilene,0,3.0308716,1.3369454,6.949707,0.0298104640096426
+RouteNet-style + prior features,matched information,test_abilene,1,2.826023,1.1581326,6.5115356,0.02763705886900425
+RouteNet-style + prior features,matched information,test_abilene,2,2.889915,1.2199924,6.6339045,0.0283829253166914
+RouteNet-style + prior features,matched information,test_abilene,3,3.3586054,1.7450382,7.2913885,0.0335780568420887
+RouteNet-style + prior features,matched information,test_abilene,4,3.35669,1.3986688,7.8964634,0.03253107890486717
+"Ours, prior as readout base only",ablation,test_abilene,0,2.8742964,1.2650683,6.628602,0.028894847258925438
+"Ours, prior as readout base only",ablation,test_abilene,1,2.7929676,1.1406598,6.5046163,0.02816613018512726
+"Ours, prior as readout base only",ablation,test_abilene,2,2.885841,1.3433502,6.538725,0.028739726170897484
+"Ours, prior as readout base only",ablation,test_abilene,3,2.6193843,1.1178424,6.0855994,0.026200473308563232
+"Ours, prior as readout base only",ablation,test_abilene,4,2.9832554,1.4497825,6.692057,0.029820304363965988
+QPR-GNN (ours),ours,test_abilene,0,2.665645,1.0497099,6.466979,0.026580462232232094
+QPR-GNN (ours),ours,test_abilene,1,2.80206,1.0719314,6.4058676,0.02764221653342247
+QPR-GNN (ours),ours,test_abilene,2,2.7961824,1.1505507,6.5839553,0.027880694717168808
+QPR-GNN (ours),ours,test_abilene,3,2.8086138,1.328076,6.4125395,0.02796717919409275
+QPR-GNN (ours),ours,test_abilene,4,2.8070862,1.1888254,6.461044,0.027954865247011185
+M/M/1 (per-flow packet size),classical analytic,test_nobel,0,17.739,9.889836,47.91715,0.23132820427417755
+"M/M/1/K, aggregate (= our prior alone)",classical analytic,test_nobel,0,16.485767,8.867292,45.3694,0.2099594920873642
+M/G/1 (Pollaczek-Khinchine),classical analytic,test_nobel,0,20.425974,13.055259,51.52504,0.2697921693325043
+MLP,classical ML,test_nobel,0,11.767069,5.939787,31.387054,0.1359148919582367
+MLP,classical ML,test_nobel,1,11.762997,5.902726,31.487005,0.1358191817998886
+MLP,classical ML,test_nobel,2,11.736555,5.918109,31.46008,0.13517478108406067
+MLP,classical ML,test_nobel,3,11.793896,5.9500537,31.540295,0.1346849799156189
+MLP,classical ML,test_nobel,4,11.762505,6.017653,31.252983,0.13524511456489563
+Gradient-boosted trees,classical ML,test_nobel,0,11.577123,5.809189,31.032246,0.1295187771320343
+Gradient-boosted trees,classical ML,test_nobel,1,11.524485,5.8374753,30.81567,0.1285959929227829
+Gradient-boosted trees,classical ML,test_nobel,2,11.612962,5.8255935,31.042423,0.12848909199237823
+Gradient-boosted trees,classical ML,test_nobel,3,11.499168,5.8153424,30.72738,0.12862220406532288
+Gradient-boosted trees,classical ML,test_nobel,4,11.590095,5.8913565,31.069284,0.12931618094444275
+RouteNet-style (25k),current GNN,test_nobel,0,9.447154,4.643141,24.252062,0.10097934305667877
+RouteNet-style (25k),current GNN,test_nobel,1,9.458921,4.7853274,24.004559,0.10341440886259079
+RouteNet-style (25k),current GNN,test_nobel,2,9.860335,4.815212,25.489239,0.10843188315629959
+RouteNet-style (25k),current GNN,test_nobel,3,9.31492,4.5997357,23.913795,0.09991716593503952
+RouteNet-style (25k),current GNN,test_nobel,4,9.387585,4.611823,24.253428,0.10053267329931259
+RouteNet-style (87k),current GNN,test_nobel,0,9.163775,4.56469,23.480232,0.09840893745422363
+RouteNet-style (87k),current GNN,test_nobel,1,9.217194,4.55189,23.558903,0.09861089289188385
+RouteNet-style (87k),current GNN,test_nobel,2,9.171818,4.515384,23.443655,0.09703458100557327
+RouteNet-style (87k),current GNN,test_nobel,3,9.238383,4.5704737,23.590647,0.10021428763866425
+RouteNet-style (87k),current GNN,test_nobel,4,9.294416,4.579688,23.818752,0.10015005618333817
+RouteNet-Fermi,latest GNN,test_nobel,0,8.721558,3.5717635,22.881495,0.09389635175466537
+RouteNet-Fermi,latest GNN,test_nobel,1,9.063023,3.4440572,25.277504,0.09953442960977554
+RouteNet-Fermi,latest GNN,test_nobel,2,9.14138,3.8688653,24.339117,0.09875375032424927
+RouteNet-Fermi,latest GNN,test_nobel,3,8.913874,3.5667756,24.230299,0.09627477824687958
+RouteNet-Fermi,latest GNN,test_nobel,4,8.332339,3.4801812,21.447117,0.088631771504879
+QT-RouteNet,queueing-informed GNN,test_nobel,0,31.535858,26.374758,59.471767,0.36495646834373474
+QT-RouteNet,queueing-informed GNN,test_nobel,1,34.37194,28.486656,63.55969,0.384779155254364
+QT-RouteNet,queueing-informed GNN,test_nobel,2,32.42316,28.464867,60.13846,0.395702064037323
+QT-RouteNet,queueing-informed GNN,test_nobel,3,33.078114,28.548384,61.409134,0.39411449432373047
+QT-RouteNet,queueing-informed GNN,test_nobel,4,34.084015,27.23138,62.671616,0.37698671221733093
+QT-RouteNet + transmission term,queueing-informed GNN,test_nobel,0,11.530673,5.128013,30.141613,0.11936885118484497
+QT-RouteNet + transmission term,queueing-informed GNN,test_nobel,1,11.283484,4.4974875,31.698141,0.12251808494329453
+QT-RouteNet + transmission term,queueing-informed GNN,test_nobel,2,11.571695,4.797785,32.54835,0.12619158625602722
+QT-RouteNet + transmission term,queueing-informed GNN,test_nobel,3,11.432091,4.8334894,31.25586,0.1215537041425705
+QT-RouteNet + transmission term,queueing-informed GNN,test_nobel,4,11.5405855,4.9253335,31.124767,0.12281392514705658
+GCN,modern GNN,test_nobel,0,11.582175,5.6470385,31.156054,0.13265135884284973
+GCN,modern GNN,test_nobel,1,11.816583,5.6946354,32.082493,0.13732853531837463
+GCN,modern GNN,test_nobel,2,11.834582,5.768919,31.724825,0.1370110660791397
+GCN,modern GNN,test_nobel,3,11.81602,5.692947,31.970114,0.13745330274105072
+GCN,modern GNN,test_nobel,4,11.830308,5.75381,31.659416,0.13674552738666534
+GAT,modern GNN,test_nobel,0,11.831772,5.952977,31.447208,0.13569782674312592
+GAT,modern GNN,test_nobel,1,12.013563,6.035897,32.348133,0.1397731602191925
+GAT,modern GNN,test_nobel,2,11.846156,5.9072576,31.453545,0.13524912297725677
+GAT,modern GNN,test_nobel,3,12.052268,5.9809275,32.304638,0.13729168474674225
+GAT,modern GNN,test_nobel,4,11.941315,5.9703054,31.546234,0.1350715011358261
+Graph transformer (GPS-style),modern GNN,test_nobel,0,11.95454,5.922013,32.09739,0.13744497299194336
+Graph transformer (GPS-style),modern GNN,test_nobel,1,11.913681,5.828529,32.04177,0.13647295534610748
+Graph transformer (GPS-style),modern GNN,test_nobel,2,12.064097,6.055285,31.89817,0.13621316850185394
+Graph transformer (GPS-style),modern GNN,test_nobel,3,11.886289,5.9372053,31.664684,0.1354152411222458
+Graph transformer (GPS-style),modern GNN,test_nobel,4,12.137442,6.0572653,32.13914,0.13797083497047424
+MLP + prior,matched information,test_nobel,0,9.310248,4.0695133,25.505617,0.10425212234258652
+MLP + prior,matched information,test_nobel,1,9.399822,4.1310096,25.780846,0.10597319900989532
+MLP + prior,matched information,test_nobel,2,9.246499,4.037765,25.438257,0.10339139401912689
+MLP + prior,matched information,test_nobel,3,9.114831,3.9515793,24.936878,0.10187850892543793
+MLP + prior,matched information,test_nobel,4,9.090793,3.879673,24.947554,0.10111267119646072
+GBDT + prior,matched information,test_nobel,0,8.676715,3.6913931,24.126543,0.09600409120321274
+GBDT + prior,matched information,test_nobel,1,8.652722,3.7158728,24.027319,0.09535840153694153
+GBDT + prior,matched information,test_nobel,2,8.663475,3.6777816,23.951809,0.09556550532579422
+GBDT + prior,matched information,test_nobel,3,8.645287,3.718276,24.014288,0.09572543203830719
+GBDT + prior,matched information,test_nobel,4,8.654822,3.6903217,23.959837,0.0953010618686676
+GAT + prior,matched information,test_nobel,0,9.333513,4.0367017,25.768265,0.10465924441814423
+GAT + prior,matched information,test_nobel,1,9.459077,4.1518555,25.995659,0.10585672408342361
+GAT + prior,matched information,test_nobel,2,9.538996,4.1797185,26.323524,0.1071869358420372
+GAT + prior,matched information,test_nobel,3,9.325643,4.030737,25.580847,0.10350064933300018
+GAT + prior,matched information,test_nobel,4,9.302333,4.009337,25.709686,0.10370432585477829
+RouteNet-style + prior features,matched information,test_nobel,0,8.127208,3.759516,20.300299,0.08593609184026718
+RouteNet-style + prior features,matched information,test_nobel,1,8.067194,3.7982457,20.325966,0.08602244406938553
+RouteNet-style + prior features,matched information,test_nobel,2,7.726279,3.554219,19.437656,0.08172035962343216
+RouteNet-style + prior features,matched information,test_nobel,3,8.069747,3.6583796,20.448797,0.08480718731880188
+RouteNet-style + prior features,matched information,test_nobel,4,8.18615,3.647918,21.13742,0.08749524503946304
+"Ours, prior as readout base only",ablation,test_nobel,0,8.298339,3.7397914,21.100945,0.08653026819229126
+"Ours, prior as readout base only",ablation,test_nobel,1,8.2337265,3.7063577,20.788279,0.0872393548488617
+"Ours, prior as readout base only",ablation,test_nobel,2,8.098846,3.6099684,20.405773,0.0849015861749649
+"Ours, prior as readout base only",ablation,test_nobel,3,8.0338955,3.6016605,20.327085,0.08390878140926361
+"Ours, prior as readout base only",ablation,test_nobel,4,8.071295,3.6616364,20.310938,0.08398640155792236
+QPR-GNN (ours),ours,test_nobel,0,8.112065,3.7774057,20.569786,0.08642744272947311
+QPR-GNN (ours),ours,test_nobel,1,8.358247,3.9758627,21.110018,0.08998441696166992
+QPR-GNN (ours),ours,test_nobel,2,7.4199824,3.3998802,18.601566,0.07854551076889038
+QPR-GNN (ours),ours,test_nobel,3,8.135568,3.7946315,20.68783,0.08665798604488373
+QPR-GNN (ours),ours,test_nobel,4,7.432579,3.3696306,18.584555,0.07822784036397934
+M/M/1 (per-flow packet size),classical analytic,test_germany50,0,11.187756,5.3394957,29.470488,0.1319502741098404
+"M/M/1/K, aggregate (= our prior alone)",classical analytic,test_germany50,0,10.106378,4.1625175,27.2925,0.1135796457529068
+M/G/1 (Pollaczek-Khinchine),classical analytic,test_germany50,0,13.010137,7.391049,32.50723,0.1533845216035843
+MLP,classical ML,test_germany50,0,12.119098,5.6427083,31.400803,0.11997286975383759
+MLP,classical ML,test_germany50,1,11.634529,5.5474815,29.889526,0.117155522108078
+MLP,classical ML,test_germany50,2,11.519925,5.595656,29.507824,0.1166071966290474
+MLP,classical ML,test_germany50,3,11.49917,5.5962653,29.274708,0.11647271364927292
+MLP,classical ML,test_germany50,4,11.883059,5.6598244,30.381474,0.11864273250102997
+Gradient-boosted trees,classical ML,test_germany50,0,11.651964,5.597841,30.211609,0.11904343217611313
+Gradient-boosted trees,classical ML,test_germany50,1,11.651964,5.597841,30.211609,0.11904343217611313
+Gradient-boosted trees,classical ML,test_germany50,2,11.651964,5.597841,30.211609,0.11904343217611313
+Gradient-boosted trees,classical ML,test_germany50,3,11.651964,5.597841,30.211609,0.11904343217611313
+Gradient-boosted trees,classical ML,test_germany50,4,11.651964,5.597841,30.211609,0.11904343217611313
+RouteNet-style (25k),current GNN,test_germany50,0,9.696799,4.233412,23.533,0.095784991979599
+RouteNet-style (25k),current GNN,test_germany50,1,9.174552,4.070816,21.90308,0.0927397757768631
+RouteNet-style (25k),current GNN,test_germany50,2,8.732988,3.903587,21.138645,0.09110906720161438
+RouteNet-style (25k),current GNN,test_germany50,3,8.964472,3.9397352,21.89012,0.09262263029813766
+RouteNet-style (25k),current GNN,test_germany50,4,9.304086,4.325674,21.717197,0.09334713965654373
+RouteNet-style (87k),current GNN,test_germany50,0,8.949743,3.901175,21.532063,0.09015265107154846
+RouteNet-style (87k),current GNN,test_germany50,1,8.9382925,3.9758337,21.443268,0.09055055677890778
+RouteNet-style (87k),current GNN,test_germany50,2,8.915004,4.0081463,21.295446,0.09098920226097107
+RouteNet-style (87k),current GNN,test_germany50,3,9.048732,3.9486449,21.812927,0.09057645499706268
+RouteNet-style (87k),current GNN,test_germany50,4,9.129357,4.251042,21.56865,0.09274318814277649
+RouteNet-Fermi,latest GNN,test_germany50,0,9.329704,3.2526772,22.995365,0.08918259292840958
+RouteNet-Fermi,latest GNN,test_germany50,1,9.459299,3.4491081,23.338215,0.09157083928585052
+RouteNet-Fermi,latest GNN,test_germany50,2,9.214034,3.1172557,22.967941,0.08911270648241043
+RouteNet-Fermi,latest GNN,test_germany50,3,9.237993,3.5480394,23.181643,0.09385286271572113
+RouteNet-Fermi,latest GNN,test_germany50,4,9.351012,3.187306,23.218575,0.0893302857875824
+QT-RouteNet,queueing-informed GNN,test_germany50,0,42.431705,40.474434,69.151184,0.5718280076980591
+QT-RouteNet,queueing-informed GNN,test_germany50,1,39.113884,32.761387,68.05399,0.4732854962348938
+QT-RouteNet,queueing-informed GNN,test_germany50,2,41.588604,30.573051,73.26236,0.4239994287490845
+QT-RouteNet,queueing-informed GNN,test_germany50,3,41.271442,35.985817,71.16864,0.5264540910720825
+QT-RouteNet,queueing-informed GNN,test_germany50,4,41.553383,36.726604,70.261086,0.5295891165733337
+QT-RouteNet + transmission term,queueing-informed GNN,test_germany50,0,11.000345,5.960545,25.720469,0.1183684915304184
+QT-RouteNet + transmission term,queueing-informed GNN,test_germany50,1,10.863033,5.6640363,26.56097,0.11962326616048813
+QT-RouteNet + transmission term,queueing-informed GNN,test_germany50,2,10.75829,5.8182077,23.210796,0.11082514375448227
+QT-RouteNet + transmission term,queueing-informed GNN,test_germany50,3,9.437034,3.9314666,22.315483,0.09482497721910477
+QT-RouteNet + transmission term,queueing-informed GNN,test_germany50,4,9.51665,3.9935396,22.843962,0.09717942774295807
+GCN,modern GNN,test_germany50,0,11.422752,5.2171965,29.627043,0.11365488916635513
+GCN,modern GNN,test_germany50,1,11.487809,5.2661877,29.932055,0.11387307941913605
+GCN,modern GNN,test_germany50,2,10.770284,4.9575205,27.951384,0.1102774441242218
+GCN,modern GNN,test_germany50,3,11.29566,5.1820493,29.000732,0.11302313953638077
+GCN,modern GNN,test_germany50,4,11.780221,5.3496013,31.094461,0.11645756661891937
+GAT,modern GNN,test_germany50,0,11.249548,5.092413,29.131027,0.11299039423465729
+GAT,modern GNN,test_germany50,1,11.31687,5.1332445,29.070955,0.11321916431188583
+GAT,modern GNN,test_germany50,2,10.913503,5.0770845,28.115189,0.11157586425542831
+GAT,modern GNN,test_germany50,3,10.926554,5.100413,27.70256,0.11180917173624039
+GAT,modern GNN,test_germany50,4,11.191962,5.07201,28.837856,0.11240251362323761
+Graph transformer (GPS-style),modern GNN,test_germany50,0,12.747529,5.6706476,34.031643,0.12323047965765
+Graph transformer (GPS-style),modern GNN,test_germany50,1,13.237611,5.615097,36.42915,0.12570931017398834
+Graph transformer (GPS-style),modern GNN,test_germany50,2,12.030759,5.2919207,32.2381,0.11828624457120895
+Graph transformer (GPS-style),modern GNN,test_germany50,3,11.777488,5.3315263,31.003942,0.11630292981863022
+Graph transformer (GPS-style),modern GNN,test_germany50,4,11.995969,5.312638,32.45128,0.11774226278066635
+MLP + prior,matched information,test_germany50,0,8.814372,2.9451187,22.71202,0.08558455854654312
+MLP + prior,matched information,test_germany50,1,8.875136,2.9421117,22.919788,0.08589164167642593
+MLP + prior,matched information,test_germany50,2,8.700209,2.8947077,22.524307,0.08482584357261658
+MLP + prior,matched information,test_germany50,3,8.40553,2.8689032,21.679937,0.08321533352136612
+MLP + prior,matched information,test_germany50,4,8.788462,2.958168,22.689825,0.08539790660142899
+GBDT + prior,matched information,test_germany50,0,8.445581,3.0780282,21.423304,0.08359083533287048
+GBDT + prior,matched information,test_germany50,1,8.445581,3.0780282,21.423304,0.08359083533287048
+GBDT + prior,matched information,test_germany50,2,8.445581,3.0780282,21.423304,0.08359083533287048
+GBDT + prior,matched information,test_germany50,3,8.445581,3.0780282,21.423304,0.08359083533287048
+GBDT + prior,matched information,test_germany50,4,8.445581,3.0780282,21.423304,0.08359083533287048
+GAT + prior,matched information,test_germany50,0,8.691394,2.9335806,22.175577,0.08425436913967133
+GAT + prior,matched information,test_germany50,1,8.60754,2.9282165,21.812748,0.08368808031082153
+GAT + prior,matched information,test_germany50,2,8.534822,2.9242418,21.800337,0.08344432711601257
+GAT + prior,matched information,test_germany50,3,8.625354,2.912266,21.85971,0.08404850959777832
+GAT + prior,matched information,test_germany50,4,8.647613,2.9330223,22.059444,0.08396100997924805
+RouteNet-style + prior features,matched information,test_germany50,0,8.237123,2.8798296,19.401672,0.07810500264167786
+RouteNet-style + prior features,matched information,test_germany50,1,8.778912,3.3937283,20.683937,0.08396207541227341
+RouteNet-style + prior features,matched information,test_germany50,2,8.701387,3.1612442,20.102781,0.08145781606435776
+RouteNet-style + prior features,matched information,test_germany50,3,9.057299,3.178474,20.867998,0.08297816663980484
+RouteNet-style + prior features,matched information,test_germany50,4,8.859162,2.961344,20.216694,0.0807279720902443
+"Ours, prior as readout base only",ablation,test_germany50,0,8.500544,3.158562,20.023651,0.08081619441509247
+"Ours, prior as readout base only",ablation,test_germany50,1,8.618496,2.9731169,20.687084,0.08113960921764374
+"Ours, prior as readout base only",ablation,test_germany50,2,8.1525755,2.9726515,19.24804,0.07885913550853729
+"Ours, prior as readout base only",ablation,test_germany50,3,8.662766,3.3179774,20.4591,0.08319785445928574
+"Ours, prior as readout base only",ablation,test_germany50,4,8.341388,3.1660194,19.264357,0.07954862713813782
+QPR-GNN (ours),ours,test_germany50,0,8.830264,3.1514778,21.733437,0.08368781208992004
+QPR-GNN (ours),ours,test_germany50,1,8.226566,2.9044418,20.00559,0.07952692359685898
+QPR-GNN (ours),ours,test_germany50,2,8.632727,2.8901794,19.811838,0.07964333146810532
+QPR-GNN (ours),ours,test_germany50,3,8.059703,2.8854833,19.289461,0.07841788977384567
+QPR-GNN (ours),ours,test_germany50,4,8.707946,2.8866253,20.423628,0.08059439808130264

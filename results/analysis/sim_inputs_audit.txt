@@ -1,0 +1,11 @@
+active queue slots with zero/negative parsed buffer: 0 / 60896
+routing hops not present as graph links (first 4 samples per topology): 0
+samples: 960 over 16 topologies
+
+per stratum: samples, max directional link utilisation (median / 5th / 95th pct), median link util
+  moderate           340  max-util 0.589 / 0.458 / 0.605   median-util 0.303
+  near_saturation    222  max-util 0.902 / 0.736 / 0.948   median-util 0.324
+  overload           158  max-util 1.165 / 1.000 / 1.202   median-util 0.323
+  traffic_scaled     240  max-util 0.788 / 0.295 / 1.301   median-util 0.571
+
+samples with max utilisation >= 0.85: 420; >= 1.0: 214

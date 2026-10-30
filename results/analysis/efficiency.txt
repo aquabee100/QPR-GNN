@@ -1,0 +1,10 @@
+Prediction cost per sample (CPU, 1 thread; median over samples) vs ns-3 packet-level simulation.
+ns-3 (lab server, default build), Palmetto: median 245 s per sample, max 321 s
+
+model                                params  Palmetto ms  Germany50 ms  speed-up vs ns-3
+QPR-GNN (ours)                        25345         88.6          40.8             2765x
+RouteNet-style (87k)                  86881        210.8          99.5             1162x
+RouteNet-Fermi                        27025        146.6          79.9             1672x
+QT-RouteNet + transmission term       14199        162.6         128.2             1507x
+GAT                                   49089         11.5          12.1            21290x
+GBDT + prior                          75000         36.7          25.5             6670x

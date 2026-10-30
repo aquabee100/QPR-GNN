@@ -1,0 +1,7 @@
+Held-out MAPE (%) by max offered utilisation along the path; 3 archive targets pooled; seed-averaged single-model errors.
+bin                flows  M/M/1/K, aggre  Gradient-boost             GAT  RouteNet-style  RouteNet-Fermi  QT-RouteNet +     GBDT + prior  RouteNet-style  QPR-GNN (ours)
+[0.0, 0.3)        484095            8.38            8.43            8.08            6.73            6.78            8.06            6.08            6.20            5.92
+[0.3, 0.5)         36319           24.56           28.80           28.56           19.02           20.33           20.65           20.09           19.50           19.51
+[0.5, 0.7)          2831           26.68           33.71           33.70           25.37           28.32           27.47           22.38           27.59           28.54
+[0.7, 0.85)          171           40.93           46.88           56.61           35.71           44.20           59.08           41.40           36.87           37.97
+[0.85, 10.0)          81          301.21           58.25           65.50          290.29           65.44          104.63          440.14          109.62          120.15

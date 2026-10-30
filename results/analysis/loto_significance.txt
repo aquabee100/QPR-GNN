@@ -1,0 +1,64 @@
+OURS vs each model. Estimand: single-model flow-weighted MAPE difference on the complete held-out set
+(per-seed errors averaged over seeds; equals the difference of the table entries). Unit = source archive.
+95% CI: archive cluster bootstrap. p: paired sign-flip randomisation test of the same statistic
+(20,000 draws). Holm over 54 tests. 'ours better' = share of archives where ours is better.
+
+model                                        topology        units    ours   model    diff            95% CI    p_holm ours better
+M/M/1 (per-flow packet size)                 test_abilene      996   2.776   7.435  -4.659 [ -4.78, -4.54]   2.7e-03         99%
+M/M/1 (per-flow packet size)                 test_nobel         71   7.892  17.739  -9.847 [-10.51, -9.14]   2.7e-03        100%
+M/M/1 (per-flow packet size)                 test_germany50    286   8.491  11.188  -2.696 [ -2.94, -2.47]   2.7e-03         99%
+M/M/1/K, aggregate (= our prior alone)       test_abilene      996   2.776   6.664  -3.888 [ -4.00, -3.77]   2.7e-03         99%
+M/M/1/K, aggregate (= our prior alone)       test_nobel         71   7.892  16.486  -8.594 [ -9.21, -7.97]   2.7e-03        100%
+M/M/1/K, aggregate (= our prior alone)       test_germany50    286   8.491  10.106  -1.615 [ -1.75, -1.49]   2.7e-03         97%
+M/G/1 (Pollaczek-Khinchine)                  test_abilene      996   2.776  10.221  -7.446 [ -7.58, -7.31]   2.7e-03         99%
+M/G/1 (Pollaczek-Khinchine)                  test_nobel         71   7.892  20.426 -12.534 [-13.35,-11.72]   2.7e-03        100%
+M/G/1 (Pollaczek-Khinchine)                  test_germany50    286   8.491  13.010  -4.519 [ -4.80, -4.25]   2.7e-03        100%
+MLP                                          test_abilene      996   2.776   5.068  -2.292 [ -2.37, -2.22]   2.7e-03        100%
+MLP                                          test_nobel         71   7.892  11.765  -3.873 [ -4.15, -3.58]   2.7e-03        100%
+MLP                                          test_germany50    286   8.491  11.731  -3.240 [ -3.41, -3.07]   2.7e-03        100%
+Gradient-boosted trees                       test_abilene      996   2.776   5.102  -2.326 [ -2.41, -2.25]   2.7e-03        100%
+Gradient-boosted trees                       test_nobel         71   7.892  11.561  -3.669 [ -3.96, -3.38]   2.7e-03        100%
+Gradient-boosted trees                       test_germany50    286   8.491  11.652  -3.161 [ -3.35, -2.97]   2.7e-03        100%
+RouteNet-style (25k)                         test_abilene      996   2.776   3.860  -1.084 [ -1.12, -1.05]   2.7e-03        100%
+RouteNet-style (25k)                         test_nobel         71   7.892   9.494  -1.602 [ -1.71, -1.50]   2.7e-03        100%
+RouteNet-style (25k)                         test_germany50    286   8.491   9.175  -0.683 [ -0.83, -0.57]   2.7e-03         91%
+RouteNet-style (87k)                         test_abilene      996   2.776   3.941  -1.165 [ -1.20, -1.14]   2.7e-03        100%
+RouteNet-style (87k)                         test_nobel         71   7.892   9.217  -1.325 [ -1.41, -1.24]   2.7e-03        100%
+RouteNet-style (87k)                         test_germany50    286   8.491   8.996  -0.505 [ -0.60, -0.42]   2.7e-03         86%
+RouteNet-Fermi                               test_abilene      996   2.776   3.643  -0.867 [ -0.92, -0.82]   2.7e-03         98%
+RouteNet-Fermi                               test_nobel         71   7.892   8.834  -0.943 [ -1.08, -0.81]   2.7e-03         96%
+RouteNet-Fermi                               test_germany50    286   8.491   9.318  -0.827 [ -0.90, -0.75]   2.7e-03         92%
+QT-RouteNet                                  test_abilene      996   2.776  25.458 -22.682 [-22.83,-22.53]   2.7e-03        100%
+QT-RouteNet                                  test_nobel         71   7.892  33.099 -25.207 [-26.00,-24.40]   2.7e-03        100%
+QT-RouteNet                                  test_germany50    286   8.491  41.192 -32.700 [-33.36,-32.05]   2.7e-03        100%
+QT-RouteNet + transmission term              test_abilene      996   2.776   5.043  -2.268 [ -2.32, -2.21]   2.7e-03         99%
+QT-RouteNet + transmission term              test_nobel         71   7.892  11.472  -3.580 [ -3.83, -3.32]   2.7e-03        100%
+QT-RouteNet + transmission term              test_germany50    286   8.491  10.315  -1.824 [ -1.92, -1.72]   2.7e-03         99%
+GCN                                          test_abilene      996   2.776   4.952  -2.176 [ -2.25, -2.11]   2.7e-03        100%
+GCN                                          test_nobel         71   7.892  11.776  -3.884 [ -4.25, -3.54]   2.7e-03        100%
+GCN                                          test_germany50    286   8.491  11.351  -2.860 [ -2.98, -2.73]   2.7e-03         99%
+GAT                                          test_abilene      996   2.776   5.114  -2.338 [ -2.40, -2.27]   2.7e-03         99%
+GAT                                          test_nobel         71   7.892  11.937  -4.045 [ -4.35, -3.74]   2.7e-03        100%
+GAT                                          test_germany50    286   8.491  11.120  -2.628 [ -2.75, -2.50]   2.7e-03         99%
+Graph transformer (GPS-style)                test_abilene      996   2.776   5.831  -3.055 [ -3.15, -2.97]   2.7e-03        100%
+Graph transformer (GPS-style)                test_nobel         71   7.892  11.991  -4.100 [ -4.44, -3.76]   2.7e-03        100%
+Graph transformer (GPS-style)                test_germany50    286   8.491  12.358  -3.866 [ -4.08, -3.66]   2.7e-03        100%
+MLP + prior                                  test_abilene      996   2.776   3.247  -0.471 [ -0.54, -0.40]   2.7e-03         88%
+MLP + prior                                  test_nobel         71   7.892   9.232  -1.341 [ -1.51, -1.18]   2.7e-03        100%
+MLP + prior                                  test_germany50    286   8.491   8.717  -0.225 [ -0.31, -0.14]   2.7e-03         56%
+GBDT + prior                                 test_abilene      996   2.776   3.488  -0.712 [ -0.77, -0.65]   2.7e-03         92%
+GBDT + prior                                 test_nobel         71   7.892   8.659  -0.767 [ -0.94, -0.60]   2.7e-03         83%
+GBDT + prior                                 test_germany50    286   8.491   8.446  +0.046 [ -0.11, +0.18]   5.8e-01         33%
+GAT + prior                                  test_abilene      996   2.776   3.048  -0.273 [ -0.33, -0.20]   2.7e-03         81%
+GAT + prior                                  test_nobel         71   7.892   9.392  -1.500 [ -1.72, -1.30]   2.7e-03        100%
+GAT + prior                                  test_germany50    286   8.491   8.621  -0.130 [ -0.22, -0.04]   1.5e-02         54%
+RouteNet-style + prior features              test_abilene      996   2.776   3.092  -0.317 [ -0.33, -0.30]   2.7e-03         95%
+RouteNet-style + prior features              test_nobel         71   7.892   8.035  -0.144 [ -0.19, -0.10]   2.7e-03         82%
+RouteNet-style + prior features              test_germany50    286   8.491   8.727  -0.235 [ -0.28, -0.18]   2.7e-03         83%
+Ours, prior as readout base only             test_abilene      996   2.776   2.831  -0.055 [ -0.07, -0.04]   2.7e-03         71%
+Ours, prior as readout base only             test_nobel         71   7.892   8.147  -0.256 [ -0.34, -0.17]   2.7e-03         79%
+Ours, prior as readout base only             test_germany50    286   8.491   8.455  +0.036 [ -0.03, +0.10]   5.6e-01         63%
+
+significant wins for OURS: 52 / 54; significant losses: 0; not significant: 2
+  not significant: GBDT + prior on test_germany50 (+0.046)
+  not significant: Ours, prior as readout base only on test_germany50 (+0.036)
