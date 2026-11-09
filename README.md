@@ -6,7 +6,7 @@ Queueing-prior residual graph neural network for per-flow delay prediction in Io
 
 - `qprgnn/`: model, queueing prior, data parsing, baselines
 - `scripts/`: data preparation, training, evaluation, tables
-- `figures/`: figure scripts and the manuscript figures
+- `figures/`: manuscript figures (PDF, PNG) and their scripts
 - `ns3/`: ns-3 scenario for the simulator studies
 - `data/raw/`: simulation outputs (see Data)
 - `tests/`: unit tests
@@ -52,23 +52,3 @@ through the [RouteNet-Fermi repository](https://github.com/BNN-UPC/RouteNet-Ferm
 python3 -I scripts/tables_v3.py
 python3 -I scripts/paper_numbers.py
 ```
-
-## Figures
-
-The manuscript figures are in `figures/` as PDF (as used in the manuscript) and PNG.
-
-**Fig. 1.** Architecture of QPR-GNN.
-
-![Architecture](figures/architecture.png)
-
-**Fig. 2.** Error reduction of QPR-GNN relative to RouteNet-Fermi and MSMP on every held-out topology.
-
-![Error reduction per topology](figures/fig_headline.png)
-
-**Fig. 3.** (a) Distribution of per-flow error. (b) Error against packet-size mismatch.
-
-![Error distribution and packet-size mismatch](figures/fig_cdf_mismatch.png)
-
-**Fig. 4.** (a) Error by IoT traffic class. (b) Accuracy against inference cost.
-
-![IoT classes and inference cost](figures/fig_iot_speed.png)
