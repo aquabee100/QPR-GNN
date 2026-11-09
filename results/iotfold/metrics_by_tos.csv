@@ -1,0 +1,2305 @@
+topology,model,seed,tos,n,ape_sum
+iot_Ai3,M/M/1 (per-flow packet size),analytic,0,397,220.6672821044922
+iot_Ai3,M/M/1 (per-flow packet size),analytic,1,1508,715.5467529296875
+iot_Ai3,M/M/1 (per-flow packet size),analytic,2,795,847.0487060546875
+iot_Ai3,"M/M/1/K, aggregate (= our prior alone)",analytic,0,397,187.93507385253906
+iot_Ai3,"M/M/1/K, aggregate (= our prior alone)",analytic,1,1508,549.0447387695312
+iot_Ai3,"M/M/1/K, aggregate (= our prior alone)",analytic,2,795,151.68453979492188
+iot_Ai3,M/G/1 (Pollaczek-Khinchine),analytic,0,397,321.66351318359375
+iot_Ai3,M/G/1 (Pollaczek-Khinchine),analytic,1,1508,1061.1251220703125
+iot_Ai3,M/G/1 (Pollaczek-Khinchine),analytic,2,795,387.97955322265625
+iot_Ai3,MLP,0,0,397,111.68165588378906
+iot_Ai3,MLP,0,1,1508,420.7065124511719
+iot_Ai3,MLP,0,2,795,140.3766326904297
+iot_Ai3,MLP,1,0,397,111.04692077636719
+iot_Ai3,MLP,1,1,1508,419.09686279296875
+iot_Ai3,MLP,1,2,795,144.51309204101562
+iot_Ai3,MLP,2,0,397,110.00689697265625
+iot_Ai3,MLP,2,1,1508,417.7371826171875
+iot_Ai3,MLP,2,2,795,144.84169006347656
+iot_Ai3,Gradient-boosted trees,0,0,397,120.61104583740234
+iot_Ai3,Gradient-boosted trees,0,1,1508,511.73785400390625
+iot_Ai3,Gradient-boosted trees,0,2,795,140.1741180419922
+iot_Ai3,Gradient-boosted trees,1,0,397,130.77645874023438
+iot_Ai3,Gradient-boosted trees,1,1,1508,513.16015625
+iot_Ai3,Gradient-boosted trees,1,2,795,141.10186767578125
+iot_Ai3,Gradient-boosted trees,2,0,397,125.14922332763672
+iot_Ai3,Gradient-boosted trees,2,1,1508,522.8446655273438
+iot_Ai3,Gradient-boosted trees,2,2,795,140.99249267578125
+iot_Ai3,RouteNet-style (25k),0,0,397,118.65571594238281
+iot_Ai3,RouteNet-style (25k),0,1,1508,477.6802673339844
+iot_Ai3,RouteNet-style (25k),0,2,795,158.6676788330078
+iot_Ai3,RouteNet-style (25k),1,0,397,122.11165618896484
+iot_Ai3,RouteNet-style (25k),1,1,1508,479.3529052734375
+iot_Ai3,RouteNet-style (25k),1,2,795,179.74813842773438
+iot_Ai3,RouteNet-style (25k),2,0,397,144.12548828125
+iot_Ai3,RouteNet-style (25k),2,1,1508,543.1082763671875
+iot_Ai3,RouteNet-style (25k),2,2,795,179.85855102539062
+iot_Ai3,RouteNet-style (87k),0,0,397,113.31475830078125
+iot_Ai3,RouteNet-style (87k),0,1,1508,465.0882263183594
+iot_Ai3,RouteNet-style (87k),0,2,795,173.00242614746094
+iot_Ai3,RouteNet-style (87k),1,0,397,115.28744506835938
+iot_Ai3,RouteNet-style (87k),1,1,1508,489.3072509765625
+iot_Ai3,RouteNet-style (87k),1,2,795,175.44126892089844
+iot_Ai3,RouteNet-style (87k),2,0,397,109.40167999267578
+iot_Ai3,RouteNet-style (87k),2,1,1508,505.59185791015625
+iot_Ai3,RouteNet-style (87k),2,2,795,194.073486328125
+iot_Ai3,RouteNet-Fermi,0,0,397,83.97479248046875
+iot_Ai3,RouteNet-Fermi,0,1,1508,359.05133056640625
+iot_Ai3,RouteNet-Fermi,0,2,795,143.16152954101562
+iot_Ai3,RouteNet-Fermi,1,0,397,79.4247055053711
+iot_Ai3,RouteNet-Fermi,1,1,1508,350.52490234375
+iot_Ai3,RouteNet-Fermi,1,2,795,142.6888427734375
+iot_Ai3,RouteNet-Fermi,2,0,397,77.2098388671875
+iot_Ai3,RouteNet-Fermi,2,1,1508,353.83709716796875
+iot_Ai3,RouteNet-Fermi,2,2,795,144.31143188476562
+iot_Ai3,MSMP + attention,0,0,397,87.82424926757812
+iot_Ai3,MSMP + attention,0,1,1508,367.28485107421875
+iot_Ai3,MSMP + attention,0,2,795,135.3391876220703
+iot_Ai3,MSMP + attention,1,0,397,87.84850311279297
+iot_Ai3,MSMP + attention,1,1,1508,363.04949951171875
+iot_Ai3,MSMP + attention,1,2,795,140.35064697265625
+iot_Ai3,MSMP + attention,2,0,397,84.12312316894531
+iot_Ai3,MSMP + attention,2,1,1508,351.4028015136719
+iot_Ai3,MSMP + attention,2,2,795,137.52520751953125
+iot_Ai3,QT-RouteNet,0,0,397,184.99075317382812
+iot_Ai3,QT-RouteNet,0,1,1508,590.3366088867188
+iot_Ai3,QT-RouteNet,0,2,795,552.9608154296875
+iot_Ai3,QT-RouteNet,1,0,397,188.29393005371094
+iot_Ai3,QT-RouteNet,1,1,1508,573.2234497070312
+iot_Ai3,QT-RouteNet,1,2,795,559.9984130859375
+iot_Ai3,QT-RouteNet,2,0,397,166.5978546142578
+iot_Ai3,QT-RouteNet,2,1,1508,602.05224609375
+iot_Ai3,QT-RouteNet,2,2,795,578.6253662109375
+iot_Ai3,QT-RouteNet + transmission term,0,0,397,121.76886749267578
+iot_Ai3,QT-RouteNet + transmission term,0,1,1508,423.0579833984375
+iot_Ai3,QT-RouteNet + transmission term,0,2,795,123.65646362304688
+iot_Ai3,QT-RouteNet + transmission term,1,0,397,122.2276840209961
+iot_Ai3,QT-RouteNet + transmission term,1,1,1508,421.2625732421875
+iot_Ai3,QT-RouteNet + transmission term,1,2,795,123.30142974853516
+iot_Ai3,QT-RouteNet + transmission term,2,0,397,131.02810668945312
+iot_Ai3,QT-RouteNet + transmission term,2,1,1508,433.00396728515625
+iot_Ai3,QT-RouteNet + transmission term,2,2,795,127.83186340332031
+iot_Ai3,GCN,0,0,397,114.6038818359375
+iot_Ai3,GCN,0,1,1508,451.20556640625
+iot_Ai3,GCN,0,2,795,141.59930419921875
+iot_Ai3,GCN,1,0,397,106.41266632080078
+iot_Ai3,GCN,1,1,1508,450.5863342285156
+iot_Ai3,GCN,1,2,795,144.01095581054688
+iot_Ai3,GCN,2,0,397,113.76596069335938
+iot_Ai3,GCN,2,1,1508,466.2127685546875
+iot_Ai3,GCN,2,2,795,142.24270629882812
+iot_Ai3,GAT,0,0,397,103.48065948486328
+iot_Ai3,GAT,0,1,1508,416.9456481933594
+iot_Ai3,GAT,0,2,795,143.48529052734375
+iot_Ai3,GAT,1,0,397,108.07258605957031
+iot_Ai3,GAT,1,1,1508,429.09979248046875
+iot_Ai3,GAT,1,2,795,137.64422607421875
+iot_Ai3,GAT,2,0,397,104.72608947753906
+iot_Ai3,GAT,2,1,1508,411.91180419921875
+iot_Ai3,GAT,2,2,795,145.15968322753906
+iot_Ai3,Graph transformer (GPS-style),0,0,397,131.5697021484375
+iot_Ai3,Graph transformer (GPS-style),0,1,1508,452.09716796875
+iot_Ai3,Graph transformer (GPS-style),0,2,795,151.89144897460938
+iot_Ai3,Graph transformer (GPS-style),1,0,397,122.68736267089844
+iot_Ai3,Graph transformer (GPS-style),1,1,1508,455.83544921875
+iot_Ai3,Graph transformer (GPS-style),1,2,795,146.9889373779297
+iot_Ai3,Graph transformer (GPS-style),2,0,397,131.38253784179688
+iot_Ai3,Graph transformer (GPS-style),2,1,1508,451.22412109375
+iot_Ai3,Graph transformer (GPS-style),2,2,795,161.5242919921875
+iot_Ai3,GBDT + prior,0,0,397,106.04925537109375
+iot_Ai3,GBDT + prior,0,1,1508,415.307373046875
+iot_Ai3,GBDT + prior,0,2,795,135.15711975097656
+iot_Ai3,GBDT + prior,1,0,397,106.39479064941406
+iot_Ai3,GBDT + prior,1,1,1508,405.45135498046875
+iot_Ai3,GBDT + prior,1,2,795,131.75379943847656
+iot_Ai3,GBDT + prior,2,0,397,104.80213928222656
+iot_Ai3,GBDT + prior,2,1,1508,410.2890319824219
+iot_Ai3,GBDT + prior,2,2,795,133.9871826171875
+iot_Ai3,RouteNet-style + prior features,0,0,397,80.9761962890625
+iot_Ai3,RouteNet-style + prior features,0,1,1508,337.79254150390625
+iot_Ai3,RouteNet-style + prior features,0,2,795,126.53596496582031
+iot_Ai3,RouteNet-style + prior features,1,0,397,82.02146911621094
+iot_Ai3,RouteNet-style + prior features,1,1,1508,337.2047119140625
+iot_Ai3,RouteNet-style + prior features,1,2,795,127.78196716308594
+iot_Ai3,RouteNet-style + prior features,2,0,397,80.16767883300781
+iot_Ai3,RouteNet-style + prior features,2,1,1508,333.80987548828125
+iot_Ai3,RouteNet-style + prior features,2,2,795,125.26091003417969
+iot_Ai3,"Ours, prior as readout base only",0,0,397,86.13326263427734
+iot_Ai3,"Ours, prior as readout base only",0,1,1508,347.88543701171875
+iot_Ai3,"Ours, prior as readout base only",0,2,795,139.2526092529297
+iot_Ai3,"Ours, prior as readout base only",1,0,397,83.61505889892578
+iot_Ai3,"Ours, prior as readout base only",1,1,1508,358.36041259765625
+iot_Ai3,"Ours, prior as readout base only",1,2,795,131.26268005371094
+iot_Ai3,"Ours, prior as readout base only",2,0,397,89.01888275146484
+iot_Ai3,"Ours, prior as readout base only",2,1,1508,361.8929443359375
+iot_Ai3,"Ours, prior as readout base only",2,2,795,132.52197265625
+iot_Ai3,QPR-GNN (ours),0,0,397,74.08842468261719
+iot_Ai3,QPR-GNN (ours),0,1,1508,334.838623046875
+iot_Ai3,QPR-GNN (ours),0,2,795,126.74891662597656
+iot_Ai3,QPR-GNN (ours),1,0,397,76.75193786621094
+iot_Ai3,QPR-GNN (ours),1,1,1508,328.6190185546875
+iot_Ai3,QPR-GNN (ours),1,2,795,121.91395568847656
+iot_Ai3,QPR-GNN (ours),2,0,397,74.57891845703125
+iot_Ai3,QPR-GNN (ours),2,1,1508,324.8791809082031
+iot_Ai3,QPR-GNN (ours),2,2,795,127.60287475585938
+iot_Xspedius,M/M/1 (per-flow packet size),analytic,0,5012,3138.65771484375
+iot_Xspedius,M/M/1 (per-flow packet size),analytic,1,18645,9385.0703125
+iot_Xspedius,M/M/1 (per-flow packet size),analytic,2,10003,7776.63671875
+iot_Xspedius,"M/M/1/K, aggregate (= our prior alone)",analytic,0,5012,1554.5987548828125
+iot_Xspedius,"M/M/1/K, aggregate (= our prior alone)",analytic,1,18645,5137.8408203125
+iot_Xspedius,"M/M/1/K, aggregate (= our prior alone)",analytic,2,10003,1316.8624267578125
+iot_Xspedius,M/G/1 (Pollaczek-Khinchine),analytic,0,5012,3003.23388671875
+iot_Xspedius,M/G/1 (Pollaczek-Khinchine),analytic,1,18645,8181.3037109375
+iot_Xspedius,M/G/1 (Pollaczek-Khinchine),analytic,2,10003,2787.98193359375
+iot_Xspedius,MLP,0,0,5012,1260.1971435546875
+iot_Xspedius,MLP,0,1,18645,4622.88671875
+iot_Xspedius,MLP,0,2,10003,1317.2686767578125
+iot_Xspedius,MLP,1,0,5012,1294.0350341796875
+iot_Xspedius,MLP,1,1,18645,4840.859375
+iot_Xspedius,MLP,1,2,10003,1344.935791015625
+iot_Xspedius,MLP,2,0,5012,1299.2119140625
+iot_Xspedius,MLP,2,1,18645,4694.87451171875
+iot_Xspedius,MLP,2,2,10003,1340.87841796875
+iot_Xspedius,Gradient-boosted trees,0,0,5012,1305.7142333984375
+iot_Xspedius,Gradient-boosted trees,0,1,18645,4856.171875
+iot_Xspedius,Gradient-boosted trees,0,2,10003,1354.82080078125
+iot_Xspedius,Gradient-boosted trees,1,0,5012,1312.729248046875
+iot_Xspedius,Gradient-boosted trees,1,1,18645,4854.2001953125
+iot_Xspedius,Gradient-boosted trees,1,2,10003,1353.962158203125
+iot_Xspedius,Gradient-boosted trees,2,0,5012,1301.37353515625
+iot_Xspedius,Gradient-boosted trees,2,1,18645,4833.87841796875
+iot_Xspedius,Gradient-boosted trees,2,2,10003,1338.6435546875
+iot_Xspedius,RouteNet-style (25k),0,0,5012,1155.27490234375
+iot_Xspedius,RouteNet-style (25k),0,1,18645,3961.1572265625
+iot_Xspedius,RouteNet-style (25k),0,2,10003,1386.5562744140625
+iot_Xspedius,RouteNet-style (25k),1,0,5012,1013.8076171875
+iot_Xspedius,RouteNet-style (25k),1,1,18645,3698.732666015625
+iot_Xspedius,RouteNet-style (25k),1,2,10003,1326.718505859375
+iot_Xspedius,RouteNet-style (25k),2,0,5012,1347.362060546875
+iot_Xspedius,RouteNet-style (25k),2,1,18645,4365.0048828125
+iot_Xspedius,RouteNet-style (25k),2,2,10003,1379.225341796875
+iot_Xspedius,RouteNet-style (87k),0,0,5012,962.2628173828125
+iot_Xspedius,RouteNet-style (87k),0,1,18645,3602.6591796875
+iot_Xspedius,RouteNet-style (87k),0,2,10003,1283.9599609375
+iot_Xspedius,RouteNet-style (87k),1,0,5012,917.3033447265625
+iot_Xspedius,RouteNet-style (87k),1,1,18645,3606.7626953125
+iot_Xspedius,RouteNet-style (87k),1,2,10003,1240.1025390625
+iot_Xspedius,RouteNet-style (87k),2,0,5012,989.553955078125
+iot_Xspedius,RouteNet-style (87k),2,1,18645,3901.8369140625
+iot_Xspedius,RouteNet-style (87k),2,2,10003,1392.64990234375
+iot_Xspedius,RouteNet-Fermi,0,0,5012,864.09130859375
+iot_Xspedius,RouteNet-Fermi,0,1,18645,3532.796875
+iot_Xspedius,RouteNet-Fermi,0,2,10003,1249.5059814453125
+iot_Xspedius,RouteNet-Fermi,1,0,5012,816.4620361328125
+iot_Xspedius,RouteNet-Fermi,1,1,18645,3419.22607421875
+iot_Xspedius,RouteNet-Fermi,1,2,10003,1226.019775390625
+iot_Xspedius,RouteNet-Fermi,2,0,5012,819.397216796875
+iot_Xspedius,RouteNet-Fermi,2,1,18645,3429.43798828125
+iot_Xspedius,RouteNet-Fermi,2,2,10003,1207.892578125
+iot_Xspedius,MSMP + attention,0,0,5012,861.6348876953125
+iot_Xspedius,MSMP + attention,0,1,18645,3511.20751953125
+iot_Xspedius,MSMP + attention,0,2,10003,1171.447509765625
+iot_Xspedius,MSMP + attention,1,0,5012,862.1326904296875
+iot_Xspedius,MSMP + attention,1,1,18645,3490.97900390625
+iot_Xspedius,MSMP + attention,1,2,10003,1205.906005859375
+iot_Xspedius,MSMP + attention,2,0,5012,880.5421752929688
+iot_Xspedius,MSMP + attention,2,1,18645,3521.79443359375
+iot_Xspedius,MSMP + attention,2,2,10003,1201.642578125
+iot_Xspedius,QT-RouteNet,0,0,5012,1594.275634765625
+iot_Xspedius,QT-RouteNet,0,1,18645,4418.35791015625
+iot_Xspedius,QT-RouteNet,0,2,10003,6569.58642578125
+iot_Xspedius,QT-RouteNet,1,0,5012,1863.37109375
+iot_Xspedius,QT-RouteNet,1,1,18645,4868.908203125
+iot_Xspedius,QT-RouteNet,1,2,10003,6419.2705078125
+iot_Xspedius,QT-RouteNet,2,0,5012,1453.4833984375
+iot_Xspedius,QT-RouteNet,2,1,18645,4953.8056640625
+iot_Xspedius,QT-RouteNet,2,2,10003,6690.97119140625
+iot_Xspedius,QT-RouteNet + transmission term,0,0,5012,962.438720703125
+iot_Xspedius,QT-RouteNet + transmission term,0,1,18645,3540.48583984375
+iot_Xspedius,QT-RouteNet + transmission term,0,2,10003,1103.03515625
+iot_Xspedius,QT-RouteNet + transmission term,1,0,5012,987.257080078125
+iot_Xspedius,QT-RouteNet + transmission term,1,1,18645,3626.4404296875
+iot_Xspedius,QT-RouteNet + transmission term,1,2,10003,1124.26318359375
+iot_Xspedius,QT-RouteNet + transmission term,2,0,5012,1037.5484619140625
+iot_Xspedius,QT-RouteNet + transmission term,2,1,18645,3770.28759765625
+iot_Xspedius,QT-RouteNet + transmission term,2,2,10003,1180.306640625
+iot_Xspedius,GCN,0,0,5012,1213.40185546875
+iot_Xspedius,GCN,0,1,18645,4416.8349609375
+iot_Xspedius,GCN,0,2,10003,1271.431640625
+iot_Xspedius,GCN,1,0,5012,1210.224609375
+iot_Xspedius,GCN,1,1,18645,4382.06640625
+iot_Xspedius,GCN,1,2,10003,1261.38134765625
+iot_Xspedius,GCN,2,0,5012,1211.0135498046875
+iot_Xspedius,GCN,2,1,18645,4441.41162109375
+iot_Xspedius,GCN,2,2,10003,1273.843994140625
+iot_Xspedius,GAT,0,0,5012,1209.188720703125
+iot_Xspedius,GAT,0,1,18645,4473.2021484375
+iot_Xspedius,GAT,0,2,10003,1294.892822265625
+iot_Xspedius,GAT,1,0,5012,1202.228759765625
+iot_Xspedius,GAT,1,1,18645,4505.58544921875
+iot_Xspedius,GAT,1,2,10003,1266.61474609375
+iot_Xspedius,GAT,2,0,5012,1222.190185546875
+iot_Xspedius,GAT,2,1,18645,4507.1484375
+iot_Xspedius,GAT,2,2,10003,1304.3709716796875
+iot_Xspedius,Graph transformer (GPS-style),0,0,5012,1272.6033935546875
+iot_Xspedius,Graph transformer (GPS-style),0,1,18645,4555.52880859375
+iot_Xspedius,Graph transformer (GPS-style),0,2,10003,1322.39990234375
+iot_Xspedius,Graph transformer (GPS-style),1,0,5012,1298.7723388671875
+iot_Xspedius,Graph transformer (GPS-style),1,1,18645,4643.22216796875
+iot_Xspedius,Graph transformer (GPS-style),1,2,10003,1327.7027587890625
+iot_Xspedius,Graph transformer (GPS-style),2,0,5012,1319.787109375
+iot_Xspedius,Graph transformer (GPS-style),2,1,18645,4696.537109375
+iot_Xspedius,Graph transformer (GPS-style),2,2,10003,1615.4957275390625
+iot_Xspedius,GBDT + prior,0,0,5012,812.3984375
+iot_Xspedius,GBDT + prior,0,1,18645,3322.24609375
+iot_Xspedius,GBDT + prior,0,2,10003,1055.903564453125
+iot_Xspedius,GBDT + prior,1,0,5012,803.200439453125
+iot_Xspedius,GBDT + prior,1,1,18645,3318.833984375
+iot_Xspedius,GBDT + prior,1,2,10003,1070.684326171875
+iot_Xspedius,GBDT + prior,2,0,5012,815.8683471679688
+iot_Xspedius,GBDT + prior,2,1,18645,3307.698974609375
+iot_Xspedius,GBDT + prior,2,2,10003,1071.343994140625
+iot_Xspedius,RouteNet-style + prior features,0,0,5012,776.5520629882812
+iot_Xspedius,RouteNet-style + prior features,0,1,18645,3206.297119140625
+iot_Xspedius,RouteNet-style + prior features,0,2,10003,1053.0159912109375
+iot_Xspedius,RouteNet-style + prior features,1,0,5012,757.7572021484375
+iot_Xspedius,RouteNet-style + prior features,1,1,18645,3165.9326171875
+iot_Xspedius,RouteNet-style + prior features,1,2,10003,1046.90966796875
+iot_Xspedius,RouteNet-style + prior features,2,0,5012,738.9781494140625
+iot_Xspedius,RouteNet-style + prior features,2,1,18645,3117.332763671875
+iot_Xspedius,RouteNet-style + prior features,2,2,10003,1032.135009765625
+iot_Xspedius,"Ours, prior as readout base only",0,0,5012,827.5467529296875
+iot_Xspedius,"Ours, prior as readout base only",0,1,18645,3352.634765625
+iot_Xspedius,"Ours, prior as readout base only",0,2,10003,1109.5626220703125
+iot_Xspedius,"Ours, prior as readout base only",1,0,5012,814.7249755859375
+iot_Xspedius,"Ours, prior as readout base only",1,1,18645,3351.21630859375
+iot_Xspedius,"Ours, prior as readout base only",1,2,10003,1125.676025390625
+iot_Xspedius,"Ours, prior as readout base only",2,0,5012,821.3067626953125
+iot_Xspedius,"Ours, prior as readout base only",2,1,18645,3363.74072265625
+iot_Xspedius,"Ours, prior as readout base only",2,2,10003,1125.162109375
+iot_Xspedius,QPR-GNN (ours),0,0,5012,728.0396728515625
+iot_Xspedius,QPR-GNN (ours),0,1,18645,3143.560791015625
+iot_Xspedius,QPR-GNN (ours),0,2,10003,1075.3262939453125
+iot_Xspedius,QPR-GNN (ours),1,0,5012,726.612060546875
+iot_Xspedius,QPR-GNN (ours),1,1,18645,3074.5458984375
+iot_Xspedius,QPR-GNN (ours),1,2,10003,1038.330078125
+iot_Xspedius,QPR-GNN (ours),2,0,5012,724.8630981445312
+iot_Xspedius,QPR-GNN (ours),2,1,18645,3078.833740234375
+iot_Xspedius,QPR-GNN (ours),2,2,10003,1034.495361328125
+iot_Geant,M/M/1 (per-flow packet size),analytic,0,5870,3748.51708984375
+iot_Geant,M/M/1 (per-flow packet size),analytic,1,22116,11815.1435546875
+iot_Geant,M/M/1 (per-flow packet size),analytic,2,11974,13258.955078125
+iot_Geant,"M/M/1/K, aggregate (= our prior alone)",analytic,0,5870,1941.537109375
+iot_Geant,"M/M/1/K, aggregate (= our prior alone)",analytic,1,22116,6379.779296875
+iot_Geant,"M/M/1/K, aggregate (= our prior alone)",analytic,2,11974,1461.606689453125
+iot_Geant,M/G/1 (Pollaczek-Khinchine),analytic,0,5870,4600.95849609375
+iot_Geant,M/G/1 (Pollaczek-Khinchine),analytic,1,22116,13460.71484375
+iot_Geant,M/G/1 (Pollaczek-Khinchine),analytic,2,11974,4727.14404296875
+iot_Geant,MLP,0,0,5870,1476.79345703125
+iot_Geant,MLP,0,1,22116,5459.25830078125
+iot_Geant,MLP,0,2,11974,1593.4197998046875
+iot_Geant,MLP,1,0,5870,1509.15771484375
+iot_Geant,MLP,1,1,22116,5681.59033203125
+iot_Geant,MLP,1,2,11974,1616.363525390625
+iot_Geant,MLP,2,0,5870,1515.650146484375
+iot_Geant,MLP,2,1,22116,5497.44287109375
+iot_Geant,MLP,2,2,11974,1615.5078125
+iot_Geant,Gradient-boosted trees,0,0,5870,1606.38916015625
+iot_Geant,Gradient-boosted trees,0,1,22116,6245.396484375
+iot_Geant,Gradient-boosted trees,0,2,11974,1694.5631103515625
+iot_Geant,Gradient-boosted trees,1,0,5870,1580.936279296875
+iot_Geant,Gradient-boosted trees,1,1,22116,6255.87841796875
+iot_Geant,Gradient-boosted trees,1,2,11974,1697.781982421875
+iot_Geant,Gradient-boosted trees,2,0,5870,1596.550048828125
+iot_Geant,Gradient-boosted trees,2,1,22116,6211.6005859375
+iot_Geant,Gradient-boosted trees,2,2,11974,1715.072998046875
+iot_Geant,RouteNet-style (25k),0,0,5870,1884.62939453125
+iot_Geant,RouteNet-style (25k),0,1,22116,5210.25390625
+iot_Geant,RouteNet-style (25k),0,2,11974,1987.75830078125
+iot_Geant,RouteNet-style (25k),1,0,5870,1464.4188232421875
+iot_Geant,RouteNet-style (25k),1,1,22116,4801.2763671875
+iot_Geant,RouteNet-style (25k),1,2,11974,1863.259521484375
+iot_Geant,RouteNet-style (25k),2,0,5870,2235.00634765625
+iot_Geant,RouteNet-style (25k),2,1,22116,5867.123046875
+iot_Geant,RouteNet-style (25k),2,2,11974,1877.478759765625
+iot_Geant,RouteNet-style (87k),0,0,5870,1266.7890625
+iot_Geant,RouteNet-style (87k),0,1,22116,4658.4501953125
+iot_Geant,RouteNet-style (87k),0,2,11974,1656.912841796875
+iot_Geant,RouteNet-style (87k),1,0,5870,1222.606201171875
+iot_Geant,RouteNet-style (87k),1,1,22116,4770.16064453125
+iot_Geant,RouteNet-style (87k),1,2,11974,1536.61669921875
+iot_Geant,RouteNet-style (87k),2,0,5870,1623.4490966796875
+iot_Geant,RouteNet-style (87k),2,1,22116,5350.24609375
+iot_Geant,RouteNet-style (87k),2,2,11974,1831.82861328125
+iot_Geant,RouteNet-Fermi,0,0,5870,960.8866577148438
+iot_Geant,RouteNet-Fermi,0,1,22116,3987.68994140625
+iot_Geant,RouteNet-Fermi,0,2,11974,1452.7607421875
+iot_Geant,RouteNet-Fermi,1,0,5870,949.7537841796875
+iot_Geant,RouteNet-Fermi,1,1,22116,3997.625
+iot_Geant,RouteNet-Fermi,1,2,11974,1463.281494140625
+iot_Geant,RouteNet-Fermi,2,0,5870,977.8343505859375
+iot_Geant,RouteNet-Fermi,2,1,22116,4039.99609375
+iot_Geant,RouteNet-Fermi,2,2,11974,1454.1304931640625
+iot_Geant,MSMP + attention,0,0,5870,1025.81982421875
+iot_Geant,MSMP + attention,0,1,22116,4017.2744140625
+iot_Geant,MSMP + attention,0,2,11974,1383.403564453125
+iot_Geant,MSMP + attention,1,0,5870,1022.8843383789062
+iot_Geant,MSMP + attention,1,1,22116,4002.595947265625
+iot_Geant,MSMP + attention,1,2,11974,1411.1942138671875
+iot_Geant,MSMP + attention,2,0,5870,1014.34765625
+iot_Geant,MSMP + attention,2,1,22116,4073.0966796875
+iot_Geant,MSMP + attention,2,2,11974,1405.7947998046875
+iot_Geant,QT-RouteNet,0,0,5870,1938.02099609375
+iot_Geant,QT-RouteNet,0,1,22116,5483.62548828125
+iot_Geant,QT-RouteNet,0,2,11974,7728.14697265625
+iot_Geant,QT-RouteNet,1,0,5870,2110.301025390625
+iot_Geant,QT-RouteNet,1,1,22116,5757.8740234375
+iot_Geant,QT-RouteNet,1,2,11974,7641.33154296875
+iot_Geant,QT-RouteNet,2,0,5870,1853.78125
+iot_Geant,QT-RouteNet,2,1,22116,6117.439453125
+iot_Geant,QT-RouteNet,2,2,11974,7850.509765625
+iot_Geant,QT-RouteNet + transmission term,0,0,5870,1296.35693359375
+iot_Geant,QT-RouteNet + transmission term,0,1,22116,4413.0947265625
+iot_Geant,QT-RouteNet + transmission term,0,2,11974,1304.283203125
+iot_Geant,QT-RouteNet + transmission term,1,0,5870,1292.698974609375
+iot_Geant,QT-RouteNet + transmission term,1,1,22116,4470.6953125
+iot_Geant,QT-RouteNet + transmission term,1,2,11974,1314.436279296875
+iot_Geant,QT-RouteNet + transmission term,2,0,5870,1387.4906005859375
+iot_Geant,QT-RouteNet + transmission term,2,1,22116,4731.7822265625
+iot_Geant,QT-RouteNet + transmission term,2,2,11974,1398.177734375
+iot_Geant,GCN,0,0,5870,1461.44482421875
+iot_Geant,GCN,0,1,22116,5475.46875
+iot_Geant,GCN,0,2,11974,1621.77978515625
+iot_Geant,GCN,1,0,5870,1449.4447021484375
+iot_Geant,GCN,1,1,22116,5493.994140625
+iot_Geant,GCN,1,2,11974,1599.495849609375
+iot_Geant,GCN,2,0,5870,1497.0084228515625
+iot_Geant,GCN,2,1,22116,5581.5888671875
+iot_Geant,GCN,2,2,11974,1628.296630859375
+iot_Geant,GAT,0,0,5870,1408.1688232421875
+iot_Geant,GAT,0,1,22116,5352.84130859375
+iot_Geant,GAT,0,2,11974,1568.95166015625
+iot_Geant,GAT,1,0,5870,1460.4874267578125
+iot_Geant,GAT,1,1,22116,5525.974609375
+iot_Geant,GAT,1,2,11974,1613.654296875
+iot_Geant,GAT,2,0,5870,1421.1689453125
+iot_Geant,GAT,2,1,22116,5340.76171875
+iot_Geant,GAT,2,2,11974,1576.04931640625
+iot_Geant,Graph transformer (GPS-style),0,0,5870,1497.1787109375
+iot_Geant,Graph transformer (GPS-style),0,1,22116,5481.51904296875
+iot_Geant,Graph transformer (GPS-style),0,2,11974,1658.76904296875
+iot_Geant,Graph transformer (GPS-style),1,0,5870,1648.0751953125
+iot_Geant,Graph transformer (GPS-style),1,1,22116,5924.9404296875
+iot_Geant,Graph transformer (GPS-style),1,2,11974,1756.83642578125
+iot_Geant,Graph transformer (GPS-style),2,0,5870,1501.6617431640625
+iot_Geant,Graph transformer (GPS-style),2,1,22116,5503.7333984375
+iot_Geant,Graph transformer (GPS-style),2,2,11974,1958.2109375
+iot_Geant,GBDT + prior,0,0,5870,1076.786865234375
+iot_Geant,GBDT + prior,0,1,22116,4307.56298828125
+iot_Geant,GBDT + prior,0,2,11974,1243.4312744140625
+iot_Geant,GBDT + prior,1,0,5870,1076.0828857421875
+iot_Geant,GBDT + prior,1,1,22116,4297.82470703125
+iot_Geant,GBDT + prior,1,2,11974,1247.052001953125
+iot_Geant,GBDT + prior,2,0,5870,1084.3974609375
+iot_Geant,GBDT + prior,2,1,22116,4257.25830078125
+iot_Geant,GBDT + prior,2,2,11974,1251.4716796875
+iot_Geant,RouteNet-style + prior features,0,0,5870,944.06640625
+iot_Geant,RouteNet-style + prior features,0,1,22116,3801.35595703125
+iot_Geant,RouteNet-style + prior features,0,2,11974,1244.829345703125
+iot_Geant,RouteNet-style + prior features,1,0,5870,935.6568603515625
+iot_Geant,RouteNet-style + prior features,1,1,22116,3782.374755859375
+iot_Geant,RouteNet-style + prior features,1,2,11974,1227.58837890625
+iot_Geant,RouteNet-style + prior features,2,0,5870,911.13623046875
+iot_Geant,RouteNet-style + prior features,2,1,22116,3759.942626953125
+iot_Geant,RouteNet-style + prior features,2,2,11974,1215.073974609375
+iot_Geant,"Ours, prior as readout base only",0,0,5870,1024.419189453125
+iot_Geant,"Ours, prior as readout base only",0,1,22116,4008.2578125
+iot_Geant,"Ours, prior as readout base only",0,2,11974,1294.994384765625
+iot_Geant,"Ours, prior as readout base only",1,0,5870,1016.958984375
+iot_Geant,"Ours, prior as readout base only",1,1,22116,4061.138427734375
+iot_Geant,"Ours, prior as readout base only",1,2,11974,1289.1190185546875
+iot_Geant,"Ours, prior as readout base only",2,0,5870,1002.1989135742188
+iot_Geant,"Ours, prior as readout base only",2,1,22116,4098.57080078125
+iot_Geant,"Ours, prior as readout base only",2,2,11974,1289.93505859375
+iot_Geant,QPR-GNN (ours),0,0,5870,921.3892211914062
+iot_Geant,QPR-GNN (ours),0,1,22116,3784.086669921875
+iot_Geant,QPR-GNN (ours),0,2,11974,1280.7396240234375
+iot_Geant,QPR-GNN (ours),1,0,5870,893.062744140625
+iot_Geant,QPR-GNN (ours),1,1,22116,3722.122314453125
+iot_Geant,QPR-GNN (ours),1,2,11974,1223.6561279296875
+iot_Geant,QPR-GNN (ours),2,0,5870,877.5302124023438
+iot_Geant,QPR-GNN (ours),2,1,22116,3671.490234375
+iot_Geant,QPR-GNN (ours),2,2,11974,1216.0980224609375
+iot_Palmetto,M/M/1 (per-flow packet size),analytic,0,8495,5623.11767578125
+iot_Palmetto,M/M/1 (per-flow packet size),analytic,1,31692,17118.03515625
+iot_Palmetto,M/M/1 (per-flow packet size),analytic,2,17233,19565.95703125
+iot_Palmetto,"M/M/1/K, aggregate (= our prior alone)",analytic,0,8495,3369.9111328125
+iot_Palmetto,"M/M/1/K, aggregate (= our prior alone)",analytic,1,31692,10181.9521484375
+iot_Palmetto,"M/M/1/K, aggregate (= our prior alone)",analytic,2,17233,2546.73779296875
+iot_Palmetto,M/G/1 (Pollaczek-Khinchine),analytic,0,8495,6887.6611328125
+iot_Palmetto,M/G/1 (Pollaczek-Khinchine),analytic,1,31692,19500.54296875
+iot_Palmetto,M/G/1 (Pollaczek-Khinchine),analytic,2,17233,7012.45556640625
+iot_Palmetto,MLP,0,0,8495,2404.01806640625
+iot_Palmetto,MLP,0,1,31692,8401.7734375
+iot_Palmetto,MLP,0,2,17233,2459.281494140625
+iot_Palmetto,MLP,1,0,8495,2412.4853515625
+iot_Palmetto,MLP,1,1,31692,8785.69921875
+iot_Palmetto,MLP,1,2,17233,2480.71630859375
+iot_Palmetto,MLP,2,0,8495,2416.1396484375
+iot_Palmetto,MLP,2,1,31692,8508.8125
+iot_Palmetto,MLP,2,2,17233,2491.3017578125
+iot_Palmetto,Gradient-boosted trees,0,0,8495,2601.859375
+iot_Palmetto,Gradient-boosted trees,0,1,31692,9701.0556640625
+iot_Palmetto,Gradient-boosted trees,0,2,17233,2833.404296875
+iot_Palmetto,Gradient-boosted trees,1,0,8495,2618.651123046875
+iot_Palmetto,Gradient-boosted trees,1,1,31692,9721.7451171875
+iot_Palmetto,Gradient-boosted trees,1,2,17233,2862.81884765625
+iot_Palmetto,Gradient-boosted trees,2,0,8495,2652.73095703125
+iot_Palmetto,Gradient-boosted trees,2,1,31692,9824.90234375
+iot_Palmetto,Gradient-boosted trees,2,2,17233,2879.751708984375
+iot_Palmetto,RouteNet-style (25k),0,0,8495,2356.531005859375
+iot_Palmetto,RouteNet-style (25k),0,1,31692,6992.703125
+iot_Palmetto,RouteNet-style (25k),0,2,17233,2586.510498046875
+iot_Palmetto,RouteNet-style (25k),1,0,8495,1968.442138671875
+iot_Palmetto,RouteNet-style (25k),1,1,31692,6510.8837890625
+iot_Palmetto,RouteNet-style (25k),1,2,17233,2478.54931640625
+iot_Palmetto,RouteNet-style (25k),2,0,8495,2682.66796875
+iot_Palmetto,RouteNet-style (25k),2,1,31692,7463.9365234375
+iot_Palmetto,RouteNet-style (25k),2,2,17233,2582.55126953125
+iot_Palmetto,RouteNet-style (87k),0,0,8495,1762.668212890625
+iot_Palmetto,RouteNet-style (87k),0,1,31692,6307.142578125
+iot_Palmetto,RouteNet-style (87k),0,2,17233,2357.0009765625
+iot_Palmetto,RouteNet-style (87k),1,0,8495,1725.859619140625
+iot_Palmetto,RouteNet-style (87k),1,1,31692,6370.7880859375
+iot_Palmetto,RouteNet-style (87k),1,2,17233,2205.977783203125
+iot_Palmetto,RouteNet-style (87k),2,0,8495,2014.42333984375
+iot_Palmetto,RouteNet-style (87k),2,1,31692,6984.9765625
+iot_Palmetto,RouteNet-style (87k),2,2,17233,2475.6025390625
+iot_Palmetto,RouteNet-Fermi,0,0,8495,1461.46142578125
+iot_Palmetto,RouteNet-Fermi,0,1,31692,6033.3544921875
+iot_Palmetto,RouteNet-Fermi,0,2,17233,2214.64111328125
+iot_Palmetto,RouteNet-Fermi,1,0,8495,1420.42041015625
+iot_Palmetto,RouteNet-Fermi,1,1,31692,6025.7373046875
+iot_Palmetto,RouteNet-Fermi,1,2,17233,2276.060546875
+iot_Palmetto,RouteNet-Fermi,2,0,8495,1465.805908203125
+iot_Palmetto,RouteNet-Fermi,2,1,31692,6094.4775390625
+iot_Palmetto,RouteNet-Fermi,2,2,17233,2247.865234375
+iot_Palmetto,MSMP + attention,0,0,8495,1473.4747314453125
+iot_Palmetto,MSMP + attention,0,1,31692,5920.14990234375
+iot_Palmetto,MSMP + attention,0,2,17233,2133.85400390625
+iot_Palmetto,MSMP + attention,1,0,8495,1478.1912841796875
+iot_Palmetto,MSMP + attention,1,1,31692,5929.294921875
+iot_Palmetto,MSMP + attention,1,2,17233,2175.58984375
+iot_Palmetto,MSMP + attention,2,0,8495,1601.3192138671875
+iot_Palmetto,MSMP + attention,2,1,31692,6245.318359375
+iot_Palmetto,MSMP + attention,2,2,17233,2167.16748046875
+iot_Palmetto,QT-RouteNet,0,0,8495,2665.6474609375
+iot_Palmetto,QT-RouteNet,0,1,31692,6926.396484375
+iot_Palmetto,QT-RouteNet,0,2,17233,10429.06640625
+iot_Palmetto,QT-RouteNet,1,0,8495,2792.80908203125
+iot_Palmetto,QT-RouteNet,1,1,31692,7184.87158203125
+iot_Palmetto,QT-RouteNet,1,2,17233,10282.6630859375
+iot_Palmetto,QT-RouteNet,2,0,8495,2386.567138671875
+iot_Palmetto,QT-RouteNet,2,1,31692,7684.408203125
+iot_Palmetto,QT-RouteNet,2,2,17233,10630.744140625
+iot_Palmetto,QT-RouteNet + transmission term,0,0,8495,1857.35693359375
+iot_Palmetto,QT-RouteNet + transmission term,0,1,31692,6004.38671875
+iot_Palmetto,QT-RouteNet + transmission term,0,2,17233,2266.826171875
+iot_Palmetto,QT-RouteNet + transmission term,1,0,8495,1831.035888671875
+iot_Palmetto,QT-RouteNet + transmission term,1,1,31692,6036.9287109375
+iot_Palmetto,QT-RouteNet + transmission term,1,2,17233,2291.42138671875
+iot_Palmetto,QT-RouteNet + transmission term,2,0,8495,1915.22509765625
+iot_Palmetto,QT-RouteNet + transmission term,2,1,31692,6326.71435546875
+iot_Palmetto,QT-RouteNet + transmission term,2,2,17233,2350.87548828125
+iot_Palmetto,GCN,0,0,8495,2294.228515625
+iot_Palmetto,GCN,0,1,31692,8324.662109375
+iot_Palmetto,GCN,0,2,17233,2463.593994140625
+iot_Palmetto,GCN,1,0,8495,2287.46826171875
+iot_Palmetto,GCN,1,1,31692,8382.6796875
+iot_Palmetto,GCN,1,2,17233,2416.899658203125
+iot_Palmetto,GCN,2,0,8495,2332.98095703125
+iot_Palmetto,GCN,2,1,31692,8323.783203125
+iot_Palmetto,GCN,2,2,17233,2396.082275390625
+iot_Palmetto,GAT,0,0,8495,2263.310302734375
+iot_Palmetto,GAT,0,1,31692,8238.0869140625
+iot_Palmetto,GAT,0,2,17233,2413.533935546875
+iot_Palmetto,GAT,1,0,8495,2345.983154296875
+iot_Palmetto,GAT,1,1,31692,8419.8828125
+iot_Palmetto,GAT,1,2,17233,2407.76904296875
+iot_Palmetto,GAT,2,0,8495,2270.5166015625
+iot_Palmetto,GAT,2,1,31692,8117.8720703125
+iot_Palmetto,GAT,2,2,17233,2414.18994140625
+iot_Palmetto,Graph transformer (GPS-style),0,0,8495,2378.05322265625
+iot_Palmetto,Graph transformer (GPS-style),0,1,31692,8544.837890625
+iot_Palmetto,Graph transformer (GPS-style),0,2,17233,2609.00537109375
+iot_Palmetto,Graph transformer (GPS-style),1,0,8495,2385.417236328125
+iot_Palmetto,Graph transformer (GPS-style),1,1,31692,8535.5654296875
+iot_Palmetto,Graph transformer (GPS-style),1,2,17233,2508.716796875
+iot_Palmetto,Graph transformer (GPS-style),2,0,8495,2382.73828125
+iot_Palmetto,Graph transformer (GPS-style),2,1,31692,8490.76171875
+iot_Palmetto,Graph transformer (GPS-style),2,2,17233,3163.689453125
+iot_Palmetto,GBDT + prior,0,0,8495,1636.6737060546875
+iot_Palmetto,GBDT + prior,0,1,31692,6175.78662109375
+iot_Palmetto,GBDT + prior,0,2,17233,2039.4395751953125
+iot_Palmetto,GBDT + prior,1,0,8495,1654.5457763671875
+iot_Palmetto,GBDT + prior,1,1,31692,6235.94140625
+iot_Palmetto,GBDT + prior,1,2,17233,2049.084228515625
+iot_Palmetto,GBDT + prior,2,0,8495,1682.0625
+iot_Palmetto,GBDT + prior,2,1,31692,6172.3310546875
+iot_Palmetto,GBDT + prior,2,2,17233,2063.123046875
+iot_Palmetto,RouteNet-style + prior features,0,0,8495,1384.3818359375
+iot_Palmetto,RouteNet-style + prior features,0,1,31692,5468.61328125
+iot_Palmetto,RouteNet-style + prior features,0,2,17233,1886.89794921875
+iot_Palmetto,RouteNet-style + prior features,1,0,8495,1403.333251953125
+iot_Palmetto,RouteNet-style + prior features,1,1,31692,5540.5712890625
+iot_Palmetto,RouteNet-style + prior features,1,2,17233,1937.177001953125
+iot_Palmetto,RouteNet-style + prior features,2,0,8495,1332.490478515625
+iot_Palmetto,RouteNet-style + prior features,2,1,31692,5369.494140625
+iot_Palmetto,RouteNet-style + prior features,2,2,17233,1872.788330078125
+iot_Palmetto,"Ours, prior as readout base only",0,0,8495,1467.26513671875
+iot_Palmetto,"Ours, prior as readout base only",0,1,31692,5636.32666015625
+iot_Palmetto,"Ours, prior as readout base only",0,2,17233,1975.33935546875
+iot_Palmetto,"Ours, prior as readout base only",1,0,8495,1480.308349609375
+iot_Palmetto,"Ours, prior as readout base only",1,1,31692,5759.10546875
+iot_Palmetto,"Ours, prior as readout base only",1,2,17233,1990.676513671875
+iot_Palmetto,"Ours, prior as readout base only",2,0,8495,1417.6788330078125
+iot_Palmetto,"Ours, prior as readout base only",2,1,31692,5632.23046875
+iot_Palmetto,"Ours, prior as readout base only",2,2,17233,1982.59326171875
+iot_Palmetto,QPR-GNN (ours),0,0,8495,1355.072265625
+iot_Palmetto,QPR-GNN (ours),0,1,31692,5454.0791015625
+iot_Palmetto,QPR-GNN (ours),0,2,17233,1928.852783203125
+iot_Palmetto,QPR-GNN (ours),1,0,8495,1350.9046630859375
+iot_Palmetto,QPR-GNN (ours),1,1,31692,5521.404296875
+iot_Palmetto,QPR-GNN (ours),1,2,17233,1906.8839111328125
+iot_Palmetto,QPR-GNN (ours),2,0,8495,1314.963134765625
+iot_Palmetto,QPR-GNN (ours),2,1,31692,5363.4794921875
+iot_Palmetto,QPR-GNN (ours),2,2,17233,1851.091064453125
+iot_Abilene,M/M/1 (per-flow packet size),analytic,0,526,257.8389892578125
+iot_Abilene,M/M/1 (per-flow packet size),analytic,1,1792,761.8280029296875
+iot_Abilene,M/M/1 (per-flow packet size),analytic,2,982,887.2005615234375
+iot_Abilene,"M/M/1/K, aggregate (= our prior alone)",analytic,0,526,173.06776428222656
+iot_Abilene,"M/M/1/K, aggregate (= our prior alone)",analytic,1,1792,540.9080810546875
+iot_Abilene,"M/M/1/K, aggregate (= our prior alone)",analytic,2,982,159.82542419433594
+iot_Abilene,M/G/1 (Pollaczek-Khinchine),analytic,0,526,381.5302734375
+iot_Abilene,M/G/1 (Pollaczek-Khinchine),analytic,1,1792,1016.1915283203125
+iot_Abilene,M/G/1 (Pollaczek-Khinchine),analytic,2,982,427.4161376953125
+iot_Abilene,MLP,0,0,526,159.3803253173828
+iot_Abilene,MLP,0,1,1792,550.7313232421875
+iot_Abilene,MLP,0,2,982,182.0799560546875
+iot_Abilene,MLP,1,0,526,162.50390625
+iot_Abilene,MLP,1,1,1792,563.8304443359375
+iot_Abilene,MLP,1,2,982,179.80776977539062
+iot_Abilene,MLP,2,0,526,177.11376953125
+iot_Abilene,MLP,2,1,1792,600.6245727539062
+iot_Abilene,MLP,2,2,982,196.8002166748047
+iot_Abilene,Gradient-boosted trees,0,0,526,177.11972045898438
+iot_Abilene,Gradient-boosted trees,0,1,1792,603.2115478515625
+iot_Abilene,Gradient-boosted trees,0,2,982,198.32342529296875
+iot_Abilene,Gradient-boosted trees,1,0,526,171.747314453125
+iot_Abilene,Gradient-boosted trees,1,1,1792,598.6759033203125
+iot_Abilene,Gradient-boosted trees,1,2,982,187.8428955078125
+iot_Abilene,Gradient-boosted trees,2,0,526,173.8282928466797
+iot_Abilene,Gradient-boosted trees,2,1,1792,587.076904296875
+iot_Abilene,Gradient-boosted trees,2,2,982,190.96243286132812
+iot_Abilene,RouteNet-style (25k),0,0,526,160.970458984375
+iot_Abilene,RouteNet-style (25k),0,1,1792,538.0711059570312
+iot_Abilene,RouteNet-style (25k),0,2,982,226.2286834716797
+iot_Abilene,RouteNet-style (25k),1,0,526,135.03143310546875
+iot_Abilene,RouteNet-style (25k),1,1,1792,457.74462890625
+iot_Abilene,RouteNet-style (25k),1,2,982,202.30026245117188
+iot_Abilene,RouteNet-style (25k),2,0,526,138.6720733642578
+iot_Abilene,RouteNet-style (25k),2,1,1792,485.1241455078125
+iot_Abilene,RouteNet-style (25k),2,2,982,175.76318359375
+iot_Abilene,RouteNet-style (87k),0,0,526,187.99444580078125
+iot_Abilene,RouteNet-style (87k),0,1,1792,574.0574340820312
+iot_Abilene,RouteNet-style (87k),0,2,982,179.4025115966797
+iot_Abilene,RouteNet-style (87k),1,0,526,144.94847106933594
+iot_Abilene,RouteNet-style (87k),1,1,1792,493.866943359375
+iot_Abilene,RouteNet-style (87k),1,2,982,198.298828125
+iot_Abilene,RouteNet-style (87k),2,0,526,129.76690673828125
+iot_Abilene,RouteNet-style (87k),2,1,1792,493.54638671875
+iot_Abilene,RouteNet-style (87k),2,2,982,161.12136840820312
+iot_Abilene,RouteNet-Fermi,0,0,526,110.16847229003906
+iot_Abilene,RouteNet-Fermi,0,1,1792,412.47088623046875
+iot_Abilene,RouteNet-Fermi,0,2,982,148.5765380859375
+iot_Abilene,RouteNet-Fermi,1,0,526,109.65951538085938
+iot_Abilene,RouteNet-Fermi,1,1,1792,406.893798828125
+iot_Abilene,RouteNet-Fermi,1,2,982,148.888916015625
+iot_Abilene,RouteNet-Fermi,2,0,526,116.22247314453125
+iot_Abilene,RouteNet-Fermi,2,1,1792,421.1426696777344
+iot_Abilene,RouteNet-Fermi,2,2,982,149.13140869140625
+iot_Abilene,MSMP + attention,0,0,526,127.9326171875
+iot_Abilene,MSMP + attention,0,1,1792,420.80767822265625
+iot_Abilene,MSMP + attention,0,2,982,146.97314453125
+iot_Abilene,MSMP + attention,1,0,526,129.90541076660156
+iot_Abilene,MSMP + attention,1,1,1792,425.804443359375
+iot_Abilene,MSMP + attention,1,2,982,153.40936279296875
+iot_Abilene,MSMP + attention,2,0,526,127.02201843261719
+iot_Abilene,MSMP + attention,2,1,1792,429.75518798828125
+iot_Abilene,MSMP + attention,2,2,982,149.48016357421875
+iot_Abilene,QT-RouteNet,0,0,526,233.17803955078125
+iot_Abilene,QT-RouteNet,0,1,1792,661.6468505859375
+iot_Abilene,QT-RouteNet,0,2,982,693.5687255859375
+iot_Abilene,QT-RouteNet,1,0,526,229.23483276367188
+iot_Abilene,QT-RouteNet,1,1,1792,705.3990478515625
+iot_Abilene,QT-RouteNet,1,2,982,693.1387939453125
+iot_Abilene,QT-RouteNet,2,0,526,241.99755859375
+iot_Abilene,QT-RouteNet,2,1,1792,727.5838623046875
+iot_Abilene,QT-RouteNet,2,2,982,682.0391845703125
+iot_Abilene,QT-RouteNet + transmission term,0,0,526,141.57949829101562
+iot_Abilene,QT-RouteNet + transmission term,0,1,1792,470.1856689453125
+iot_Abilene,QT-RouteNet + transmission term,0,2,982,139.75527954101562
+iot_Abilene,QT-RouteNet + transmission term,1,0,526,137.6736602783203
+iot_Abilene,QT-RouteNet + transmission term,1,1,1792,455.45977783203125
+iot_Abilene,QT-RouteNet + transmission term,1,2,982,139.62176513671875
+iot_Abilene,QT-RouteNet + transmission term,2,0,526,131.28387451171875
+iot_Abilene,QT-RouteNet + transmission term,2,1,1792,467.22674560546875
+iot_Abilene,QT-RouteNet + transmission term,2,2,982,136.72889709472656
+iot_Abilene,GCN,0,0,526,162.58250427246094
+iot_Abilene,GCN,0,1,1792,564.9981689453125
+iot_Abilene,GCN,0,2,982,192.31578063964844
+iot_Abilene,GCN,1,0,526,160.42266845703125
+iot_Abilene,GCN,1,1,1792,548.162109375
+iot_Abilene,GCN,1,2,982,187.67205810546875
+iot_Abilene,GCN,2,0,526,164.05384826660156
+iot_Abilene,GCN,2,1,1792,548.18505859375
+iot_Abilene,GCN,2,2,982,188.9045867919922
+iot_Abilene,GAT,0,0,526,161.051513671875
+iot_Abilene,GAT,0,1,1792,560.4613647460938
+iot_Abilene,GAT,0,2,982,207.8079833984375
+iot_Abilene,GAT,1,0,526,151.0675811767578
+iot_Abilene,GAT,1,1,1792,511.612548828125
+iot_Abilene,GAT,1,2,982,176.7393798828125
+iot_Abilene,GAT,2,0,526,162.11805725097656
+iot_Abilene,GAT,2,1,1792,551.1664428710938
+iot_Abilene,GAT,2,2,982,210.1276397705078
+iot_Abilene,Graph transformer (GPS-style),0,0,526,177.83189392089844
+iot_Abilene,Graph transformer (GPS-style),0,1,1792,572.1896362304688
+iot_Abilene,Graph transformer (GPS-style),0,2,982,242.88580322265625
+iot_Abilene,Graph transformer (GPS-style),1,0,526,191.676513671875
+iot_Abilene,Graph transformer (GPS-style),1,1,1792,568.684814453125
+iot_Abilene,Graph transformer (GPS-style),1,2,982,201.8117218017578
+iot_Abilene,Graph transformer (GPS-style),2,0,526,183.18099975585938
+iot_Abilene,Graph transformer (GPS-style),2,1,1792,563.27734375
+iot_Abilene,Graph transformer (GPS-style),2,2,982,203.1037139892578
+iot_Abilene,GBDT + prior,0,0,526,131.03944396972656
+iot_Abilene,GBDT + prior,0,1,1792,447.40606689453125
+iot_Abilene,GBDT + prior,0,2,982,156.58334350585938
+iot_Abilene,GBDT + prior,1,0,526,133.73257446289062
+iot_Abilene,GBDT + prior,1,1,1792,452.1839599609375
+iot_Abilene,GBDT + prior,1,2,982,154.21585083007812
+iot_Abilene,GBDT + prior,2,0,526,140.38743591308594
+iot_Abilene,GBDT + prior,2,1,1792,452.6816101074219
+iot_Abilene,GBDT + prior,2,2,982,154.6671600341797
+iot_Abilene,RouteNet-style + prior features,0,0,526,106.24674987792969
+iot_Abilene,RouteNet-style + prior features,0,1,1792,399.69268798828125
+iot_Abilene,RouteNet-style + prior features,0,2,982,142.7911376953125
+iot_Abilene,RouteNet-style + prior features,1,0,526,105.88916015625
+iot_Abilene,RouteNet-style + prior features,1,1,1792,400.85687255859375
+iot_Abilene,RouteNet-style + prior features,1,2,982,138.20611572265625
+iot_Abilene,RouteNet-style + prior features,2,0,526,104.97346496582031
+iot_Abilene,RouteNet-style + prior features,2,1,1792,396.23248291015625
+iot_Abilene,RouteNet-style + prior features,2,2,982,138.74600219726562
+iot_Abilene,"Ours, prior as readout base only",0,0,526,119.43641662597656
+iot_Abilene,"Ours, prior as readout base only",0,1,1792,429.06817626953125
+iot_Abilene,"Ours, prior as readout base only",0,2,982,152.88668823242188
+iot_Abilene,"Ours, prior as readout base only",1,0,526,140.15234375
+iot_Abilene,"Ours, prior as readout base only",1,1,1792,462.23309326171875
+iot_Abilene,"Ours, prior as readout base only",1,2,982,150.80630493164062
+iot_Abilene,"Ours, prior as readout base only",2,0,526,115.072265625
+iot_Abilene,"Ours, prior as readout base only",2,1,1792,416.85479736328125
+iot_Abilene,"Ours, prior as readout base only",2,2,982,145.88601684570312
+iot_Abilene,QPR-GNN (ours),0,0,526,100.03931427001953
+iot_Abilene,QPR-GNN (ours),0,1,1792,391.55059814453125
+iot_Abilene,QPR-GNN (ours),0,2,982,144.18081665039062
+iot_Abilene,QPR-GNN (ours),1,0,526,104.75442504882812
+iot_Abilene,QPR-GNN (ours),1,1,1792,389.3037109375
+iot_Abilene,QPR-GNN (ours),1,2,982,141.88571166992188
+iot_Abilene,QPR-GNN (ours),2,0,526,105.4184799194336
+iot_Abilene,QPR-GNN (ours),2,1,1792,399.14996337890625
+iot_Abilene,QPR-GNN (ours),2,2,982,138.3110809326172
+iot_Integra,M/M/1 (per-flow packet size),analytic,0,3145,2084.94921875
+iot_Integra,M/M/1 (per-flow packet size),analytic,1,11562,6387.70361328125
+iot_Integra,M/M/1 (per-flow packet size),analytic,2,6353,6793.9873046875
+iot_Integra,"M/M/1/K, aggregate (= our prior alone)",analytic,0,3145,1323.332763671875
+iot_Integra,"M/M/1/K, aggregate (= our prior alone)",analytic,1,11562,3824.29833984375
+iot_Integra,"M/M/1/K, aggregate (= our prior alone)",analytic,2,6353,960.8094482421875
+iot_Integra,M/G/1 (Pollaczek-Khinchine),analytic,0,3145,2887.259521484375
+iot_Integra,M/G/1 (Pollaczek-Khinchine),analytic,1,11562,7207.9072265625
+iot_Integra,M/G/1 (Pollaczek-Khinchine),analytic,2,6353,2625.23681640625
+iot_Integra,MLP,0,0,3145,817.9313354492188
+iot_Integra,MLP,0,1,11562,2927.822265625
+iot_Integra,MLP,0,2,6353,914.0952758789062
+iot_Integra,MLP,1,0,3145,792.2760009765625
+iot_Integra,MLP,1,1,11562,2928.402099609375
+iot_Integra,MLP,1,2,6353,878.8270874023438
+iot_Integra,MLP,2,0,3145,814.6320190429688
+iot_Integra,MLP,2,1,11562,2987.255859375
+iot_Integra,MLP,2,2,6353,898.98291015625
+iot_Integra,Gradient-boosted trees,0,0,3145,846.12255859375
+iot_Integra,Gradient-boosted trees,0,1,11562,3096.560302734375
+iot_Integra,Gradient-boosted trees,0,2,6353,892.052001953125
+iot_Integra,Gradient-boosted trees,1,0,3145,825.3079223632812
+iot_Integra,Gradient-boosted trees,1,1,11562,3120.28515625
+iot_Integra,Gradient-boosted trees,1,2,6353,888.3935546875
+iot_Integra,Gradient-boosted trees,2,0,3145,835.5201416015625
+iot_Integra,Gradient-boosted trees,2,1,11562,3101.300537109375
+iot_Integra,Gradient-boosted trees,2,2,6353,896.9677734375
+iot_Integra,RouteNet-style (25k),0,0,3145,1087.9559326171875
+iot_Integra,RouteNet-style (25k),0,1,11562,2896.49169921875
+iot_Integra,RouteNet-style (25k),0,2,6353,1002.45166015625
+iot_Integra,RouteNet-style (25k),1,0,3145,728.7308959960938
+iot_Integra,RouteNet-style (25k),1,1,11562,2377.19775390625
+iot_Integra,RouteNet-style (25k),1,2,6353,1058.282470703125
+iot_Integra,RouteNet-style (25k),2,0,3145,771.880859375
+iot_Integra,RouteNet-style (25k),2,1,11562,2541.59912109375
+iot_Integra,RouteNet-style (25k),2,2,6353,870.584228515625
+iot_Integra,RouteNet-style (87k),0,0,3145,1162.627197265625
+iot_Integra,RouteNet-style (87k),0,1,11562,2971.73291015625
+iot_Integra,RouteNet-style (87k),0,2,6353,968.0642700195312
+iot_Integra,RouteNet-style (87k),1,0,3145,898.49365234375
+iot_Integra,RouteNet-style (87k),1,1,11562,2550.4765625
+iot_Integra,RouteNet-style (87k),1,2,6353,889.1427612304688
+iot_Integra,RouteNet-style (87k),2,0,3145,850.1151733398438
+iot_Integra,RouteNet-style (87k),2,1,11562,2603.416748046875
+iot_Integra,RouteNet-style (87k),2,2,6353,862.6437377929688
+iot_Integra,RouteNet-Fermi,0,0,3145,508.0733642578125
+iot_Integra,RouteNet-Fermi,0,1,11562,2145.391845703125
+iot_Integra,RouteNet-Fermi,0,2,6353,736.6666259765625
+iot_Integra,RouteNet-Fermi,1,0,3145,498.8534240722656
+iot_Integra,RouteNet-Fermi,1,1,11562,2109.55126953125
+iot_Integra,RouteNet-Fermi,1,2,6353,728.901611328125
+iot_Integra,RouteNet-Fermi,2,0,3145,510.60369873046875
+iot_Integra,RouteNet-Fermi,2,1,11562,2163.75830078125
+iot_Integra,RouteNet-Fermi,2,2,6353,730.664794921875
+iot_Integra,MSMP + attention,0,0,3145,566.5909423828125
+iot_Integra,MSMP + attention,0,1,11562,2184.279052734375
+iot_Integra,MSMP + attention,0,2,6353,722.734375
+iot_Integra,MSMP + attention,1,0,3145,553.4247436523438
+iot_Integra,MSMP + attention,1,1,11562,2191.518798828125
+iot_Integra,MSMP + attention,1,2,6353,726.7655639648438
+iot_Integra,MSMP + attention,2,0,3145,567.8911743164062
+iot_Integra,MSMP + attention,2,1,11562,2231.943359375
+iot_Integra,MSMP + attention,2,2,6353,725.9808349609375
+iot_Integra,QT-RouteNet,0,0,3145,1179.947265625
+iot_Integra,QT-RouteNet,0,1,11562,3024.0927734375
+iot_Integra,QT-RouteNet,0,2,6353,4169.3173828125
+iot_Integra,QT-RouteNet,1,0,3145,1170.7200927734375
+iot_Integra,QT-RouteNet,1,1,11562,3115.6640625
+iot_Integra,QT-RouteNet,1,2,6353,4141.318359375
+iot_Integra,QT-RouteNet,2,0,3145,1131.8109130859375
+iot_Integra,QT-RouteNet,2,1,11562,3355.06298828125
+iot_Integra,QT-RouteNet,2,2,6353,4154.86962890625
+iot_Integra,QT-RouteNet + transmission term,0,0,3145,794.415771484375
+iot_Integra,QT-RouteNet + transmission term,0,1,11562,2571.513916015625
+iot_Integra,QT-RouteNet + transmission term,0,2,6353,784.3590087890625
+iot_Integra,QT-RouteNet + transmission term,1,0,3145,806.4274291992188
+iot_Integra,QT-RouteNet + transmission term,1,1,11562,2566.143798828125
+iot_Integra,QT-RouteNet + transmission term,1,2,6353,811.7809448242188
+iot_Integra,QT-RouteNet + transmission term,2,0,3145,794.2000122070312
+iot_Integra,QT-RouteNet + transmission term,2,1,11562,2629.78515625
+iot_Integra,QT-RouteNet + transmission term,2,2,6353,758.0869750976562
+iot_Integra,GCN,0,0,3145,787.1524658203125
+iot_Integra,GCN,0,1,11562,2911.9814453125
+iot_Integra,GCN,0,2,6353,905.804931640625
+iot_Integra,GCN,1,0,3145,751.5156860351562
+iot_Integra,GCN,1,1,11562,2806.964599609375
+iot_Integra,GCN,1,2,6353,846.7645874023438
+iot_Integra,GCN,2,0,3145,792.0553588867188
+iot_Integra,GCN,2,1,11562,2937.66064453125
+iot_Integra,GCN,2,2,6353,889.9759521484375
+iot_Integra,GAT,0,0,3145,772.9966430664062
+iot_Integra,GAT,0,1,11562,2864.541015625
+iot_Integra,GAT,0,2,6353,901.6182861328125
+iot_Integra,GAT,1,0,3145,762.6669921875
+iot_Integra,GAT,1,1,11562,2805.53466796875
+iot_Integra,GAT,1,2,6353,852.3734130859375
+iot_Integra,GAT,2,0,3145,795.2376708984375
+iot_Integra,GAT,2,1,11562,2926.02880859375
+iot_Integra,GAT,2,2,6353,910.97265625
+iot_Integra,Graph transformer (GPS-style),0,0,3145,776.79052734375
+iot_Integra,Graph transformer (GPS-style),0,1,11562,2863.74658203125
+iot_Integra,Graph transformer (GPS-style),0,2,6353,870.71875
+iot_Integra,Graph transformer (GPS-style),1,0,3145,793.711669921875
+iot_Integra,Graph transformer (GPS-style),1,1,11562,2872.120361328125
+iot_Integra,Graph transformer (GPS-style),1,2,6353,852.25390625
+iot_Integra,Graph transformer (GPS-style),2,0,3145,773.2283935546875
+iot_Integra,Graph transformer (GPS-style),2,1,11562,2786.690185546875
+iot_Integra,Graph transformer (GPS-style),2,2,6353,835.684326171875
+iot_Integra,GBDT + prior,0,0,3145,642.9971923828125
+iot_Integra,GBDT + prior,0,1,11562,2481.685791015625
+iot_Integra,GBDT + prior,0,2,6353,821.8583984375
+iot_Integra,GBDT + prior,1,0,3145,678.4573974609375
+iot_Integra,GBDT + prior,1,1,11562,2464.5
+iot_Integra,GBDT + prior,1,2,6353,817.2071533203125
+iot_Integra,GBDT + prior,2,0,3145,683.0211181640625
+iot_Integra,GBDT + prior,2,1,11562,2484.09716796875
+iot_Integra,GBDT + prior,2,2,6353,816.9241943359375
+iot_Integra,RouteNet-style + prior features,0,0,3145,551.573486328125
+iot_Integra,RouteNet-style + prior features,0,1,11562,2186.2919921875
+iot_Integra,RouteNet-style + prior features,0,2,6353,708.5831909179688
+iot_Integra,RouteNet-style + prior features,1,0,3145,559.5722045898438
+iot_Integra,RouteNet-style + prior features,1,1,11562,2191.04296875
+iot_Integra,RouteNet-style + prior features,1,2,6353,713.718505859375
+iot_Integra,RouteNet-style + prior features,2,0,3145,567.2728271484375
+iot_Integra,RouteNet-style + prior features,2,1,11562,2220.77880859375
+iot_Integra,RouteNet-style + prior features,2,2,6353,728.499755859375
+iot_Integra,"Ours, prior as readout base only",0,0,3145,569.4655151367188
+iot_Integra,"Ours, prior as readout base only",0,1,11562,2265.1708984375
+iot_Integra,"Ours, prior as readout base only",0,2,6353,763.6632080078125
+iot_Integra,"Ours, prior as readout base only",1,0,3145,922.6546020507812
+iot_Integra,"Ours, prior as readout base only",1,1,11562,2705.2822265625
+iot_Integra,"Ours, prior as readout base only",1,2,6353,855.0145263671875
+iot_Integra,"Ours, prior as readout base only",2,0,3145,576.110107421875
+iot_Integra,"Ours, prior as readout base only",2,1,11562,2284.237548828125
+iot_Integra,"Ours, prior as readout base only",2,2,6353,747.7135009765625
+iot_Integra,QPR-GNN (ours),0,0,3145,563.2907104492188
+iot_Integra,QPR-GNN (ours),0,1,11562,2197.09814453125
+iot_Integra,QPR-GNN (ours),0,2,6353,728.9833984375
+iot_Integra,QPR-GNN (ours),1,0,3145,532.1212768554688
+iot_Integra,QPR-GNN (ours),1,1,11562,2135.66943359375
+iot_Integra,QPR-GNN (ours),1,2,6353,724.0401611328125
+iot_Integra,QPR-GNN (ours),2,0,3145,524.7188720703125
+iot_Integra,QPR-GNN (ours),2,1,11562,2159.46337890625
+iot_Integra,QPR-GNN (ours),2,2,6353,720.33837890625
+iot_Intranetwork,M/M/1 (per-flow packet size),analytic,0,6574,4463.60693359375
+iot_Intranetwork,M/M/1 (per-flow packet size),analytic,1,24639,13503.0546875
+iot_Intranetwork,M/M/1 (per-flow packet size),analytic,2,13247,16672.923828125
+iot_Intranetwork,"M/M/1/K, aggregate (= our prior alone)",analytic,0,6574,3160.669921875
+iot_Intranetwork,"M/M/1/K, aggregate (= our prior alone)",analytic,1,24639,9579.2978515625
+iot_Intranetwork,"M/M/1/K, aggregate (= our prior alone)",analytic,2,13247,2498.400634765625
+iot_Intranetwork,M/G/1 (Pollaczek-Khinchine),analytic,0,6574,5413.68603515625
+iot_Intranetwork,M/G/1 (Pollaczek-Khinchine),analytic,1,24639,15494.794921875
+iot_Intranetwork,M/G/1 (Pollaczek-Khinchine),analytic,2,13247,5511.689453125
+iot_Intranetwork,MLP,0,0,6574,2034.4168701171875
+iot_Intranetwork,MLP,0,1,24639,7181.06494140625
+iot_Intranetwork,MLP,0,2,13247,2161.1552734375
+iot_Intranetwork,MLP,1,0,6574,1991.732421875
+iot_Intranetwork,MLP,1,1,24639,7172.22021484375
+iot_Intranetwork,MLP,1,2,13247,2110.48486328125
+iot_Intranetwork,MLP,2,0,6574,1993.477783203125
+iot_Intranetwork,MLP,2,1,24639,7252.52783203125
+iot_Intranetwork,MLP,2,2,13247,2152.974853515625
+iot_Intranetwork,Gradient-boosted trees,0,0,6574,1957.8800048828125
+iot_Intranetwork,Gradient-boosted trees,0,1,24639,7876.767578125
+iot_Intranetwork,Gradient-boosted trees,0,2,13247,2318.19970703125
+iot_Intranetwork,Gradient-boosted trees,1,0,6574,1948.7625732421875
+iot_Intranetwork,Gradient-boosted trees,1,1,24639,7792.70068359375
+iot_Intranetwork,Gradient-boosted trees,1,2,13247,2250.2109375
+iot_Intranetwork,Gradient-boosted trees,2,0,6574,1934.635498046875
+iot_Intranetwork,Gradient-boosted trees,2,1,24639,7803.8818359375
+iot_Intranetwork,Gradient-boosted trees,2,2,13247,2279.34228515625
+iot_Intranetwork,RouteNet-style (25k),0,0,6574,1951.2552490234375
+iot_Intranetwork,RouteNet-style (25k),0,1,24639,5934.20263671875
+iot_Intranetwork,RouteNet-style (25k),0,2,13247,2013.9305419921875
+iot_Intranetwork,RouteNet-style (25k),1,0,6574,1447.6688232421875
+iot_Intranetwork,RouteNet-style (25k),1,1,24639,5045.13134765625
+iot_Intranetwork,RouteNet-style (25k),1,2,13247,2056.739013671875
+iot_Intranetwork,RouteNet-style (25k),2,0,6574,1535.224609375
+iot_Intranetwork,RouteNet-style (25k),2,1,24639,5151.1708984375
+iot_Intranetwork,RouteNet-style (25k),2,2,13247,1820.2408447265625
+iot_Intranetwork,RouteNet-style (87k),0,0,6574,1998.099853515625
+iot_Intranetwork,RouteNet-style (87k),0,1,24639,6153.2353515625
+iot_Intranetwork,RouteNet-style (87k),0,2,13247,1983.7420654296875
+iot_Intranetwork,RouteNet-style (87k),1,0,6574,1649.30810546875
+iot_Intranetwork,RouteNet-style (87k),1,1,24639,5137.6962890625
+iot_Intranetwork,RouteNet-style (87k),1,2,13247,1843.504638671875
+iot_Intranetwork,RouteNet-style (87k),2,0,6574,1484.89306640625
+iot_Intranetwork,RouteNet-style (87k),2,1,24639,5254.6640625
+iot_Intranetwork,RouteNet-style (87k),2,2,13247,1806.7926025390625
+iot_Intranetwork,RouteNet-Fermi,0,0,6574,1297.8900146484375
+iot_Intranetwork,RouteNet-Fermi,0,1,24639,5057.27099609375
+iot_Intranetwork,RouteNet-Fermi,0,2,13247,2029.38427734375
+iot_Intranetwork,RouteNet-Fermi,1,0,6574,1269.775146484375
+iot_Intranetwork,RouteNet-Fermi,1,1,24639,4956.8759765625
+iot_Intranetwork,RouteNet-Fermi,1,2,13247,2012.6588134765625
+iot_Intranetwork,RouteNet-Fermi,2,0,6574,1319.1328125
+iot_Intranetwork,RouteNet-Fermi,2,1,24639,5151.68798828125
+iot_Intranetwork,RouteNet-Fermi,2,2,13247,2021.529052734375
+iot_Intranetwork,MSMP + attention,0,0,6574,1239.316650390625
+iot_Intranetwork,MSMP + attention,0,1,24639,4835.87109375
+iot_Intranetwork,MSMP + attention,0,2,13247,1971.6695556640625
+iot_Intranetwork,MSMP + attention,1,0,6574,1261.1968994140625
+iot_Intranetwork,MSMP + attention,1,1,24639,4867.208984375
+iot_Intranetwork,MSMP + attention,1,2,13247,1982.1754150390625
+iot_Intranetwork,MSMP + attention,2,0,6574,1338.796875
+iot_Intranetwork,MSMP + attention,2,1,24639,5109.30859375
+iot_Intranetwork,MSMP + attention,2,2,13247,2031.964111328125
+iot_Intranetwork,QT-RouteNet,0,0,6574,2061.411376953125
+iot_Intranetwork,QT-RouteNet,0,1,24639,5560.1455078125
+iot_Intranetwork,QT-RouteNet,0,2,13247,7299.0390625
+iot_Intranetwork,QT-RouteNet,1,0,6574,1928.858642578125
+iot_Intranetwork,QT-RouteNet,1,1,24639,5657.2939453125
+iot_Intranetwork,QT-RouteNet,1,2,13247,7405.62890625
+iot_Intranetwork,QT-RouteNet,2,0,6574,2080.093994140625
+iot_Intranetwork,QT-RouteNet,2,1,24639,6045.1904296875
+iot_Intranetwork,QT-RouteNet,2,2,13247,7298.27734375
+iot_Intranetwork,QT-RouteNet + transmission term,0,0,6574,1571.5845947265625
+iot_Intranetwork,QT-RouteNet + transmission term,0,1,24639,5045.0791015625
+iot_Intranetwork,QT-RouteNet + transmission term,0,2,13247,2151.4384765625
+iot_Intranetwork,QT-RouteNet + transmission term,1,0,6574,1590.899658203125
+iot_Intranetwork,QT-RouteNet + transmission term,1,1,24639,5177.6865234375
+iot_Intranetwork,QT-RouteNet + transmission term,1,2,13247,2079.2099609375
+iot_Intranetwork,QT-RouteNet + transmission term,2,0,6574,1599.68017578125
+iot_Intranetwork,QT-RouteNet + transmission term,2,1,24639,5285.5341796875
+iot_Intranetwork,QT-RouteNet + transmission term,2,2,13247,2028.000244140625
+iot_Intranetwork,GCN,0,0,6574,2006.6734619140625
+iot_Intranetwork,GCN,0,1,24639,7250.521484375
+iot_Intranetwork,GCN,0,2,13247,2131.8896484375
+iot_Intranetwork,GCN,1,0,6574,1898.1884765625
+iot_Intranetwork,GCN,1,1,24639,6965.42236328125
+iot_Intranetwork,GCN,1,2,13247,2036.5704345703125
+iot_Intranetwork,GCN,2,0,6574,2012.4312744140625
+iot_Intranetwork,GCN,2,1,24639,7366.1708984375
+iot_Intranetwork,GCN,2,2,13247,2112.2548828125
+iot_Intranetwork,GAT,0,0,6574,1896.9111328125
+iot_Intranetwork,GAT,0,1,24639,6941.57080078125
+iot_Intranetwork,GAT,0,2,13247,2139.38037109375
+iot_Intranetwork,GAT,1,0,6574,1912.4864501953125
+iot_Intranetwork,GAT,1,1,24639,6861.2734375
+iot_Intranetwork,GAT,1,2,13247,2041.526611328125
+iot_Intranetwork,GAT,2,0,6574,1954.349365234375
+iot_Intranetwork,GAT,2,1,24639,7139.62158203125
+iot_Intranetwork,GAT,2,2,13247,2107.728271484375
+iot_Intranetwork,Graph transformer (GPS-style),0,0,6574,1947.8585205078125
+iot_Intranetwork,Graph transformer (GPS-style),0,1,24639,7130.08203125
+iot_Intranetwork,Graph transformer (GPS-style),0,2,13247,2107.68115234375
+iot_Intranetwork,Graph transformer (GPS-style),1,0,6574,1892.804931640625
+iot_Intranetwork,Graph transformer (GPS-style),1,1,24639,6941.14111328125
+iot_Intranetwork,Graph transformer (GPS-style),1,2,13247,2086.278076171875
+iot_Intranetwork,Graph transformer (GPS-style),2,0,6574,1860.1768798828125
+iot_Intranetwork,Graph transformer (GPS-style),2,1,24639,6801.07421875
+iot_Intranetwork,Graph transformer (GPS-style),2,2,13247,2216.04443359375
+iot_Intranetwork,GBDT + prior,0,0,6574,1396.19189453125
+iot_Intranetwork,GBDT + prior,0,1,24639,5458.5869140625
+iot_Intranetwork,GBDT + prior,0,2,13247,1838.816650390625
+iot_Intranetwork,GBDT + prior,1,0,6574,1464.8543701171875
+iot_Intranetwork,GBDT + prior,1,1,24639,5342.24267578125
+iot_Intranetwork,GBDT + prior,1,2,13247,1814.656005859375
+iot_Intranetwork,GBDT + prior,2,0,6574,1507.472412109375
+iot_Intranetwork,GBDT + prior,2,1,24639,5475.951171875
+iot_Intranetwork,GBDT + prior,2,2,13247,1811.89208984375
+iot_Intranetwork,RouteNet-style + prior features,0,0,6574,1112.183349609375
+iot_Intranetwork,RouteNet-style + prior features,0,1,24639,4373.87451171875
+iot_Intranetwork,RouteNet-style + prior features,0,2,13247,1542.9739990234375
+iot_Intranetwork,RouteNet-style + prior features,1,0,6574,1133.397705078125
+iot_Intranetwork,RouteNet-style + prior features,1,1,24639,4409.2177734375
+iot_Intranetwork,RouteNet-style + prior features,1,2,13247,1584.0069580078125
+iot_Intranetwork,RouteNet-style + prior features,2,0,6574,1165.1614990234375
+iot_Intranetwork,RouteNet-style + prior features,2,1,24639,4441.84375
+iot_Intranetwork,RouteNet-style + prior features,2,2,13247,1582.7154541015625
+iot_Intranetwork,"Ours, prior as readout base only",0,0,6574,1184.6591796875
+iot_Intranetwork,"Ours, prior as readout base only",0,1,24639,4803.4609375
+iot_Intranetwork,"Ours, prior as readout base only",0,2,13247,1822.57666015625
+iot_Intranetwork,"Ours, prior as readout base only",1,0,6574,1908.138671875
+iot_Intranetwork,"Ours, prior as readout base only",1,1,24639,5847.93798828125
+iot_Intranetwork,"Ours, prior as readout base only",1,2,13247,2053.6904296875
+iot_Intranetwork,"Ours, prior as readout base only",2,0,6574,1179.89306640625
+iot_Intranetwork,"Ours, prior as readout base only",2,1,24639,4674.65869140625
+iot_Intranetwork,"Ours, prior as readout base only",2,2,13247,1693.55322265625
+iot_Intranetwork,QPR-GNN (ours),0,0,6574,1108.4874267578125
+iot_Intranetwork,QPR-GNN (ours),0,1,24639,4340.998046875
+iot_Intranetwork,QPR-GNN (ours),0,2,13247,1588.458984375
+iot_Intranetwork,QPR-GNN (ours),1,0,6574,1073.11669921875
+iot_Intranetwork,QPR-GNN (ours),1,1,24639,4245.046875
+iot_Intranetwork,QPR-GNN (ours),1,2,13247,1599.869873046875
+iot_Intranetwork,QPR-GNN (ours),2,0,6574,1099.3272705078125
+iot_Intranetwork,QPR-GNN (ours),2,1,24639,4216.73046875
+iot_Intranetwork,QPR-GNN (ours),2,2,13247,1564.45849609375
+iot_Carnet,M/M/1 (per-flow packet size),analytic,0,8476,5309.9287109375
+iot_Carnet,M/M/1 (per-flow packet size),analytic,1,31278,16267.087890625
+iot_Carnet,M/M/1 (per-flow packet size),analytic,2,17006,16753.34375
+iot_Carnet,"M/M/1/K, aggregate (= our prior alone)",analytic,0,8476,2194.092529296875
+iot_Carnet,"M/M/1/K, aggregate (= our prior alone)",analytic,1,31278,7925.697265625
+iot_Carnet,"M/M/1/K, aggregate (= our prior alone)",analytic,2,17006,2003.129150390625
+iot_Carnet,M/G/1 (Pollaczek-Khinchine),analytic,0,8476,6133.806640625
+iot_Carnet,M/G/1 (Pollaczek-Khinchine),analytic,1,31278,18048.7109375
+iot_Carnet,M/G/1 (Pollaczek-Khinchine),analytic,2,17006,5485.19580078125
+iot_Carnet,MLP,0,0,8476,2677.1845703125
+iot_Carnet,MLP,0,1,31278,9887.3916015625
+iot_Carnet,MLP,0,2,17006,2562.650390625
+iot_Carnet,MLP,1,0,8476,2906.43408203125
+iot_Carnet,MLP,1,1,31278,10370.9755859375
+iot_Carnet,MLP,1,2,17006,2575.97412109375
+iot_Carnet,MLP,2,0,8476,3102.800537109375
+iot_Carnet,MLP,2,1,31278,11097.509765625
+iot_Carnet,MLP,2,2,17006,2741.48681640625
+iot_Carnet,Gradient-boosted trees,0,0,8476,3207.5830078125
+iot_Carnet,Gradient-boosted trees,0,1,31278,12348.794921875
+iot_Carnet,Gradient-boosted trees,0,2,17006,2974.53125
+iot_Carnet,Gradient-boosted trees,1,0,8476,3038.81591796875
+iot_Carnet,Gradient-boosted trees,1,1,31278,11933.705078125
+iot_Carnet,Gradient-boosted trees,1,2,17006,2951.923828125
+iot_Carnet,Gradient-boosted trees,2,0,8476,3100.512939453125
+iot_Carnet,Gradient-boosted trees,2,1,31278,12024.3525390625
+iot_Carnet,Gradient-boosted trees,2,2,17006,2974.9111328125
+iot_Carnet,RouteNet-style (25k),0,0,8476,2360.815673828125
+iot_Carnet,RouteNet-style (25k),0,1,31278,7593.50341796875
+iot_Carnet,RouteNet-style (25k),0,2,17006,2439.344482421875
+iot_Carnet,RouteNet-style (25k),1,0,8476,1795.6859130859375
+iot_Carnet,RouteNet-style (25k),1,1,31278,6199.15771484375
+iot_Carnet,RouteNet-style (25k),1,2,17006,2447.602294921875
+iot_Carnet,RouteNet-style (25k),2,0,8476,1754.1795654296875
+iot_Carnet,RouteNet-style (25k),2,1,31278,6417.7275390625
+iot_Carnet,RouteNet-style (25k),2,2,17006,2123.415283203125
+iot_Carnet,RouteNet-style (87k),0,0,8476,2547.80908203125
+iot_Carnet,RouteNet-style (87k),0,1,31278,8220.494140625
+iot_Carnet,RouteNet-style (87k),0,2,17006,2340.77880859375
+iot_Carnet,RouteNet-style (87k),1,0,8476,1962.3486328125
+iot_Carnet,RouteNet-style (87k),1,1,31278,6462.7177734375
+iot_Carnet,RouteNet-style (87k),1,2,17006,2157.723876953125
+iot_Carnet,RouteNet-style (87k),2,0,8476,1941.4130859375
+iot_Carnet,RouteNet-style (87k),2,1,31278,7054.09912109375
+iot_Carnet,RouteNet-style (87k),2,2,17006,2105.0849609375
+iot_Carnet,RouteNet-Fermi,0,0,8476,1526.557373046875
+iot_Carnet,RouteNet-Fermi,0,1,31278,5851.7568359375
+iot_Carnet,RouteNet-Fermi,0,2,17006,2167.324462890625
+iot_Carnet,RouteNet-Fermi,1,0,8476,1493.18896484375
+iot_Carnet,RouteNet-Fermi,1,1,31278,5794.51171875
+iot_Carnet,RouteNet-Fermi,1,2,17006,2174.81494140625
+iot_Carnet,RouteNet-Fermi,2,0,8476,1589.930908203125
+iot_Carnet,RouteNet-Fermi,2,1,31278,6089.396484375
+iot_Carnet,RouteNet-Fermi,2,2,17006,2229.036376953125
+iot_Carnet,MSMP + attention,0,0,8476,1572.045166015625
+iot_Carnet,MSMP + attention,0,1,31278,5760.994140625
+iot_Carnet,MSMP + attention,0,2,17006,2043.780029296875
+iot_Carnet,MSMP + attention,1,0,8476,1626.7681884765625
+iot_Carnet,MSMP + attention,1,1,31278,5892.015625
+iot_Carnet,MSMP + attention,1,2,17006,2120.67919921875
+iot_Carnet,MSMP + attention,2,0,8476,1627.99462890625
+iot_Carnet,MSMP + attention,2,1,31278,5883.8056640625
+iot_Carnet,MSMP + attention,2,2,17006,2102.331787109375
+iot_Carnet,QT-RouteNet,0,0,8476,2772.816650390625
+iot_Carnet,QT-RouteNet,0,1,31278,6866.26171875
+iot_Carnet,QT-RouteNet,0,2,17006,10773.01953125
+iot_Carnet,QT-RouteNet,1,0,8476,2967.54833984375
+iot_Carnet,QT-RouteNet,1,1,31278,7383.9521484375
+iot_Carnet,QT-RouteNet,1,2,17006,10471.875
+iot_Carnet,QT-RouteNet,2,0,8476,2628.891845703125
+iot_Carnet,QT-RouteNet,2,1,31278,7641.36328125
+iot_Carnet,QT-RouteNet,2,2,17006,10751.2490234375
+iot_Carnet,QT-RouteNet + transmission term,0,0,8476,1678.36962890625
+iot_Carnet,QT-RouteNet + transmission term,0,1,31278,5750.7568359375
+iot_Carnet,QT-RouteNet + transmission term,0,2,17006,1645.02978515625
+iot_Carnet,QT-RouteNet + transmission term,1,0,8476,1774.97900390625
+iot_Carnet,QT-RouteNet + transmission term,1,1,31278,5953.1669921875
+iot_Carnet,QT-RouteNet + transmission term,1,2,17006,1697.70458984375
+iot_Carnet,QT-RouteNet + transmission term,2,0,8476,1699.625
+iot_Carnet,QT-RouteNet + transmission term,2,1,31278,5898.95849609375
+iot_Carnet,QT-RouteNet + transmission term,2,2,17006,1634.894775390625
+iot_Carnet,GCN,0,0,8476,2598.1357421875
+iot_Carnet,GCN,0,1,31278,9381.1328125
+iot_Carnet,GCN,0,2,17006,2416.3935546875
+iot_Carnet,GCN,1,0,8476,2486.71728515625
+iot_Carnet,GCN,1,1,31278,9275.1953125
+iot_Carnet,GCN,1,2,17006,2392.576171875
+iot_Carnet,GCN,2,0,8476,2641.611572265625
+iot_Carnet,GCN,2,1,31278,9708.5517578125
+iot_Carnet,GCN,2,2,17006,2489.936279296875
+iot_Carnet,GAT,0,0,8476,2827.392333984375
+iot_Carnet,GAT,0,1,31278,10298.193359375
+iot_Carnet,GAT,0,2,17006,2590.67431640625
+iot_Carnet,GAT,1,0,8476,2561.50927734375
+iot_Carnet,GAT,1,1,31278,9633.962890625
+iot_Carnet,GAT,1,2,17006,2520.81005859375
+iot_Carnet,GAT,2,0,8476,3013.16064453125
+iot_Carnet,GAT,2,1,31278,10796.62109375
+iot_Carnet,GAT,2,2,17006,2612.93017578125
+iot_Carnet,Graph transformer (GPS-style),0,0,8476,2490.7412109375
+iot_Carnet,Graph transformer (GPS-style),0,1,31278,9393.015625
+iot_Carnet,Graph transformer (GPS-style),0,2,17006,2354.27392578125
+iot_Carnet,Graph transformer (GPS-style),1,0,8476,2541.98974609375
+iot_Carnet,Graph transformer (GPS-style),1,1,31278,9234.1484375
+iot_Carnet,Graph transformer (GPS-style),1,2,17006,2352.31640625
+iot_Carnet,Graph transformer (GPS-style),2,0,8476,2499.4072265625
+iot_Carnet,Graph transformer (GPS-style),2,1,31278,8981.40625
+iot_Carnet,Graph transformer (GPS-style),2,2,17006,2420.3974609375
+iot_Carnet,GBDT + prior,0,0,8476,1415.65087890625
+iot_Carnet,GBDT + prior,0,1,31278,5593.724609375
+iot_Carnet,GBDT + prior,0,2,17006,1607.6964111328125
+iot_Carnet,GBDT + prior,1,0,8476,1396.675048828125
+iot_Carnet,GBDT + prior,1,1,31278,5539.34375
+iot_Carnet,GBDT + prior,1,2,17006,1553.460693359375
+iot_Carnet,GBDT + prior,2,0,8476,1403.348388671875
+iot_Carnet,GBDT + prior,2,1,31278,5551.109375
+iot_Carnet,GBDT + prior,2,2,17006,1554.1251220703125
+iot_Carnet,RouteNet-style + prior features,0,0,8476,1271.5958251953125
+iot_Carnet,RouteNet-style + prior features,0,1,31278,4867.185546875
+iot_Carnet,RouteNet-style + prior features,0,2,17006,1655.892822265625
+iot_Carnet,RouteNet-style + prior features,1,0,8476,1250.26318359375
+iot_Carnet,RouteNet-style + prior features,1,1,31278,4822.45703125
+iot_Carnet,RouteNet-style + prior features,1,2,17006,1612.967041015625
+iot_Carnet,RouteNet-style + prior features,2,0,8476,1316.7493896484375
+iot_Carnet,RouteNet-style + prior features,2,1,31278,5022.2890625
+iot_Carnet,RouteNet-style + prior features,2,2,17006,1680.222412109375
+iot_Carnet,"Ours, prior as readout base only",0,0,8476,1293.7088623046875
+iot_Carnet,"Ours, prior as readout base only",0,1,31278,5166.17578125
+iot_Carnet,"Ours, prior as readout base only",0,2,17006,1826.5894775390625
+iot_Carnet,"Ours, prior as readout base only",1,0,8476,1529.9444580078125
+iot_Carnet,"Ours, prior as readout base only",1,1,31278,5759.74072265625
+iot_Carnet,"Ours, prior as readout base only",1,2,17006,1764.50341796875
+iot_Carnet,"Ours, prior as readout base only",2,0,8476,1320.53955078125
+iot_Carnet,"Ours, prior as readout base only",2,1,31278,5059.841796875
+iot_Carnet,"Ours, prior as readout base only",2,2,17006,1744.3447265625
+iot_Carnet,QPR-GNN (ours),0,0,8476,1260.460205078125
+iot_Carnet,QPR-GNN (ours),0,1,31278,4784.705078125
+iot_Carnet,QPR-GNN (ours),0,2,17006,1687.3828125
+iot_Carnet,QPR-GNN (ours),1,0,8476,1211.126953125
+iot_Carnet,QPR-GNN (ours),1,1,31278,4707.35400390625
+iot_Carnet,QPR-GNN (ours),1,2,17006,1666.874755859375
+iot_Carnet,QPR-GNN (ours),2,0,8476,1293.1361083984375
+iot_Carnet,QPR-GNN (ours),2,1,31278,4860.23828125
+iot_Carnet,QPR-GNN (ours),2,2,17006,1720.0909423828125
+iot_HiberniaCanada,M/M/1 (per-flow packet size),analytic,0,721,421.6305847167969
+iot_HiberniaCanada,M/M/1 (per-flow packet size),analytic,1,2548,1161.5146484375
+iot_HiberniaCanada,M/M/1 (per-flow packet size),analytic,2,1411,717.2281494140625
+iot_HiberniaCanada,"M/M/1/K, aggregate (= our prior alone)",analytic,0,721,200.12075805664062
+iot_HiberniaCanada,"M/M/1/K, aggregate (= our prior alone)",analytic,1,2548,693.6209106445312
+iot_HiberniaCanada,"M/M/1/K, aggregate (= our prior alone)",analytic,2,1411,178.71124267578125
+iot_HiberniaCanada,M/G/1 (Pollaczek-Khinchine),analytic,0,721,249.65939331054688
+iot_HiberniaCanada,M/G/1 (Pollaczek-Khinchine),analytic,1,2548,766.6426391601562
+iot_HiberniaCanada,M/G/1 (Pollaczek-Khinchine),analytic,2,1411,275.91217041015625
+iot_HiberniaCanada,MLP,0,0,721,187.78311157226562
+iot_HiberniaCanada,MLP,0,1,2548,638.025390625
+iot_HiberniaCanada,MLP,0,2,1411,190.1136932373047
+iot_HiberniaCanada,MLP,1,0,721,183.6025390625
+iot_HiberniaCanada,MLP,1,1,2548,638.3839111328125
+iot_HiberniaCanada,MLP,1,2,1411,191.83583068847656
+iot_HiberniaCanada,MLP,2,0,721,184.63668823242188
+iot_HiberniaCanada,MLP,2,1,2548,630.46826171875
+iot_HiberniaCanada,MLP,2,2,1411,189.5702362060547
+iot_HiberniaCanada,Gradient-boosted trees,0,0,721,177.56982421875
+iot_HiberniaCanada,Gradient-boosted trees,0,1,2548,624.9231567382812
+iot_HiberniaCanada,Gradient-boosted trees,0,2,1411,188.65020751953125
+iot_HiberniaCanada,Gradient-boosted trees,1,0,721,178.8965606689453
+iot_HiberniaCanada,Gradient-boosted trees,1,1,2548,628.691162109375
+iot_HiberniaCanada,Gradient-boosted trees,1,2,1411,191.8057861328125
+iot_HiberniaCanada,Gradient-boosted trees,2,0,721,178.01519775390625
+iot_HiberniaCanada,Gradient-boosted trees,2,1,2548,633.5068969726562
+iot_HiberniaCanada,Gradient-boosted trees,2,2,1411,193.26817321777344
+iot_HiberniaCanada,RouteNet-style (25k),0,0,721,151.245361328125
+iot_HiberniaCanada,RouteNet-style (25k),0,1,2548,561.8172607421875
+iot_HiberniaCanada,RouteNet-style (25k),0,2,1411,222.8815460205078
+iot_HiberniaCanada,RouteNet-style (25k),1,0,721,152.965087890625
+iot_HiberniaCanada,RouteNet-style (25k),1,1,2548,566.0010986328125
+iot_HiberniaCanada,RouteNet-style (25k),1,2,1411,201.54904174804688
+iot_HiberniaCanada,RouteNet-style (25k),2,0,721,164.13153076171875
+iot_HiberniaCanada,RouteNet-style (25k),2,1,2548,592.7024536132812
+iot_HiberniaCanada,RouteNet-style (25k),2,2,1411,204.97706604003906
+iot_HiberniaCanada,RouteNet-style (87k),0,0,721,150.2793731689453
+iot_HiberniaCanada,RouteNet-style (87k),0,1,2548,559.0834350585938
+iot_HiberniaCanada,RouteNet-style (87k),0,2,1411,214.80087280273438
+iot_HiberniaCanada,RouteNet-style (87k),1,0,721,153.6629180908203
+iot_HiberniaCanada,RouteNet-style (87k),1,1,2548,562.2637329101562
+iot_HiberniaCanada,RouteNet-style (87k),1,2,1411,208.28294372558594
+iot_HiberniaCanada,RouteNet-style (87k),2,0,721,149.71640014648438
+iot_HiberniaCanada,RouteNet-style (87k),2,1,2548,543.384521484375
+iot_HiberniaCanada,RouteNet-style (87k),2,2,1411,205.66015625
+iot_HiberniaCanada,RouteNet-Fermi,0,0,721,133.63323974609375
+iot_HiberniaCanada,RouteNet-Fermi,0,1,2548,508.3652648925781
+iot_HiberniaCanada,RouteNet-Fermi,0,2,1411,188.99090576171875
+iot_HiberniaCanada,RouteNet-Fermi,1,0,721,130.22918701171875
+iot_HiberniaCanada,RouteNet-Fermi,1,1,2548,503.09344482421875
+iot_HiberniaCanada,RouteNet-Fermi,1,2,1411,188.4475860595703
+iot_HiberniaCanada,RouteNet-Fermi,2,0,721,131.79519653320312
+iot_HiberniaCanada,RouteNet-Fermi,2,1,2548,502.3634948730469
+iot_HiberniaCanada,RouteNet-Fermi,2,2,1411,183.35009765625
+iot_HiberniaCanada,MSMP + attention,0,0,721,146.16026306152344
+iot_HiberniaCanada,MSMP + attention,0,1,2548,531.9095458984375
+iot_HiberniaCanada,MSMP + attention,0,2,1411,181.52911376953125
+iot_HiberniaCanada,MSMP + attention,1,0,721,150.1305694580078
+iot_HiberniaCanada,MSMP + attention,1,1,2548,534.42578125
+iot_HiberniaCanada,MSMP + attention,1,2,1411,183.5225067138672
+iot_HiberniaCanada,MSMP + attention,2,0,721,150.84844970703125
+iot_HiberniaCanada,MSMP + attention,2,1,2548,535.4707641601562
+iot_HiberniaCanada,MSMP + attention,2,2,1411,192.32485961914062
+iot_HiberniaCanada,QT-RouteNet,0,0,721,215.336669921875
+iot_HiberniaCanada,QT-RouteNet,0,1,2548,841.8211059570312
+iot_HiberniaCanada,QT-RouteNet,0,2,1411,986.6773681640625
+iot_HiberniaCanada,QT-RouteNet,1,0,721,250.27984619140625
+iot_HiberniaCanada,QT-RouteNet,1,1,2548,763.729736328125
+iot_HiberniaCanada,QT-RouteNet,1,2,1411,951.3485107421875
+iot_HiberniaCanada,QT-RouteNet,2,0,721,249.67031860351562
+iot_HiberniaCanada,QT-RouteNet,2,1,2548,877.9959106445312
+iot_HiberniaCanada,QT-RouteNet,2,2,1411,961.9671630859375
+iot_HiberniaCanada,QT-RouteNet + transmission term,0,0,721,167.018798828125
+iot_HiberniaCanada,QT-RouteNet + transmission term,0,1,2548,575.5983276367188
+iot_HiberniaCanada,QT-RouteNet + transmission term,0,2,1411,184.4751739501953
+iot_HiberniaCanada,QT-RouteNet + transmission term,1,0,721,168.669189453125
+iot_HiberniaCanada,QT-RouteNet + transmission term,1,1,2548,583.1044921875
+iot_HiberniaCanada,QT-RouteNet + transmission term,1,2,1411,176.8511962890625
+iot_HiberniaCanada,QT-RouteNet + transmission term,2,0,721,174.05752563476562
+iot_HiberniaCanada,QT-RouteNet + transmission term,2,1,2548,581.8909912109375
+iot_HiberniaCanada,QT-RouteNet + transmission term,2,2,1411,186.78146362304688
+iot_HiberniaCanada,GCN,0,0,721,180.39190673828125
+iot_HiberniaCanada,GCN,0,1,2548,615.6791381835938
+iot_HiberniaCanada,GCN,0,2,1411,191.24057006835938
+iot_HiberniaCanada,GCN,1,0,721,182.42160034179688
+iot_HiberniaCanada,GCN,1,1,2548,619.5006103515625
+iot_HiberniaCanada,GCN,1,2,1411,189.24380493164062
+iot_HiberniaCanada,GCN,2,0,721,171.82046508789062
+iot_HiberniaCanada,GCN,2,1,2548,594.094970703125
+iot_HiberniaCanada,GCN,2,2,1411,191.62356567382812
+iot_HiberniaCanada,GAT,0,0,721,178.71453857421875
+iot_HiberniaCanada,GAT,0,1,2548,621.2772216796875
+iot_HiberniaCanada,GAT,0,2,1411,191.2866973876953
+iot_HiberniaCanada,GAT,1,0,721,182.92950439453125
+iot_HiberniaCanada,GAT,1,1,2548,623.26806640625
+iot_HiberniaCanada,GAT,1,2,1411,198.43218994140625
+iot_HiberniaCanada,GAT,2,0,721,171.39605712890625
+iot_HiberniaCanada,GAT,2,1,2548,598.7088623046875
+iot_HiberniaCanada,GAT,2,2,1411,187.6655731201172
+iot_HiberniaCanada,Graph transformer (GPS-style),0,0,721,192.81204223632812
+iot_HiberniaCanada,Graph transformer (GPS-style),0,1,2548,633.935302734375
+iot_HiberniaCanada,Graph transformer (GPS-style),0,2,1411,193.746826171875
+iot_HiberniaCanada,Graph transformer (GPS-style),1,0,721,193.60983276367188
+iot_HiberniaCanada,Graph transformer (GPS-style),1,1,2548,625.5450439453125
+iot_HiberniaCanada,Graph transformer (GPS-style),1,2,1411,192.44415283203125
+iot_HiberniaCanada,Graph transformer (GPS-style),2,0,721,184.35545349121094
+iot_HiberniaCanada,Graph transformer (GPS-style),2,1,2548,623.245849609375
+iot_HiberniaCanada,Graph transformer (GPS-style),2,2,1411,194.18405151367188
+iot_HiberniaCanada,GBDT + prior,0,0,721,131.7626495361328
+iot_HiberniaCanada,GBDT + prior,0,1,2548,538.482177734375
+iot_HiberniaCanada,GBDT + prior,0,2,1411,174.04904174804688
+iot_HiberniaCanada,GBDT + prior,1,0,721,130.22103881835938
+iot_HiberniaCanada,GBDT + prior,1,1,2548,535.2642822265625
+iot_HiberniaCanada,GBDT + prior,1,2,1411,176.58865356445312
+iot_HiberniaCanada,GBDT + prior,2,0,721,130.60186767578125
+iot_HiberniaCanada,GBDT + prior,2,1,2548,536.8663330078125
+iot_HiberniaCanada,GBDT + prior,2,2,1411,176.3277130126953
+iot_HiberniaCanada,RouteNet-style + prior features,0,0,721,132.025390625
+iot_HiberniaCanada,RouteNet-style + prior features,0,1,2548,507.7658996582031
+iot_HiberniaCanada,RouteNet-style + prior features,0,2,1411,170.19296264648438
+iot_HiberniaCanada,RouteNet-style + prior features,1,0,721,130.6744384765625
+iot_HiberniaCanada,RouteNet-style + prior features,1,1,2548,496.4656982421875
+iot_HiberniaCanada,RouteNet-style + prior features,1,2,1411,164.70382690429688
+iot_HiberniaCanada,RouteNet-style + prior features,2,0,721,124.78384399414062
+iot_HiberniaCanada,RouteNet-style + prior features,2,1,2548,491.8685302734375
+iot_HiberniaCanada,RouteNet-style + prior features,2,2,1411,162.3340606689453
+iot_HiberniaCanada,"Ours, prior as readout base only",0,0,721,143.65719604492188
+iot_HiberniaCanada,"Ours, prior as readout base only",0,1,2548,546.17626953125
+iot_HiberniaCanada,"Ours, prior as readout base only",0,2,1411,177.49368286132812
+iot_HiberniaCanada,"Ours, prior as readout base only",1,0,721,145.44033813476562
+iot_HiberniaCanada,"Ours, prior as readout base only",1,1,2548,532.897216796875
+iot_HiberniaCanada,"Ours, prior as readout base only",1,2,1411,178.51791381835938
+iot_HiberniaCanada,"Ours, prior as readout base only",2,0,721,143.41746520996094
+iot_HiberniaCanada,"Ours, prior as readout base only",2,1,2548,540.1146240234375
+iot_HiberniaCanada,"Ours, prior as readout base only",2,2,1411,175.6909637451172
+iot_HiberniaCanada,QPR-GNN (ours),0,0,721,129.728515625
+iot_HiberniaCanada,QPR-GNN (ours),0,1,2548,498.0433349609375
+iot_HiberniaCanada,QPR-GNN (ours),0,2,1411,170.8802032470703
+iot_HiberniaCanada,QPR-GNN (ours),1,0,721,126.91751861572266
+iot_HiberniaCanada,QPR-GNN (ours),1,1,2548,495.65081787109375
+iot_HiberniaCanada,QPR-GNN (ours),1,2,1411,177.9415740966797
+iot_HiberniaCanada,QPR-GNN (ours),2,0,721,124.70109558105469
+iot_HiberniaCanada,QPR-GNN (ours),2,1,2548,490.8742980957031
+iot_HiberniaCanada,QPR-GNN (ours),2,2,1411,167.40145874023438
+iot_Ibm,M/M/1 (per-flow packet size),analytic,0,1420,877.542724609375
+iot_Ibm,M/M/1 (per-flow packet size),analytic,1,4989,2641.169921875
+iot_Ibm,M/M/1 (per-flow packet size),analytic,2,2771,3569.7041015625
+iot_Ibm,"M/M/1/K, aggregate (= our prior alone)",analytic,0,1420,565.3455810546875
+iot_Ibm,"M/M/1/K, aggregate (= our prior alone)",analytic,1,4989,1678.3284912109375
+iot_Ibm,"M/M/1/K, aggregate (= our prior alone)",analytic,2,2771,460.9110107421875
+iot_Ibm,M/G/1 (Pollaczek-Khinchine),analytic,0,1420,1685.2664794921875
+iot_Ibm,M/G/1 (Pollaczek-Khinchine),analytic,1,4989,4221.7880859375
+iot_Ibm,M/G/1 (Pollaczek-Khinchine),analytic,2,2771,1798.75
+iot_Ibm,MLP,0,0,1420,715.845703125
+iot_Ibm,MLP,0,1,4989,2479.662109375
+iot_Ibm,MLP,0,2,2771,2919.603515625
+iot_Ibm,MLP,1,0,1420,600.386474609375
+iot_Ibm,MLP,1,1,4989,2251.043212890625
+iot_Ibm,MLP,1,2,2771,1894.551513671875
+iot_Ibm,MLP,2,0,1420,626.1953125
+iot_Ibm,MLP,2,1,4989,2283.343994140625
+iot_Ibm,MLP,2,2,2771,2599.962158203125
+iot_Ibm,Gradient-boosted trees,0,0,1420,384.0206298828125
+iot_Ibm,Gradient-boosted trees,0,1,4989,1625.9581298828125
+iot_Ibm,Gradient-boosted trees,0,2,2771,509.659423828125
+iot_Ibm,Gradient-boosted trees,1,0,1420,384.7754211425781
+iot_Ibm,Gradient-boosted trees,1,1,4989,1619.942138671875
+iot_Ibm,Gradient-boosted trees,1,2,2771,506.0141906738281
+iot_Ibm,Gradient-boosted trees,2,0,1420,392.1820068359375
+iot_Ibm,Gradient-boosted trees,2,1,4989,1639.29541015625
+iot_Ibm,Gradient-boosted trees,2,2,2771,512.5862426757812
+iot_Ibm,RouteNet-style (25k),0,0,1420,517.2457885742188
+iot_Ibm,RouteNet-style (25k),0,1,4989,1630.618408203125
+iot_Ibm,RouteNet-style (25k),0,2,2771,582.269287109375
+iot_Ibm,RouteNet-style (25k),1,0,1420,433.8810119628906
+iot_Ibm,RouteNet-style (25k),1,1,4989,1409.9945068359375
+iot_Ibm,RouteNet-style (25k),1,2,2771,478.3177490234375
+iot_Ibm,RouteNet-style (25k),2,0,1420,569.2407836914062
+iot_Ibm,RouteNet-style (25k),2,1,4989,1778.311279296875
+iot_Ibm,RouteNet-style (25k),2,2,2771,566.5191650390625
+iot_Ibm,RouteNet-style (87k),0,0,1420,515.0039672851562
+iot_Ibm,RouteNet-style (87k),0,1,4989,1730.593505859375
+iot_Ibm,RouteNet-style (87k),0,2,2771,549.88671875
+iot_Ibm,RouteNet-style (87k),1,0,1420,495.27752685546875
+iot_Ibm,RouteNet-style (87k),1,1,4989,1737.15234375
+iot_Ibm,RouteNet-style (87k),1,2,2771,551.2987670898438
+iot_Ibm,RouteNet-style (87k),2,0,1420,475.4670715332031
+iot_Ibm,RouteNet-style (87k),2,1,4989,1598.968017578125
+iot_Ibm,RouteNet-style (87k),2,2,2771,550.9658203125
+iot_Ibm,RouteNet-Fermi,0,0,1420,269.408203125
+iot_Ibm,RouteNet-Fermi,0,1,4989,1146.411376953125
+iot_Ibm,RouteNet-Fermi,0,2,2771,429.4334716796875
+iot_Ibm,RouteNet-Fermi,1,0,1420,278.1705627441406
+iot_Ibm,RouteNet-Fermi,1,1,4989,1175.936279296875
+iot_Ibm,RouteNet-Fermi,1,2,2771,430.8320007324219
+iot_Ibm,RouteNet-Fermi,2,0,1420,274.04400634765625
+iot_Ibm,RouteNet-Fermi,2,1,4989,1131.3916015625
+iot_Ibm,RouteNet-Fermi,2,2,2771,416.17303466796875
+iot_Ibm,MSMP + attention,0,0,1420,321.62274169921875
+iot_Ibm,MSMP + attention,0,1,4989,1189.39990234375
+iot_Ibm,MSMP + attention,0,2,2771,405.3905944824219
+iot_Ibm,MSMP + attention,1,0,1420,314.9139404296875
+iot_Ibm,MSMP + attention,1,1,4989,1196.776611328125
+iot_Ibm,MSMP + attention,1,2,2771,414.6912841796875
+iot_Ibm,MSMP + attention,2,0,1420,324.27520751953125
+iot_Ibm,MSMP + attention,2,1,4989,1191.4949951171875
+iot_Ibm,MSMP + attention,2,2,2771,423.02935791015625
+iot_Ibm,QT-RouteNet,0,0,1420,541.58447265625
+iot_Ibm,QT-RouteNet,0,1,4989,1672.7364501953125
+iot_Ibm,QT-RouteNet,0,2,2771,1930.235595703125
+iot_Ibm,QT-RouteNet,1,0,1420,657.9658203125
+iot_Ibm,QT-RouteNet,1,1,4989,1635.359375
+iot_Ibm,QT-RouteNet,1,2,2771,1837.6689453125
+iot_Ibm,QT-RouteNet,2,0,1420,628.0679321289062
+iot_Ibm,QT-RouteNet,2,1,4989,1789.297119140625
+iot_Ibm,QT-RouteNet,2,2,2771,1874.2901611328125
+iot_Ibm,QT-RouteNet + transmission term,0,0,1420,399.8572998046875
+iot_Ibm,QT-RouteNet + transmission term,0,1,4989,1267.375244140625
+iot_Ibm,QT-RouteNet + transmission term,0,2,2771,386.9480895996094
+iot_Ibm,QT-RouteNet + transmission term,1,0,1420,382.4888610839844
+iot_Ibm,QT-RouteNet + transmission term,1,1,4989,1277.3482666015625
+iot_Ibm,QT-RouteNet + transmission term,1,2,2771,374.5782470703125
+iot_Ibm,QT-RouteNet + transmission term,2,0,1420,433.0521545410156
+iot_Ibm,QT-RouteNet + transmission term,2,1,4989,1320.605224609375
+iot_Ibm,QT-RouteNet + transmission term,2,2,2771,398.0484313964844
+iot_Ibm,GCN,0,0,1420,838.1906127929688
+iot_Ibm,GCN,0,1,4989,2718.0888671875
+iot_Ibm,GCN,0,2,2771,3311.994140625
+iot_Ibm,GCN,1,0,1420,685.841064453125
+iot_Ibm,GCN,1,1,4989,2419.46435546875
+iot_Ibm,GCN,1,2,2771,2206.502197265625
+iot_Ibm,GCN,2,0,1420,577.4376831054688
+iot_Ibm,GCN,2,1,4989,1896.601806640625
+iot_Ibm,GCN,2,2,2771,878.819091796875
+iot_Ibm,GAT,0,0,1420,798.5783081054688
+iot_Ibm,GAT,0,1,4989,2683.48291015625
+iot_Ibm,GAT,0,2,2771,3511.7919921875
+iot_Ibm,GAT,1,0,1420,640.908935546875
+iot_Ibm,GAT,1,1,4989,2358.665283203125
+iot_Ibm,GAT,1,2,2771,2403.1728515625
+iot_Ibm,GAT,2,0,1420,620.6973266601562
+iot_Ibm,GAT,2,1,4989,2243.18603515625
+iot_Ibm,GAT,2,2,2771,1789.7545166015625
+iot_Ibm,Graph transformer (GPS-style),0,0,1420,490.59014892578125
+iot_Ibm,Graph transformer (GPS-style),0,1,4989,1690.7025146484375
+iot_Ibm,Graph transformer (GPS-style),0,2,2771,872.9600830078125
+iot_Ibm,Graph transformer (GPS-style),1,0,1420,571.9413452148438
+iot_Ibm,Graph transformer (GPS-style),1,1,4989,1796.4288330078125
+iot_Ibm,Graph transformer (GPS-style),1,2,2771,798.6118774414062
+iot_Ibm,Graph transformer (GPS-style),2,0,1420,507.0440673828125
+iot_Ibm,Graph transformer (GPS-style),2,1,4989,1678.882080078125
+iot_Ibm,Graph transformer (GPS-style),2,2,2771,719.2289428710938
+iot_Ibm,GBDT + prior,0,0,1420,336.8697814941406
+iot_Ibm,GBDT + prior,0,1,4989,1396.2353515625
+iot_Ibm,GBDT + prior,0,2,2771,435.7745666503906
+iot_Ibm,GBDT + prior,1,0,1420,345.08447265625
+iot_Ibm,GBDT + prior,1,1,4989,1374.764404296875
+iot_Ibm,GBDT + prior,1,2,2771,436.0411376953125
+iot_Ibm,GBDT + prior,2,0,1420,337.59954833984375
+iot_Ibm,GBDT + prior,2,1,4989,1388.1328125
+iot_Ibm,GBDT + prior,2,2,2771,435.7552185058594
+iot_Ibm,RouteNet-style + prior features,0,0,1420,278.34893798828125
+iot_Ibm,RouteNet-style + prior features,0,1,4989,1127.7451171875
+iot_Ibm,RouteNet-style + prior features,0,2,2771,382.86083984375
+iot_Ibm,RouteNet-style + prior features,1,0,1420,261.88348388671875
+iot_Ibm,RouteNet-style + prior features,1,1,4989,1097.3272705078125
+iot_Ibm,RouteNet-style + prior features,1,2,2771,381.965576171875
+iot_Ibm,RouteNet-style + prior features,2,0,1420,266.5225830078125
+iot_Ibm,RouteNet-style + prior features,2,1,4989,1092.6279296875
+iot_Ibm,RouteNet-style + prior features,2,2,2771,376.91497802734375
+iot_Ibm,"Ours, prior as readout base only",0,0,1420,273.95648193359375
+iot_Ibm,"Ours, prior as readout base only",0,1,4989,1144.1507568359375
+iot_Ibm,"Ours, prior as readout base only",0,2,2771,388.2460632324219
+iot_Ibm,"Ours, prior as readout base only",1,0,1420,278.8757629394531
+iot_Ibm,"Ours, prior as readout base only",1,1,4989,1148.084228515625
+iot_Ibm,"Ours, prior as readout base only",1,2,2771,394.19232177734375
+iot_Ibm,"Ours, prior as readout base only",2,0,1420,279.94775390625
+iot_Ibm,"Ours, prior as readout base only",2,1,4989,1151.725341796875
+iot_Ibm,"Ours, prior as readout base only",2,2,2771,403.4153137207031
+iot_Ibm,QPR-GNN (ours),0,0,1420,246.1157684326172
+iot_Ibm,QPR-GNN (ours),0,1,4989,1081.2977294921875
+iot_Ibm,QPR-GNN (ours),0,2,2771,379.0165100097656
+iot_Ibm,QPR-GNN (ours),1,0,1420,247.63694763183594
+iot_Ibm,QPR-GNN (ours),1,1,4989,1108.9365234375
+iot_Ibm,QPR-GNN (ours),1,2,2771,390.4176940917969
+iot_Ibm,QPR-GNN (ours),2,0,1420,247.26002502441406
+iot_Ibm,QPR-GNN (ours),2,1,4989,1086.0931396484375
+iot_Ibm,QPR-GNN (ours),2,2,2771,363.92437744140625
+iot_SwitchL3,M/M/1 (per-flow packet size),analytic,0,7642,4677.083984375
+iot_SwitchL3,M/M/1 (per-flow packet size),analytic,1,28413,13908.4501953125
+iot_SwitchL3,M/M/1 (per-flow packet size),analytic,2,15605,14125.2099609375
+iot_SwitchL3,"M/M/1/K, aggregate (= our prior alone)",analytic,0,7642,1996.850341796875
+iot_SwitchL3,"M/M/1/K, aggregate (= our prior alone)",analytic,1,28413,6542.3916015625
+iot_SwitchL3,"M/M/1/K, aggregate (= our prior alone)",analytic,2,15605,1415.6497802734375
+iot_SwitchL3,M/G/1 (Pollaczek-Khinchine),analytic,0,7642,4392.63525390625
+iot_SwitchL3,M/G/1 (Pollaczek-Khinchine),analytic,1,28413,13394.076171875
+iot_SwitchL3,M/G/1 (Pollaczek-Khinchine),analytic,2,15605,4681.43896484375
+iot_SwitchL3,MLP,0,0,7642,2007.370849609375
+iot_SwitchL3,MLP,0,1,28413,6964.544921875
+iot_SwitchL3,MLP,0,2,15605,1849.642333984375
+iot_SwitchL3,MLP,1,0,7642,1984.8046875
+iot_SwitchL3,MLP,1,1,28413,6912.4365234375
+iot_SwitchL3,MLP,1,2,15605,1855.9044189453125
+iot_SwitchL3,MLP,2,0,7642,1988.32080078125
+iot_SwitchL3,MLP,2,1,28413,6928.119140625
+iot_SwitchL3,MLP,2,2,15605,1904.970458984375
+iot_SwitchL3,Gradient-boosted trees,0,0,7642,2242.806640625
+iot_SwitchL3,Gradient-boosted trees,0,1,28413,8061.685546875
+iot_SwitchL3,Gradient-boosted trees,0,2,15605,2038.189208984375
+iot_SwitchL3,Gradient-boosted trees,1,0,7642,2250.51123046875
+iot_SwitchL3,Gradient-boosted trees,1,1,28413,8146.9248046875
+iot_SwitchL3,Gradient-boosted trees,1,2,15605,2068.2802734375
+iot_SwitchL3,Gradient-boosted trees,2,0,7642,2222.0380859375
+iot_SwitchL3,Gradient-boosted trees,2,1,28413,8103.9013671875
+iot_SwitchL3,Gradient-boosted trees,2,2,15605,2010.1683349609375
+iot_SwitchL3,RouteNet-style (25k),0,0,7642,1422.162841796875
+iot_SwitchL3,RouteNet-style (25k),0,1,28413,4695.9072265625
+iot_SwitchL3,RouteNet-style (25k),0,2,15605,1634.609130859375
+iot_SwitchL3,RouteNet-style (25k),1,0,7642,1331.6343994140625
+iot_SwitchL3,RouteNet-style (25k),1,1,28413,4696.70703125
+iot_SwitchL3,RouteNet-style (25k),1,2,15605,1682.169189453125
+iot_SwitchL3,RouteNet-style (25k),2,0,7642,1540.0123291015625
+iot_SwitchL3,RouteNet-style (25k),2,1,28413,4939.98095703125
+iot_SwitchL3,RouteNet-style (25k),2,2,15605,1646.621337890625
+iot_SwitchL3,RouteNet-style (87k),0,0,7642,1465.6478271484375
+iot_SwitchL3,RouteNet-style (87k),0,1,28413,5116.2119140625
+iot_SwitchL3,RouteNet-style (87k),0,2,15605,1726.384033203125
+iot_SwitchL3,RouteNet-style (87k),1,0,7642,1448.06884765625
+iot_SwitchL3,RouteNet-style (87k),1,1,28413,5173.30859375
+iot_SwitchL3,RouteNet-style (87k),1,2,15605,1734.482421875
+iot_SwitchL3,RouteNet-style (87k),2,0,7642,1475.6348876953125
+iot_SwitchL3,RouteNet-style (87k),2,1,28413,4964.009765625
+iot_SwitchL3,RouteNet-style (87k),2,2,15605,1757.6004638671875
+iot_SwitchL3,RouteNet-Fermi,0,0,7642,1101.865966796875
+iot_SwitchL3,RouteNet-Fermi,0,1,28413,4420.82275390625
+iot_SwitchL3,RouteNet-Fermi,0,2,15605,1448.693359375
+iot_SwitchL3,RouteNet-Fermi,1,0,7642,1140.672119140625
+iot_SwitchL3,RouteNet-Fermi,1,1,28413,4531.36474609375
+iot_SwitchL3,RouteNet-Fermi,1,2,15605,1421.5780029296875
+iot_SwitchL3,RouteNet-Fermi,2,0,7642,1028.41455078125
+iot_SwitchL3,RouteNet-Fermi,2,1,28413,4214.25439453125
+iot_SwitchL3,RouteNet-Fermi,2,2,15605,1384.925048828125
+iot_SwitchL3,MSMP + attention,0,0,7642,1165.3199462890625
+iot_SwitchL3,MSMP + attention,0,1,28413,4324.1787109375
+iot_SwitchL3,MSMP + attention,0,2,15605,1339.3583984375
+iot_SwitchL3,MSMP + attention,1,0,7642,1175.836181640625
+iot_SwitchL3,MSMP + attention,1,1,28413,4396.63818359375
+iot_SwitchL3,MSMP + attention,1,2,15605,1396.0023193359375
+iot_SwitchL3,MSMP + attention,2,0,7642,1183.830810546875
+iot_SwitchL3,MSMP + attention,2,1,28413,4354.2451171875
+iot_SwitchL3,MSMP + attention,2,2,15605,1388.1312255859375
+iot_SwitchL3,QT-RouteNet,0,0,7642,1967.965576171875
+iot_SwitchL3,QT-RouteNet,0,1,28413,5974.5576171875
+iot_SwitchL3,QT-RouteNet,0,2,15605,10448.298828125
+iot_SwitchL3,QT-RouteNet,1,0,7642,2880.5927734375
+iot_SwitchL3,QT-RouteNet,1,1,28413,6390.98046875
+iot_SwitchL3,QT-RouteNet,1,2,15605,9862.72265625
+iot_SwitchL3,QT-RouteNet,2,0,7642,2336.060546875
+iot_SwitchL3,QT-RouteNet,2,1,28413,6664.88818359375
+iot_SwitchL3,QT-RouteNet,2,2,15605,10154.244140625
+iot_SwitchL3,QT-RouteNet + transmission term,0,0,7642,1347.096923828125
+iot_SwitchL3,QT-RouteNet + transmission term,0,1,28413,4540.7392578125
+iot_SwitchL3,QT-RouteNet + transmission term,0,2,15605,1221.8343505859375
+iot_SwitchL3,QT-RouteNet + transmission term,1,0,7642,1283.3516845703125
+iot_SwitchL3,QT-RouteNet + transmission term,1,1,28413,4454.07470703125
+iot_SwitchL3,QT-RouteNet + transmission term,1,2,15605,1172.39990234375
+iot_SwitchL3,QT-RouteNet + transmission term,2,0,7642,1472.013671875
+iot_SwitchL3,QT-RouteNet + transmission term,2,1,28413,4769.6884765625
+iot_SwitchL3,QT-RouteNet + transmission term,2,2,15605,1278.689208984375
+iot_SwitchL3,GCN,0,0,7642,1953.0120849609375
+iot_SwitchL3,GCN,0,1,28413,6718.49853515625
+iot_SwitchL3,GCN,0,2,15605,1870.50341796875
+iot_SwitchL3,GCN,1,0,7642,1942.7530517578125
+iot_SwitchL3,GCN,1,1,28413,6629.29931640625
+iot_SwitchL3,GCN,1,2,15605,1790.385498046875
+iot_SwitchL3,GCN,2,0,7642,2150.328369140625
+iot_SwitchL3,GCN,2,1,28413,7263.8935546875
+iot_SwitchL3,GCN,2,2,15605,1825.5191650390625
+iot_SwitchL3,GAT,0,0,7642,1966.55712890625
+iot_SwitchL3,GAT,0,1,28413,6850.65087890625
+iot_SwitchL3,GAT,0,2,15605,1920.80517578125
+iot_SwitchL3,GAT,1,0,7642,1990.0155029296875
+iot_SwitchL3,GAT,1,1,28413,6917.513671875
+iot_SwitchL3,GAT,1,2,15605,1929.17431640625
+iot_SwitchL3,GAT,2,0,7642,1902.6683349609375
+iot_SwitchL3,GAT,2,1,28413,6717.0986328125
+iot_SwitchL3,GAT,2,2,15605,1776.7470703125
+iot_SwitchL3,Graph transformer (GPS-style),0,0,7642,2066.172607421875
+iot_SwitchL3,Graph transformer (GPS-style),0,1,28413,7245.5146484375
+iot_SwitchL3,Graph transformer (GPS-style),0,2,15605,1933.9111328125
+iot_SwitchL3,Graph transformer (GPS-style),1,0,7642,2055.795166015625
+iot_SwitchL3,Graph transformer (GPS-style),1,1,28413,6855.8271484375
+iot_SwitchL3,Graph transformer (GPS-style),1,2,15605,1781.904052734375
+iot_SwitchL3,Graph transformer (GPS-style),2,0,7642,1972.1280517578125
+iot_SwitchL3,Graph transformer (GPS-style),2,1,28413,6656.3828125
+iot_SwitchL3,Graph transformer (GPS-style),2,2,15605,1755.376953125
+iot_SwitchL3,GBDT + prior,0,0,7642,1127.80859375
+iot_SwitchL3,GBDT + prior,0,1,28413,4357.9130859375
+iot_SwitchL3,GBDT + prior,0,2,15605,1211.32763671875
+iot_SwitchL3,GBDT + prior,1,0,7642,1110.5484619140625
+iot_SwitchL3,GBDT + prior,1,1,28413,4343.58447265625
+iot_SwitchL3,GBDT + prior,1,2,15605,1203.549072265625
+iot_SwitchL3,GBDT + prior,2,0,7642,1119.301025390625
+iot_SwitchL3,GBDT + prior,2,1,28413,4362.5771484375
+iot_SwitchL3,GBDT + prior,2,2,15605,1208.2900390625
+iot_SwitchL3,RouteNet-style + prior features,0,0,7642,1008.8831787109375
+iot_SwitchL3,RouteNet-style + prior features,0,1,28413,3893.128173828125
+iot_SwitchL3,RouteNet-style + prior features,0,2,15605,1179.7509765625
+iot_SwitchL3,RouteNet-style + prior features,1,0,7642,956.2142333984375
+iot_SwitchL3,RouteNet-style + prior features,1,1,28413,3880.47705078125
+iot_SwitchL3,RouteNet-style + prior features,1,2,15605,1204.1689453125
+iot_SwitchL3,RouteNet-style + prior features,2,0,7642,962.868896484375
+iot_SwitchL3,RouteNet-style + prior features,2,1,28413,3840.1826171875
+iot_SwitchL3,RouteNet-style + prior features,2,2,15605,1172.441162109375
+iot_SwitchL3,"Ours, prior as readout base only",0,0,7642,1013.8138427734375
+iot_SwitchL3,"Ours, prior as readout base only",0,1,28413,4085.965576171875
+iot_SwitchL3,"Ours, prior as readout base only",0,2,15605,1228.8251953125
+iot_SwitchL3,"Ours, prior as readout base only",1,0,7642,1061.9635009765625
+iot_SwitchL3,"Ours, prior as readout base only",1,1,28413,4199.6318359375
+iot_SwitchL3,"Ours, prior as readout base only",1,2,15605,1256.445068359375
+iot_SwitchL3,"Ours, prior as readout base only",2,0,7642,1040.0028076171875
+iot_SwitchL3,"Ours, prior as readout base only",2,1,28413,4177.23046875
+iot_SwitchL3,"Ours, prior as readout base only",2,2,15605,1234.78515625
+iot_SwitchL3,QPR-GNN (ours),0,0,7642,940.7303466796875
+iot_SwitchL3,QPR-GNN (ours),0,1,28413,3843.53125
+iot_SwitchL3,QPR-GNN (ours),0,2,15605,1204.4898681640625
+iot_SwitchL3,QPR-GNN (ours),1,0,7642,966.8770751953125
+iot_SwitchL3,QPR-GNN (ours),1,1,28413,3925.3525390625
+iot_SwitchL3,QPR-GNN (ours),1,2,15605,1209.013671875
+iot_SwitchL3,QPR-GNN (ours),2,0,7642,925.7670288085938
+iot_SwitchL3,QPR-GNN (ours),2,1,28413,3837.37255859375
+iot_SwitchL3,QPR-GNN (ours),2,2,15605,1175.131591796875
+iot_Sanet,M/M/1 (per-flow packet size),analytic,0,8082,5414.40966796875
+iot_Sanet,M/M/1 (per-flow packet size),analytic,1,29993,16392.5
+iot_Sanet,M/M/1 (per-flow packet size),analytic,2,16105,17173.021484375
+iot_Sanet,"M/M/1/K, aggregate (= our prior alone)",analytic,0,8082,2663.68115234375
+iot_Sanet,"M/M/1/K, aggregate (= our prior alone)",analytic,1,29993,8720.30859375
+iot_Sanet,"M/M/1/K, aggregate (= our prior alone)",analytic,2,16105,1806.442626953125
+iot_Sanet,M/G/1 (Pollaczek-Khinchine),analytic,0,8082,4614.22265625
+iot_Sanet,M/G/1 (Pollaczek-Khinchine),analytic,1,29993,14806.9140625
+iot_Sanet,M/G/1 (Pollaczek-Khinchine),analytic,2,16105,5155.748046875
+iot_Sanet,MLP,0,0,8082,1945.19287109375
+iot_Sanet,MLP,0,1,29993,6505.115234375
+iot_Sanet,MLP,0,2,16105,1785.377685546875
+iot_Sanet,MLP,1,0,8082,1923.31494140625
+iot_Sanet,MLP,1,1,29993,6609.77099609375
+iot_Sanet,MLP,1,2,16105,1829.644775390625
+iot_Sanet,MLP,2,0,8082,1909.9771728515625
+iot_Sanet,MLP,2,1,29993,6507.783203125
+iot_Sanet,MLP,2,2,16105,1799.4576416015625
+iot_Sanet,Gradient-boosted trees,0,0,8082,1675.460205078125
+iot_Sanet,Gradient-boosted trees,0,1,29993,6435.1796875
+iot_Sanet,Gradient-boosted trees,0,2,16105,1982.8070068359375
+iot_Sanet,Gradient-boosted trees,1,0,8082,1676.268310546875
+iot_Sanet,Gradient-boosted trees,1,1,29993,6482.154296875
+iot_Sanet,Gradient-boosted trees,1,2,16105,1964.50146484375
+iot_Sanet,Gradient-boosted trees,2,0,8082,1663.5780029296875
+iot_Sanet,Gradient-boosted trees,2,1,29993,6363.609375
+iot_Sanet,Gradient-boosted trees,2,2,16105,1936.7706298828125
+iot_Sanet,RouteNet-style (25k),0,0,8082,1430.0771484375
+iot_Sanet,RouteNet-style (25k),0,1,29993,5037.271484375
+iot_Sanet,RouteNet-style (25k),0,2,16105,2075.979248046875
+iot_Sanet,RouteNet-style (25k),1,0,8082,1434.5511474609375
+iot_Sanet,RouteNet-style (25k),1,1,29993,4979.30859375
+iot_Sanet,RouteNet-style (25k),1,2,16105,1901.9110107421875
+iot_Sanet,RouteNet-style (25k),2,0,8082,1601.044189453125
+iot_Sanet,RouteNet-style (25k),2,1,29993,5537.931640625
+iot_Sanet,RouteNet-style (25k),2,2,16105,2021.300048828125
+iot_Sanet,RouteNet-style (87k),0,0,8082,1497.622802734375
+iot_Sanet,RouteNet-style (87k),0,1,29993,5325.5283203125
+iot_Sanet,RouteNet-style (87k),0,2,16105,2098.0361328125
+iot_Sanet,RouteNet-style (87k),1,0,8082,1523.944580078125
+iot_Sanet,RouteNet-style (87k),1,1,29993,5280.61767578125
+iot_Sanet,RouteNet-style (87k),1,2,16105,2058.5009765625
+iot_Sanet,RouteNet-style (87k),2,0,8082,1564.5010986328125
+iot_Sanet,RouteNet-style (87k),2,1,29993,5228.986328125
+iot_Sanet,RouteNet-style (87k),2,2,16105,2057.177734375
+iot_Sanet,RouteNet-Fermi,0,0,8082,1269.0439453125
+iot_Sanet,RouteNet-Fermi,0,1,29993,4655.537109375
+iot_Sanet,RouteNet-Fermi,0,2,16105,2083.652099609375
+iot_Sanet,RouteNet-Fermi,1,0,8082,1216.46142578125
+iot_Sanet,RouteNet-Fermi,1,1,29993,4566.7890625
+iot_Sanet,RouteNet-Fermi,1,2,16105,1824.940185546875
+iot_Sanet,RouteNet-Fermi,2,0,8082,1169.758056640625
+iot_Sanet,RouteNet-Fermi,2,1,29993,4429.916015625
+iot_Sanet,RouteNet-Fermi,2,2,16105,1825.62841796875
+iot_Sanet,MSMP + attention,0,0,8082,1238.663330078125
+iot_Sanet,MSMP + attention,0,1,29993,4637.9892578125
+iot_Sanet,MSMP + attention,0,2,16105,1736.1954345703125
+iot_Sanet,MSMP + attention,1,0,8082,1227.836669921875
+iot_Sanet,MSMP + attention,1,1,29993,4575.701171875
+iot_Sanet,MSMP + attention,1,2,16105,1702.230224609375
+iot_Sanet,MSMP + attention,2,0,8082,1294.528564453125
+iot_Sanet,MSMP + attention,2,1,29993,4688.41796875
+iot_Sanet,MSMP + attention,2,2,16105,1786.4259033203125
+iot_Sanet,QT-RouteNet,0,0,8082,1832.5830078125
+iot_Sanet,QT-RouteNet,0,1,29993,5373.07421875
+iot_Sanet,QT-RouteNet,0,2,16105,8881.197265625
+iot_Sanet,QT-RouteNet,1,0,8082,2184.056396484375
+iot_Sanet,QT-RouteNet,1,1,29993,5551.68017578125
+iot_Sanet,QT-RouteNet,1,2,16105,8648.130859375
+iot_Sanet,QT-RouteNet,2,0,8082,1938.230224609375
+iot_Sanet,QT-RouteNet,2,1,29993,5801.0947265625
+iot_Sanet,QT-RouteNet,2,2,16105,8770.9638671875
+iot_Sanet,QT-RouteNet + transmission term,0,0,8082,1467.0982666015625
+iot_Sanet,QT-RouteNet + transmission term,0,1,29993,4856.3896484375
+iot_Sanet,QT-RouteNet + transmission term,0,2,16105,2346.1005859375
+iot_Sanet,QT-RouteNet + transmission term,1,0,8082,1507.5772705078125
+iot_Sanet,QT-RouteNet + transmission term,1,1,29993,5016.466796875
+iot_Sanet,QT-RouteNet + transmission term,1,2,16105,2202.301513671875
+iot_Sanet,QT-RouteNet + transmission term,2,0,8082,1467.069580078125
+iot_Sanet,QT-RouteNet + transmission term,2,1,29993,4908.1337890625
+iot_Sanet,QT-RouteNet + transmission term,2,2,16105,2365.7431640625
+iot_Sanet,GCN,0,0,8082,1910.115966796875
+iot_Sanet,GCN,0,1,29993,6487.3125
+iot_Sanet,GCN,0,2,16105,1765.640380859375
+iot_Sanet,GCN,1,0,8082,1860.8258056640625
+iot_Sanet,GCN,1,1,29993,6486.62353515625
+iot_Sanet,GCN,1,2,16105,1789.29638671875
+iot_Sanet,GCN,2,0,8082,1642.285888671875
+iot_Sanet,GCN,2,1,29993,6025.7265625
+iot_Sanet,GCN,2,2,16105,1744.64501953125
+iot_Sanet,GAT,0,0,8082,1931.407470703125
+iot_Sanet,GAT,0,1,29993,6623.6826171875
+iot_Sanet,GAT,0,2,16105,1786.1005859375
+iot_Sanet,GAT,1,0,8082,1832.8021240234375
+iot_Sanet,GAT,1,1,29993,6324.1181640625
+iot_Sanet,GAT,1,2,16105,1849.747314453125
+iot_Sanet,GAT,2,0,8082,1854.53076171875
+iot_Sanet,GAT,2,1,29993,6425.9921875
+iot_Sanet,GAT,2,2,16105,1771.4998779296875
+iot_Sanet,Graph transformer (GPS-style),0,0,8082,1745.2943115234375
+iot_Sanet,Graph transformer (GPS-style),0,1,29993,6293.998046875
+iot_Sanet,Graph transformer (GPS-style),0,2,16105,2008.745361328125
+iot_Sanet,Graph transformer (GPS-style),1,0,8082,1805.846435546875
+iot_Sanet,Graph transformer (GPS-style),1,1,29993,6081.9853515625
+iot_Sanet,Graph transformer (GPS-style),1,2,16105,1767.3555908203125
+iot_Sanet,Graph transformer (GPS-style),2,0,8082,1843.971923828125
+iot_Sanet,Graph transformer (GPS-style),2,1,29993,6343.23046875
+iot_Sanet,Graph transformer (GPS-style),2,2,16105,1766.004638671875
+iot_Sanet,GBDT + prior,0,0,8082,1193.278076171875
+iot_Sanet,GBDT + prior,0,1,29993,4666.009765625
+iot_Sanet,GBDT + prior,0,2,16105,1557.1087646484375
+iot_Sanet,GBDT + prior,1,0,8082,1204.990234375
+iot_Sanet,GBDT + prior,1,1,29993,4582.19140625
+iot_Sanet,GBDT + prior,1,2,16105,1530.372314453125
+iot_Sanet,GBDT + prior,2,0,8082,1207.5213623046875
+iot_Sanet,GBDT + prior,2,1,29993,4609.455078125
+iot_Sanet,GBDT + prior,2,2,16105,1556.980224609375
+iot_Sanet,RouteNet-style + prior features,0,0,8082,1016.5540161132812
+iot_Sanet,RouteNet-style + prior features,0,1,29993,3838.93896484375
+iot_Sanet,RouteNet-style + prior features,0,2,16105,1316.658447265625
+iot_Sanet,RouteNet-style + prior features,1,0,8082,1038.34521484375
+iot_Sanet,RouteNet-style + prior features,1,1,29993,3956.32861328125
+iot_Sanet,RouteNet-style + prior features,1,2,16105,1339.299560546875
+iot_Sanet,RouteNet-style + prior features,2,0,8082,983.6780395507812
+iot_Sanet,RouteNet-style + prior features,2,1,29993,3811.215576171875
+iot_Sanet,RouteNet-style + prior features,2,2,16105,1298.393798828125
+iot_Sanet,"Ours, prior as readout base only",0,0,8082,1218.287353515625
+iot_Sanet,"Ours, prior as readout base only",0,1,29993,4275.77978515625
+iot_Sanet,"Ours, prior as readout base only",0,2,16105,1499.8709716796875
+iot_Sanet,"Ours, prior as readout base only",1,0,8082,1119.038330078125
+iot_Sanet,"Ours, prior as readout base only",1,1,29993,4135.416015625
+iot_Sanet,"Ours, prior as readout base only",1,2,16105,1542.01806640625
+iot_Sanet,"Ours, prior as readout base only",2,0,8082,1133.250732421875
+iot_Sanet,"Ours, prior as readout base only",2,1,29993,4212.99853515625
+iot_Sanet,"Ours, prior as readout base only",2,2,16105,1494.3271484375
+iot_Sanet,QPR-GNN (ours),0,0,8082,1029.9991455078125
+iot_Sanet,QPR-GNN (ours),0,1,29993,3844.65869140625
+iot_Sanet,QPR-GNN (ours),0,2,16105,1341.2152099609375
+iot_Sanet,QPR-GNN (ours),1,0,8082,1009.0784912109375
+iot_Sanet,QPR-GNN (ours),1,1,29993,3960.977294921875
+iot_Sanet,QPR-GNN (ours),1,2,16105,1359.4967041015625
+iot_Sanet,QPR-GNN (ours),2,0,8082,935.7431640625
+iot_Sanet,QPR-GNN (ours),2,1,29993,3676.0458984375
+iot_Sanet,QPR-GNN (ours),2,2,16105,1277.0966796875
+iot_Nsfnet,M/M/1 (per-flow packet size),analytic,0,654,382.0601806640625
+iot_Nsfnet,M/M/1 (per-flow packet size),analytic,1,2488,1168.0704345703125
+iot_Nsfnet,M/M/1 (per-flow packet size),analytic,2,1382,1010.8778076171875
+iot_Nsfnet,"M/M/1/K, aggregate (= our prior alone)",analytic,0,654,227.25473022460938
+iot_Nsfnet,"M/M/1/K, aggregate (= our prior alone)",analytic,1,2488,758.9555053710938
+iot_Nsfnet,"M/M/1/K, aggregate (= our prior alone)",analytic,2,1382,233.2311248779297
+iot_Nsfnet,M/G/1 (Pollaczek-Khinchine),analytic,0,654,509.61279296875
+iot_Nsfnet,M/G/1 (Pollaczek-Khinchine),analytic,1,2488,1393.4967041015625
+iot_Nsfnet,M/G/1 (Pollaczek-Khinchine),analytic,2,1382,530.5238647460938
+iot_Nsfnet,MLP,0,0,654,220.53884887695312
+iot_Nsfnet,MLP,0,1,2488,913.2047729492188
+iot_Nsfnet,MLP,0,2,1382,355.1321716308594
+iot_Nsfnet,MLP,1,0,654,205.5424346923828
+iot_Nsfnet,MLP,1,1,2488,819.6412353515625
+iot_Nsfnet,MLP,1,2,1382,294.9842834472656
+iot_Nsfnet,MLP,2,0,654,229.706298828125
+iot_Nsfnet,MLP,2,1,2488,978.4122314453125
+iot_Nsfnet,MLP,2,2,1382,360.1784362792969
+iot_Nsfnet,Gradient-boosted trees,0,0,654,178.54852294921875
+iot_Nsfnet,Gradient-boosted trees,0,1,2488,811.5208740234375
+iot_Nsfnet,Gradient-boosted trees,0,2,1382,234.73455810546875
+iot_Nsfnet,Gradient-boosted trees,1,0,654,175.93411254882812
+iot_Nsfnet,Gradient-boosted trees,1,1,2488,837.8496704101562
+iot_Nsfnet,Gradient-boosted trees,1,2,1382,237.30540466308594
+iot_Nsfnet,Gradient-boosted trees,2,0,654,180.0297088623047
+iot_Nsfnet,Gradient-boosted trees,2,1,2488,810.51123046875
+iot_Nsfnet,Gradient-boosted trees,2,2,1382,234.50277709960938
+iot_Nsfnet,RouteNet-style (25k),0,0,654,144.75054931640625
+iot_Nsfnet,RouteNet-style (25k),0,1,2488,618.5484008789062
+iot_Nsfnet,RouteNet-style (25k),0,2,1382,587.162841796875
+iot_Nsfnet,RouteNet-style (25k),1,0,654,164.95587158203125
+iot_Nsfnet,RouteNet-style (25k),1,1,2488,613.8422241210938
+iot_Nsfnet,RouteNet-style (25k),1,2,1382,223.45654296875
+iot_Nsfnet,RouteNet-style (25k),2,0,654,176.30841064453125
+iot_Nsfnet,RouteNet-style (25k),2,1,2488,629.2061767578125
+iot_Nsfnet,RouteNet-style (25k),2,2,1382,220.9822998046875
+iot_Nsfnet,RouteNet-style (87k),0,0,654,158.1911163330078
+iot_Nsfnet,RouteNet-style (87k),0,1,2488,600.8381958007812
+iot_Nsfnet,RouteNet-style (87k),0,2,1382,220.4957733154297
+iot_Nsfnet,RouteNet-style (87k),1,0,654,181.1332244873047
+iot_Nsfnet,RouteNet-style (87k),1,1,2488,629.802490234375
+iot_Nsfnet,RouteNet-style (87k),1,2,1382,208.1329345703125
+iot_Nsfnet,RouteNet-style (87k),2,0,654,150.44520568847656
+iot_Nsfnet,RouteNet-style (87k),2,1,2488,593.2520141601562
+iot_Nsfnet,RouteNet-style (87k),2,2,1382,219.21435546875
+iot_Nsfnet,RouteNet-Fermi,0,0,654,121.33833312988281
+iot_Nsfnet,RouteNet-Fermi,0,1,2488,532.6856689453125
+iot_Nsfnet,RouteNet-Fermi,0,2,1382,200.85324096679688
+iot_Nsfnet,RouteNet-Fermi,1,0,654,122.31480407714844
+iot_Nsfnet,RouteNet-Fermi,1,1,2488,535.0716552734375
+iot_Nsfnet,RouteNet-Fermi,1,2,1382,197.8143768310547
+iot_Nsfnet,RouteNet-Fermi,2,0,654,121.74600219726562
+iot_Nsfnet,RouteNet-Fermi,2,1,2488,525.1950073242188
+iot_Nsfnet,RouteNet-Fermi,2,2,1382,196.271240234375
+iot_Nsfnet,MSMP + attention,0,0,654,139.1987762451172
+iot_Nsfnet,MSMP + attention,0,1,2488,558.251220703125
+iot_Nsfnet,MSMP + attention,0,2,1382,194.7512969970703
+iot_Nsfnet,MSMP + attention,1,0,654,141.30987548828125
+iot_Nsfnet,MSMP + attention,1,1,2488,556.2987060546875
+iot_Nsfnet,MSMP + attention,1,2,1382,198.82936096191406
+iot_Nsfnet,MSMP + attention,2,0,654,150.353515625
+iot_Nsfnet,MSMP + attention,2,1,2488,583.50439453125
+iot_Nsfnet,MSMP + attention,2,2,1382,196.6299591064453
+iot_Nsfnet,QT-RouteNet,0,0,654,236.98492431640625
+iot_Nsfnet,QT-RouteNet,0,1,2488,798.2382202148438
+iot_Nsfnet,QT-RouteNet,0,2,1382,975.02880859375
+iot_Nsfnet,QT-RouteNet,1,0,654,226.65264892578125
+iot_Nsfnet,QT-RouteNet,1,1,2488,886.4794311523438
+iot_Nsfnet,QT-RouteNet,1,2,1382,988.63818359375
+iot_Nsfnet,QT-RouteNet,2,0,654,277.72125244140625
+iot_Nsfnet,QT-RouteNet,2,1,2488,980.7024536132812
+iot_Nsfnet,QT-RouteNet,2,2,1382,950.6436767578125
+iot_Nsfnet,QT-RouteNet + transmission term,0,0,654,158.96109008789062
+iot_Nsfnet,QT-RouteNet + transmission term,0,1,2488,600.3275146484375
+iot_Nsfnet,QT-RouteNet + transmission term,0,2,1382,190.44638061523438
+iot_Nsfnet,QT-RouteNet + transmission term,1,0,654,159.14675903320312
+iot_Nsfnet,QT-RouteNet + transmission term,1,1,2488,598.939453125
+iot_Nsfnet,QT-RouteNet + transmission term,1,2,1382,186.50784301757812
+iot_Nsfnet,QT-RouteNet + transmission term,2,0,654,186.1110076904297
+iot_Nsfnet,QT-RouteNet + transmission term,2,1,2488,672.5543212890625
+iot_Nsfnet,QT-RouteNet + transmission term,2,2,1382,211.92259216308594
+iot_Nsfnet,GCN,0,0,654,204.406005859375
+iot_Nsfnet,GCN,0,1,2488,783.0860595703125
+iot_Nsfnet,GCN,0,2,1382,323.7206115722656
+iot_Nsfnet,GCN,1,0,654,171.3815155029297
+iot_Nsfnet,GCN,1,1,2488,687.2269287109375
+iot_Nsfnet,GCN,1,2,1382,238.60952758789062
+iot_Nsfnet,GCN,2,0,654,240.02920532226562
+iot_Nsfnet,GCN,2,1,2488,852.9921264648438
+iot_Nsfnet,GCN,2,2,1382,316.91064453125
+iot_Nsfnet,GAT,0,0,654,203.7874755859375
+iot_Nsfnet,GAT,0,1,2488,819.5209350585938
+iot_Nsfnet,GAT,0,2,1382,370.0917663574219
+iot_Nsfnet,GAT,1,0,654,186.03964233398438
+iot_Nsfnet,GAT,1,1,2488,729.0213623046875
+iot_Nsfnet,GAT,1,2,1382,339.72491455078125
+iot_Nsfnet,GAT,2,0,654,182.29437255859375
+iot_Nsfnet,GAT,2,1,2488,718.1841430664062
+iot_Nsfnet,GAT,2,2,1382,275.8577880859375
+iot_Nsfnet,Graph transformer (GPS-style),0,0,654,186.7976837158203
+iot_Nsfnet,Graph transformer (GPS-style),0,1,2488,691.4278564453125
+iot_Nsfnet,Graph transformer (GPS-style),0,2,1382,260.0846862792969
+iot_Nsfnet,Graph transformer (GPS-style),1,0,654,216.45257568359375
+iot_Nsfnet,Graph transformer (GPS-style),1,1,2488,739.182373046875
+iot_Nsfnet,Graph transformer (GPS-style),1,2,1382,284.5102844238281
+iot_Nsfnet,Graph transformer (GPS-style),2,0,654,192.58663940429688
+iot_Nsfnet,Graph transformer (GPS-style),2,1,2488,693.5457763671875
+iot_Nsfnet,Graph transformer (GPS-style),2,2,1382,257.84149169921875
+iot_Nsfnet,GBDT + prior,0,0,654,140.07376098632812
+iot_Nsfnet,GBDT + prior,0,1,2488,628.968505859375
+iot_Nsfnet,GBDT + prior,0,2,1382,220.5187225341797
+iot_Nsfnet,GBDT + prior,1,0,654,138.52899169921875
+iot_Nsfnet,GBDT + prior,1,1,2488,636.7456665039062
+iot_Nsfnet,GBDT + prior,1,2,1382,216.8790283203125
+iot_Nsfnet,GBDT + prior,2,0,654,141.3818359375
+iot_Nsfnet,GBDT + prior,2,1,2488,638.9835815429688
+iot_Nsfnet,GBDT + prior,2,2,1382,216.0623779296875
+iot_Nsfnet,RouteNet-style + prior features,0,0,654,122.76908874511719
+iot_Nsfnet,RouteNet-style + prior features,0,1,2488,535.35498046875
+iot_Nsfnet,RouteNet-style + prior features,0,2,1382,202.35040283203125
+iot_Nsfnet,RouteNet-style + prior features,1,0,654,114.56062316894531
+iot_Nsfnet,RouteNet-style + prior features,1,1,2488,519.2111206054688
+iot_Nsfnet,RouteNet-style + prior features,1,2,1382,192.33213806152344
+iot_Nsfnet,RouteNet-style + prior features,2,0,654,121.72024536132812
+iot_Nsfnet,RouteNet-style + prior features,2,1,2488,527.451416015625
+iot_Nsfnet,RouteNet-style + prior features,2,2,1382,199.65264892578125
+iot_Nsfnet,"Ours, prior as readout base only",0,0,654,123.12258911132812
+iot_Nsfnet,"Ours, prior as readout base only",0,1,2488,553.6803588867188
+iot_Nsfnet,"Ours, prior as readout base only",0,2,1382,194.9660186767578
+iot_Nsfnet,"Ours, prior as readout base only",1,0,654,171.79156494140625
+iot_Nsfnet,"Ours, prior as readout base only",1,1,2488,618.183837890625
+iot_Nsfnet,"Ours, prior as readout base only",1,2,1382,210.7384796142578
+iot_Nsfnet,"Ours, prior as readout base only",2,0,654,122.84266662597656
+iot_Nsfnet,"Ours, prior as readout base only",2,1,2488,566.3662719726562
+iot_Nsfnet,"Ours, prior as readout base only",2,2,1382,197.91529846191406
+iot_Nsfnet,QPR-GNN (ours),0,0,654,114.43372344970703
+iot_Nsfnet,QPR-GNN (ours),0,1,2488,516.5791015625
+iot_Nsfnet,QPR-GNN (ours),0,2,1382,195.24697875976562
+iot_Nsfnet,QPR-GNN (ours),1,0,654,110.89283752441406
+iot_Nsfnet,QPR-GNN (ours),1,1,2488,523.1007080078125
+iot_Nsfnet,QPR-GNN (ours),1,2,1382,197.66000366210938
+iot_Nsfnet,QPR-GNN (ours),2,0,654,109.25467681884766
+iot_Nsfnet,QPR-GNN (ours),2,1,2488,516.36376953125
+iot_Nsfnet,QPR-GNN (ours),2,2,1382,193.3463134765625
+iot_Ans,M/M/1 (per-flow packet size),analytic,0,1424,859.407470703125
+iot_Ans,M/M/1 (per-flow packet size),analytic,1,5043,2525.387451171875
+iot_Ans,M/M/1 (per-flow packet size),analytic,2,2713,2257.562255859375
+iot_Ans,"M/M/1/K, aggregate (= our prior alone)",analytic,0,1424,500.1358337402344
+iot_Ans,"M/M/1/K, aggregate (= our prior alone)",analytic,1,5043,1710.7052001953125
+iot_Ans,"M/M/1/K, aggregate (= our prior alone)",analytic,2,2713,401.20513916015625
+iot_Ans,M/G/1 (Pollaczek-Khinchine),analytic,0,1424,939.2135009765625
+iot_Ans,M/G/1 (Pollaczek-Khinchine),analytic,1,5043,3022.9521484375
+iot_Ans,M/G/1 (Pollaczek-Khinchine),analytic,2,2713,944.9698486328125
+iot_Ans,MLP,0,0,1424,408.03173828125
+iot_Ans,MLP,0,1,5043,1699.73388671875
+iot_Ans,MLP,0,2,2713,483.28546142578125
+iot_Ans,MLP,1,0,1424,386.36676025390625
+iot_Ans,MLP,1,1,5043,1506.2894287109375
+iot_Ans,MLP,1,2,2713,437.5345458984375
+iot_Ans,MLP,2,0,1424,409.660400390625
+iot_Ans,MLP,2,1,5043,1800.2783203125
+iot_Ans,MLP,2,2,2713,512.94384765625
+iot_Ans,Gradient-boosted trees,0,0,1424,377.525390625
+iot_Ans,Gradient-boosted trees,0,1,5043,1531.680419921875
+iot_Ans,Gradient-boosted trees,0,2,2713,409.32012939453125
+iot_Ans,Gradient-boosted trees,1,0,1424,387.71875
+iot_Ans,Gradient-boosted trees,1,1,5043,1533.330322265625
+iot_Ans,Gradient-boosted trees,1,2,2713,407.77301025390625
+iot_Ans,Gradient-boosted trees,2,0,1424,376.97454833984375
+iot_Ans,Gradient-boosted trees,2,1,5043,1544.056884765625
+iot_Ans,Gradient-boosted trees,2,2,2713,414.24822998046875
+iot_Ans,RouteNet-style (25k),0,0,1424,321.23468017578125
+iot_Ans,RouteNet-style (25k),0,1,5043,1228.3057861328125
+iot_Ans,RouteNet-style (25k),0,2,2713,1277.8553466796875
+iot_Ans,RouteNet-style (25k),1,0,1424,378.4299011230469
+iot_Ans,RouteNet-style (25k),1,1,5043,1180.4937744140625
+iot_Ans,RouteNet-style (25k),1,2,2713,449.28839111328125
+iot_Ans,RouteNet-style (25k),2,0,1424,388.18524169921875
+iot_Ans,RouteNet-style (25k),2,1,5043,1263.728759765625
+iot_Ans,RouteNet-style (25k),2,2,2713,432.95526123046875
+iot_Ans,RouteNet-style (87k),0,0,1424,339.7579345703125
+iot_Ans,RouteNet-style (87k),0,1,5043,1188.115234375
+iot_Ans,RouteNet-style (87k),0,2,2713,404.0686950683594
+iot_Ans,RouteNet-style (87k),1,0,1424,364.2291259765625
+iot_Ans,RouteNet-style (87k),1,1,5043,1220.3125
+iot_Ans,RouteNet-style (87k),1,2,2713,388.7078857421875
+iot_Ans,RouteNet-style (87k),2,0,1424,310.9471740722656
+iot_Ans,RouteNet-style (87k),2,1,5043,1170.354736328125
+iot_Ans,RouteNet-style (87k),2,2,2713,383.96417236328125
+iot_Ans,RouteNet-Fermi,0,0,1424,235.88467407226562
+iot_Ans,RouteNet-Fermi,0,1,5043,984.2096557617188
+iot_Ans,RouteNet-Fermi,0,2,2713,353.247314453125
+iot_Ans,RouteNet-Fermi,1,0,1424,239.64517211914062
+iot_Ans,RouteNet-Fermi,1,1,5043,1012.025634765625
+iot_Ans,RouteNet-Fermi,1,2,2713,355.09368896484375
+iot_Ans,RouteNet-Fermi,2,0,1424,240.75418090820312
+iot_Ans,RouteNet-Fermi,2,1,5043,983.150634765625
+iot_Ans,RouteNet-Fermi,2,2,2713,347.84027099609375
+iot_Ans,MSMP + attention,0,0,1424,289.24310302734375
+iot_Ans,MSMP + attention,0,1,5043,1058.74609375
+iot_Ans,MSMP + attention,0,2,2713,343.55865478515625
+iot_Ans,MSMP + attention,1,0,1424,277.81256103515625
+iot_Ans,MSMP + attention,1,1,5043,1050.30322265625
+iot_Ans,MSMP + attention,1,2,2713,350.9053955078125
+iot_Ans,MSMP + attention,2,0,1424,293.3350830078125
+iot_Ans,MSMP + attention,2,1,5043,1082.54052734375
+iot_Ans,MSMP + attention,2,2,2713,346.34375
+iot_Ans,QT-RouteNet,0,0,1424,512.5517578125
+iot_Ans,QT-RouteNet,0,1,5043,1523.25341796875
+iot_Ans,QT-RouteNet,0,2,2713,1863.42578125
+iot_Ans,QT-RouteNet,1,0,1424,483.4601135253906
+iot_Ans,QT-RouteNet,1,1,5043,1657.19873046875
+iot_Ans,QT-RouteNet,1,2,2713,1882.7822265625
+iot_Ans,QT-RouteNet,2,0,1424,538.8536987304688
+iot_Ans,QT-RouteNet,2,1,5043,1815.730712890625
+iot_Ans,QT-RouteNet,2,2,2713,1828.2646484375
+iot_Ans,QT-RouteNet + transmission term,0,0,1424,347.61529541015625
+iot_Ans,QT-RouteNet + transmission term,0,1,5043,1215.478515625
+iot_Ans,QT-RouteNet + transmission term,0,2,2713,355.7944641113281
+iot_Ans,QT-RouteNet + transmission term,1,0,1424,345.1588134765625
+iot_Ans,QT-RouteNet + transmission term,1,1,5043,1208.707763671875
+iot_Ans,QT-RouteNet + transmission term,1,2,2713,346.6604309082031
+iot_Ans,QT-RouteNet + transmission term,2,0,1424,386.498291015625
+iot_Ans,QT-RouteNet + transmission term,2,1,5043,1342.41943359375
+iot_Ans,QT-RouteNet + transmission term,2,2,2713,370.3212890625
+iot_Ans,GCN,0,0,1424,378.5576171875
+iot_Ans,GCN,0,1,5043,1557.348876953125
+iot_Ans,GCN,0,2,2713,471.70672607421875
+iot_Ans,GCN,1,0,1424,349.49017333984375
+iot_Ans,GCN,1,1,5043,1414.7174072265625
+iot_Ans,GCN,1,2,2713,414.9824523925781
+iot_Ans,GCN,2,0,1424,421.09136962890625
+iot_Ans,GCN,2,1,5043,1582.098388671875
+iot_Ans,GCN,2,2,2713,435.0986022949219
+iot_Ans,GAT,0,0,1424,378.4581604003906
+iot_Ans,GAT,0,1,5043,1600.69482421875
+iot_Ans,GAT,0,2,2713,525.43505859375
+iot_Ans,GAT,1,0,1424,351.92633056640625
+iot_Ans,GAT,1,1,5043,1488.240234375
+iot_Ans,GAT,1,2,2713,476.028076171875
+iot_Ans,GAT,2,0,1424,341.68505859375
+iot_Ans,GAT,2,1,5043,1417.0224609375
+iot_Ans,GAT,2,2,2713,422.55718994140625
+iot_Ans,Graph transformer (GPS-style),0,0,1424,360.157958984375
+iot_Ans,Graph transformer (GPS-style),0,1,5043,1360.483642578125
+iot_Ans,Graph transformer (GPS-style),0,2,2713,430.6494140625
+iot_Ans,Graph transformer (GPS-style),1,0,1424,399.0290832519531
+iot_Ans,Graph transformer (GPS-style),1,1,5043,1421.7015380859375
+iot_Ans,Graph transformer (GPS-style),1,2,2713,430.41204833984375
+iot_Ans,Graph transformer (GPS-style),2,0,1424,376.6333312988281
+iot_Ans,Graph transformer (GPS-style),2,1,5043,1363.8359375
+iot_Ans,Graph transformer (GPS-style),2,2,2713,427.97991943359375
+iot_Ans,GBDT + prior,0,0,1424,274.3397216796875
+iot_Ans,GBDT + prior,0,1,5043,1269.156005859375
+iot_Ans,GBDT + prior,0,2,2713,370.64678955078125
+iot_Ans,GBDT + prior,1,0,1424,279.14459228515625
+iot_Ans,GBDT + prior,1,1,5043,1290.5367431640625
+iot_Ans,GBDT + prior,1,2,2713,370.79583740234375
+iot_Ans,GBDT + prior,2,0,1424,275.36083984375
+iot_Ans,GBDT + prior,2,1,5043,1266.302734375
+iot_Ans,GBDT + prior,2,2,2713,367.08837890625
+iot_Ans,RouteNet-style + prior features,0,0,1424,263.8016662597656
+iot_Ans,RouteNet-style + prior features,0,1,5043,1053.7607421875
+iot_Ans,RouteNet-style + prior features,0,2,2713,335.21240234375
+iot_Ans,RouteNet-style + prior features,1,0,1424,244.8230438232422
+iot_Ans,RouteNet-style + prior features,1,1,5043,1007.1058959960938
+iot_Ans,RouteNet-style + prior features,1,2,2713,332.2717590332031
+iot_Ans,RouteNet-style + prior features,2,0,1424,256.29473876953125
+iot_Ans,RouteNet-style + prior features,2,1,5043,1045.7078857421875
+iot_Ans,RouteNet-style + prior features,2,2,2713,338.7100830078125
+iot_Ans,"Ours, prior as readout base only",0,0,1424,261.5970458984375
+iot_Ans,"Ours, prior as readout base only",0,1,5043,1075.678466796875
+iot_Ans,"Ours, prior as readout base only",0,2,2713,337.2551574707031
+iot_Ans,"Ours, prior as readout base only",1,0,1424,342.08099365234375
+iot_Ans,"Ours, prior as readout base only",1,1,5043,1251.4931640625
+iot_Ans,"Ours, prior as readout base only",1,2,2713,359.7684326171875
+iot_Ans,"Ours, prior as readout base only",2,0,1424,260.78973388671875
+iot_Ans,"Ours, prior as readout base only",2,1,5043,1109.498291015625
+iot_Ans,"Ours, prior as readout base only",2,2,2713,345.30950927734375
+iot_Ans,QPR-GNN (ours),0,0,1424,248.6566925048828
+iot_Ans,QPR-GNN (ours),0,1,5043,1008.9138793945312
+iot_Ans,QPR-GNN (ours),0,2,2713,339.83392333984375
+iot_Ans,QPR-GNN (ours),1,0,1424,228.94943237304688
+iot_Ans,QPR-GNN (ours),1,1,5043,981.26171875
+iot_Ans,QPR-GNN (ours),1,2,2713,340.68341064453125
+iot_Ans,QPR-GNN (ours),2,0,1424,233.44696044921875
+iot_Ans,QPR-GNN (ours),2,1,5043,993.2470092773438
+iot_Ans,QPR-GNN (ours),2,2,2713,334.5078125
+iot_LambdaNet,M/M/1 (per-flow packet size),analytic,0,7751,5306.6201171875
+iot_LambdaNet,M/M/1 (per-flow packet size),analytic,1,28287,16402.337890625
+iot_LambdaNet,M/M/1 (per-flow packet size),analytic,2,15622,20499.62109375
+iot_LambdaNet,"M/M/1/K, aggregate (= our prior alone)",analytic,0,7751,3343.49609375
+iot_LambdaNet,"M/M/1/K, aggregate (= our prior alone)",analytic,1,28287,11145.2109375
+iot_LambdaNet,"M/M/1/K, aggregate (= our prior alone)",analytic,2,15622,2822.58740234375
+iot_LambdaNet,M/G/1 (Pollaczek-Khinchine),analytic,0,7751,6169.5634765625
+iot_LambdaNet,M/G/1 (Pollaczek-Khinchine),analytic,1,28287,19018.7578125
+iot_LambdaNet,M/G/1 (Pollaczek-Khinchine),analytic,2,15622,6504.91748046875
+iot_LambdaNet,MLP,0,0,7751,1860.267333984375
+iot_LambdaNet,MLP,0,1,28287,6552.36328125
+iot_LambdaNet,MLP,0,2,15622,1955.7080078125
+iot_LambdaNet,MLP,1,0,7751,1930.673095703125
+iot_LambdaNet,MLP,1,1,28287,6801.8486328125
+iot_LambdaNet,MLP,1,2,15622,2018.201904296875
+iot_LambdaNet,MLP,2,0,7751,1970.821533203125
+iot_LambdaNet,MLP,2,1,28287,6898.1728515625
+iot_LambdaNet,MLP,2,2,15622,1948.984375
+iot_LambdaNet,Gradient-boosted trees,0,0,7751,2107.44921875
+iot_LambdaNet,Gradient-boosted trees,0,1,28287,8024.67529296875
+iot_LambdaNet,Gradient-boosted trees,0,2,15622,2552.378173828125
+iot_LambdaNet,Gradient-boosted trees,1,0,7751,2148.15966796875
+iot_LambdaNet,Gradient-boosted trees,1,1,28287,8197.0712890625
+iot_LambdaNet,Gradient-boosted trees,1,2,15622,2557.96337890625
+iot_LambdaNet,Gradient-boosted trees,2,0,7751,2146.166259765625
+iot_LambdaNet,Gradient-boosted trees,2,1,28287,8100.01953125
+iot_LambdaNet,Gradient-boosted trees,2,2,15622,2563.283447265625
+iot_LambdaNet,RouteNet-style (25k),0,0,7751,1766.2249755859375
+iot_LambdaNet,RouteNet-style (25k),0,1,28287,6422.8916015625
+iot_LambdaNet,RouteNet-style (25k),0,2,15622,10789.900390625
+iot_LambdaNet,RouteNet-style (25k),1,0,7751,1727.7244873046875
+iot_LambdaNet,RouteNet-style (25k),1,1,28287,5937.419921875
+iot_LambdaNet,RouteNet-style (25k),1,2,15622,2313.400146484375
+iot_LambdaNet,RouteNet-style (25k),2,0,7751,1969.93408203125
+iot_LambdaNet,RouteNet-style (25k),2,1,28287,6246.4296875
+iot_LambdaNet,RouteNet-style (25k),2,2,15622,2322.34228515625
+iot_LambdaNet,RouteNet-style (87k),0,0,7751,1782.1982421875
+iot_LambdaNet,RouteNet-style (87k),0,1,28287,6180.1083984375
+iot_LambdaNet,RouteNet-style (87k),0,2,15622,2197.571044921875
+iot_LambdaNet,RouteNet-style (87k),1,0,7751,1778.4423828125
+iot_LambdaNet,RouteNet-style (87k),1,1,28287,6152.43310546875
+iot_LambdaNet,RouteNet-style (87k),1,2,15622,2168.43017578125
+iot_LambdaNet,RouteNet-style (87k),2,0,7751,1598.1126708984375
+iot_LambdaNet,RouteNet-style (87k),2,1,28287,6026.64404296875
+iot_LambdaNet,RouteNet-style (87k),2,2,15622,2074.598388671875
+iot_LambdaNet,RouteNet-Fermi,0,0,7751,1309.428955078125
+iot_LambdaNet,RouteNet-Fermi,0,1,28287,5096.0556640625
+iot_LambdaNet,RouteNet-Fermi,0,2,15622,2006.890625
+iot_LambdaNet,RouteNet-Fermi,1,0,7751,1454.340087890625
+iot_LambdaNet,RouteNet-Fermi,1,1,28287,5562.6240234375
+iot_LambdaNet,RouteNet-Fermi,1,2,15622,2055.026123046875
+iot_LambdaNet,RouteNet-Fermi,2,0,7751,1296.10791015625
+iot_LambdaNet,RouteNet-Fermi,2,1,28287,5065.68359375
+iot_LambdaNet,RouteNet-Fermi,2,2,15622,2046.369873046875
+iot_LambdaNet,MSMP + attention,0,0,7751,1283.4586181640625
+iot_LambdaNet,MSMP + attention,0,1,28287,4887.19384765625
+iot_LambdaNet,MSMP + attention,0,2,15622,1872.947998046875
+iot_LambdaNet,MSMP + attention,1,0,7751,1242.30859375
+iot_LambdaNet,MSMP + attention,1,1,28287,4834.962890625
+iot_LambdaNet,MSMP + attention,1,2,15622,1952.326171875
+iot_LambdaNet,MSMP + attention,2,0,7751,1314.993408203125
+iot_LambdaNet,MSMP + attention,2,1,28287,5004.251953125
+iot_LambdaNet,MSMP + attention,2,2,15622,1868.70361328125
+iot_LambdaNet,QT-RouteNet,0,0,7751,1957.36572265625
+iot_LambdaNet,QT-RouteNet,0,1,28287,5646.046875
+iot_LambdaNet,QT-RouteNet,0,2,15622,8429.3857421875
+iot_LambdaNet,QT-RouteNet,1,0,7751,2124.55224609375
+iot_LambdaNet,QT-RouteNet,1,1,28287,5749.59765625
+iot_LambdaNet,QT-RouteNet,1,2,15622,8164.2587890625
+iot_LambdaNet,QT-RouteNet,2,0,7751,2198.21728515625
+iot_LambdaNet,QT-RouteNet,2,1,28287,6225.83642578125
+iot_LambdaNet,QT-RouteNet,2,2,15622,8113.33056640625
+iot_LambdaNet,QT-RouteNet + transmission term,0,0,7751,1694.55419921875
+iot_LambdaNet,QT-RouteNet + transmission term,0,1,28287,5541.837890625
+iot_LambdaNet,QT-RouteNet + transmission term,0,2,15622,2308.34619140625
+iot_LambdaNet,QT-RouteNet + transmission term,1,0,7751,1607.03173828125
+iot_LambdaNet,QT-RouteNet + transmission term,1,1,28287,5342.3408203125
+iot_LambdaNet,QT-RouteNet + transmission term,1,2,15622,2374.63427734375
+iot_LambdaNet,QT-RouteNet + transmission term,2,0,7751,1634.9794921875
+iot_LambdaNet,QT-RouteNet + transmission term,2,1,28287,5427.8505859375
+iot_LambdaNet,QT-RouteNet + transmission term,2,2,15622,2517.98828125
+iot_LambdaNet,GCN,0,0,7751,1829.2205810546875
+iot_LambdaNet,GCN,0,1,28287,6568.6826171875
+iot_LambdaNet,GCN,0,2,15622,1953.487060546875
+iot_LambdaNet,GCN,1,0,7751,1798.8104248046875
+iot_LambdaNet,GCN,1,1,28287,6570.92626953125
+iot_LambdaNet,GCN,1,2,15622,1939.7041015625
+iot_LambdaNet,GCN,2,0,7751,2016.6597900390625
+iot_LambdaNet,GCN,2,1,28287,6753.89599609375
+iot_LambdaNet,GCN,2,2,15622,1999.946533203125
+iot_LambdaNet,GAT,0,0,7751,1849.2144775390625
+iot_LambdaNet,GAT,0,1,28287,6553.12939453125
+iot_LambdaNet,GAT,0,2,15622,1979.2127685546875
+iot_LambdaNet,GAT,1,0,7751,1986.831298828125
+iot_LambdaNet,GAT,1,1,28287,7080.9775390625
+iot_LambdaNet,GAT,1,2,15622,2008.0240478515625
+iot_LambdaNet,GAT,2,0,7751,1834.841552734375
+iot_LambdaNet,GAT,2,1,28287,6602.673828125
+iot_LambdaNet,GAT,2,2,15622,1930.572021484375
+iot_LambdaNet,Graph transformer (GPS-style),0,0,7751,1861.5048828125
+iot_LambdaNet,Graph transformer (GPS-style),0,1,28287,6812.671875
+iot_LambdaNet,Graph transformer (GPS-style),0,2,15622,2243.07763671875
+iot_LambdaNet,Graph transformer (GPS-style),1,0,7751,1902.6181640625
+iot_LambdaNet,Graph transformer (GPS-style),1,1,28287,6878.716796875
+iot_LambdaNet,Graph transformer (GPS-style),1,2,15622,2695.72607421875
+iot_LambdaNet,Graph transformer (GPS-style),2,0,7751,1978.811767578125
+iot_LambdaNet,Graph transformer (GPS-style),2,1,28287,6912.00390625
+iot_LambdaNet,Graph transformer (GPS-style),2,2,15622,2002.8216552734375
+iot_LambdaNet,GBDT + prior,0,0,7751,1470.016357421875
+iot_LambdaNet,GBDT + prior,0,1,28287,6090.009765625
+iot_LambdaNet,GBDT + prior,0,2,15622,2148.194091796875
+iot_LambdaNet,GBDT + prior,1,0,7751,1500.75439453125
+iot_LambdaNet,GBDT + prior,1,1,28287,6030.6044921875
+iot_LambdaNet,GBDT + prior,1,2,15622,2113.181884765625
+iot_LambdaNet,GBDT + prior,2,0,7751,1490.854736328125
+iot_LambdaNet,GBDT + prior,2,1,28287,6034.4443359375
+iot_LambdaNet,GBDT + prior,2,2,15622,2086.7685546875
+iot_LambdaNet,RouteNet-style + prior features,0,0,7751,1231.0181884765625
+iot_LambdaNet,RouteNet-style + prior features,0,1,28287,4751.96484375
+iot_LambdaNet,RouteNet-style + prior features,0,2,15622,1738.8287353515625
+iot_LambdaNet,RouteNet-style + prior features,1,0,7751,1213.194580078125
+iot_LambdaNet,RouteNet-style + prior features,1,1,28287,4823.52734375
+iot_LambdaNet,RouteNet-style + prior features,1,2,15622,1731.4119873046875
+iot_LambdaNet,RouteNet-style + prior features,2,0,7751,1225.443603515625
+iot_LambdaNet,RouteNet-style + prior features,2,1,28287,4872.6337890625
+iot_LambdaNet,RouteNet-style + prior features,2,2,15622,1805.418212890625
+iot_LambdaNet,"Ours, prior as readout base only",0,0,7751,1288.9876708984375
+iot_LambdaNet,"Ours, prior as readout base only",0,1,28287,4968.0859375
+iot_LambdaNet,"Ours, prior as readout base only",0,2,15622,1989.370849609375
+iot_LambdaNet,"Ours, prior as readout base only",1,0,7751,1664.945068359375
+iot_LambdaNet,"Ours, prior as readout base only",1,1,28287,5950.8369140625
+iot_LambdaNet,"Ours, prior as readout base only",1,2,15622,2181.75634765625
+iot_LambdaNet,"Ours, prior as readout base only",2,0,7751,1356.525634765625
+iot_LambdaNet,"Ours, prior as readout base only",2,1,28287,5136.16015625
+iot_LambdaNet,"Ours, prior as readout base only",2,2,15622,1903.37158203125
+iot_LambdaNet,QPR-GNN (ours),0,0,7751,1212.008056640625
+iot_LambdaNet,QPR-GNN (ours),0,1,28287,4795.04150390625
+iot_LambdaNet,QPR-GNN (ours),0,2,15622,1769.659912109375
+iot_LambdaNet,QPR-GNN (ours),1,0,7751,1170.144775390625
+iot_LambdaNet,QPR-GNN (ours),1,1,28287,4752.220703125
+iot_LambdaNet,QPR-GNN (ours),1,2,15622,1684.7520751953125
+iot_LambdaNet,QPR-GNN (ours),2,0,7751,1211.65087890625
+iot_LambdaNet,QPR-GNN (ours),2,1,28287,4926.48095703125
+iot_LambdaNet,QPR-GNN (ours),2,2,15622,1781.4677734375
+iot_Litnet,M/M/1 (per-flow packet size),analytic,0,7945,4771.76123046875
+iot_Litnet,M/M/1 (per-flow packet size),analytic,1,28718,14171.041015625
+iot_Litnet,M/M/1 (per-flow packet size),analytic,2,15711,17110.876953125
+iot_Litnet,"M/M/1/K, aggregate (= our prior alone)",analytic,0,7945,2058.925537109375
+iot_Litnet,"M/M/1/K, aggregate (= our prior alone)",analytic,1,28718,6759.271484375
+iot_Litnet,"M/M/1/K, aggregate (= our prior alone)",analytic,2,15711,1739.339111328125
+iot_Litnet,M/G/1 (Pollaczek-Khinchine),analytic,0,7945,5871.48046875
+iot_Litnet,M/G/1 (Pollaczek-Khinchine),analytic,1,28718,16896.0546875
+iot_Litnet,M/G/1 (Pollaczek-Khinchine),analytic,2,15711,5800.30908203125
+iot_Litnet,MLP,0,0,7945,2778.57666015625
+iot_Litnet,MLP,0,1,28718,9458.4248046875
+iot_Litnet,MLP,0,2,15711,2354.608154296875
+iot_Litnet,MLP,1,0,7945,2872.944580078125
+iot_Litnet,MLP,1,1,28718,9760.84765625
+iot_Litnet,MLP,1,2,15711,2433.47021484375
+iot_Litnet,MLP,2,0,7945,2710.416259765625
+iot_Litnet,MLP,2,1,28718,9282.63671875
+iot_Litnet,MLP,2,2,15711,2469.55712890625
+iot_Litnet,Gradient-boosted trees,0,0,7945,3086.765380859375
+iot_Litnet,Gradient-boosted trees,0,1,28718,11300.6171875
+iot_Litnet,Gradient-boosted trees,0,2,15711,3056.1943359375
+iot_Litnet,Gradient-boosted trees,1,0,7945,3173.338623046875
+iot_Litnet,Gradient-boosted trees,1,1,28718,11519.216796875
+iot_Litnet,Gradient-boosted trees,1,2,15711,2991.47509765625
+iot_Litnet,Gradient-boosted trees,2,0,7945,3132.3701171875
+iot_Litnet,Gradient-boosted trees,2,1,28718,11389.01953125
+iot_Litnet,Gradient-boosted trees,2,2,15711,2986.828125
+iot_Litnet,RouteNet-style (25k),0,0,7945,1745.716064453125
+iot_Litnet,RouteNet-style (25k),0,1,28718,6569.50048828125
+iot_Litnet,RouteNet-style (25k),0,2,15711,9395.3974609375
+iot_Litnet,RouteNet-style (25k),1,0,7945,1556.03759765625
+iot_Litnet,RouteNet-style (25k),1,1,28718,5442.564453125
+iot_Litnet,RouteNet-style (25k),1,2,15711,2253.15185546875
+iot_Litnet,RouteNet-style (25k),2,0,7945,1878.83154296875
+iot_Litnet,RouteNet-style (25k),2,1,28718,6199.046875
+iot_Litnet,RouteNet-style (25k),2,2,15711,2347.9296875
+iot_Litnet,RouteNet-style (87k),0,0,7945,1624.9368896484375
+iot_Litnet,RouteNet-style (87k),0,1,28718,5725.982421875
+iot_Litnet,RouteNet-style (87k),0,2,15711,1914.4908447265625
+iot_Litnet,RouteNet-style (87k),1,0,7945,1835.280517578125
+iot_Litnet,RouteNet-style (87k),1,1,28718,6036.26318359375
+iot_Litnet,RouteNet-style (87k),1,2,15711,2079.29638671875
+iot_Litnet,RouteNet-style (87k),2,0,7945,1638.09716796875
+iot_Litnet,RouteNet-style (87k),2,1,28718,5879.35400390625
+iot_Litnet,RouteNet-style (87k),2,2,15711,1874.9891357421875
+iot_Litnet,RouteNet-Fermi,0,0,7945,1415.183837890625
+iot_Litnet,RouteNet-Fermi,0,1,28718,5376.673828125
+iot_Litnet,RouteNet-Fermi,0,2,15711,1991.65234375
+iot_Litnet,RouteNet-Fermi,1,0,7945,1505.1109619140625
+iot_Litnet,RouteNet-Fermi,1,1,28718,5714.33984375
+iot_Litnet,RouteNet-Fermi,1,2,15711,2079.618408203125
+iot_Litnet,RouteNet-Fermi,2,0,7945,1418.42626953125
+iot_Litnet,RouteNet-Fermi,2,1,28718,5412.10546875
+iot_Litnet,RouteNet-Fermi,2,2,15711,2047.88232421875
+iot_Litnet,MSMP + attention,0,0,7945,1488.5616455078125
+iot_Litnet,MSMP + attention,0,1,28718,5417.2412109375
+iot_Litnet,MSMP + attention,0,2,15711,2037.7421875
+iot_Litnet,MSMP + attention,1,0,7945,1491.7943115234375
+iot_Litnet,MSMP + attention,1,1,28718,5506.8681640625
+iot_Litnet,MSMP + attention,1,2,15711,2088.24658203125
+iot_Litnet,MSMP + attention,2,0,7945,1505.8099365234375
+iot_Litnet,MSMP + attention,2,1,28718,5403.458984375
+iot_Litnet,MSMP + attention,2,2,15711,1871.5379638671875
+iot_Litnet,QT-RouteNet,0,0,7945,2749.68896484375
+iot_Litnet,QT-RouteNet,0,1,28718,6223.66748046875
+iot_Litnet,QT-RouteNet,0,2,15711,9963.87109375
+iot_Litnet,QT-RouteNet,1,0,7945,2657.88720703125
+iot_Litnet,QT-RouteNet,1,1,28718,6509.87939453125
+iot_Litnet,QT-RouteNet,1,2,15711,9910.8408203125
+iot_Litnet,QT-RouteNet,2,0,7945,2655.943603515625
+iot_Litnet,QT-RouteNet,2,1,28718,7087.93603515625
+iot_Litnet,QT-RouteNet,2,2,15711,9784.548828125
+iot_Litnet,QT-RouteNet + transmission term,0,0,7945,1653.55078125
+iot_Litnet,QT-RouteNet + transmission term,0,1,28718,5480.12841796875
+iot_Litnet,QT-RouteNet + transmission term,0,2,15711,1489.697265625
+iot_Litnet,QT-RouteNet + transmission term,1,0,7945,1525.220703125
+iot_Litnet,QT-RouteNet + transmission term,1,1,28718,5071.39306640625
+iot_Litnet,QT-RouteNet + transmission term,1,2,15711,1416.47509765625
+iot_Litnet,QT-RouteNet + transmission term,2,0,7945,1649.728759765625
+iot_Litnet,QT-RouteNet + transmission term,2,1,28718,5412.46435546875
+iot_Litnet,QT-RouteNet + transmission term,2,2,15711,1448.76416015625
+iot_Litnet,GCN,0,0,7945,2548.1435546875
+iot_Litnet,GCN,0,1,28718,8723.501953125
+iot_Litnet,GCN,0,2,15711,2298.67138671875
+iot_Litnet,GCN,1,0,7945,2673.3955078125
+iot_Litnet,GCN,1,1,28718,9035.96484375
+iot_Litnet,GCN,1,2,15711,2299.236328125
+iot_Litnet,GCN,2,0,7945,2595.6591796875
+iot_Litnet,GCN,2,1,28718,8784.2890625
+iot_Litnet,GCN,2,2,15711,2271.930419921875
+iot_Litnet,GAT,0,0,7945,2618.09326171875
+iot_Litnet,GAT,0,1,28718,8963.376953125
+iot_Litnet,GAT,0,2,15711,2304.645263671875
+iot_Litnet,GAT,1,0,7945,2519.17333984375
+iot_Litnet,GAT,1,1,28718,8850.994140625
+iot_Litnet,GAT,1,2,15711,2496.8974609375
+iot_Litnet,GAT,2,0,7945,2755.89599609375
+iot_Litnet,GAT,2,1,28718,9521.98046875
+iot_Litnet,GAT,2,2,15711,2514.956787109375
+iot_Litnet,Graph transformer (GPS-style),0,0,7945,2293.95263671875
+iot_Litnet,Graph transformer (GPS-style),0,1,28718,7972.12255859375
+iot_Litnet,Graph transformer (GPS-style),0,2,15711,2233.33544921875
+iot_Litnet,Graph transformer (GPS-style),1,0,7945,2343.678955078125
+iot_Litnet,Graph transformer (GPS-style),1,1,28718,7852.494140625
+iot_Litnet,Graph transformer (GPS-style),1,2,15711,2202.9755859375
+iot_Litnet,Graph transformer (GPS-style),2,0,7945,2272.7724609375
+iot_Litnet,Graph transformer (GPS-style),2,1,28718,7786.9013671875
+iot_Litnet,Graph transformer (GPS-style),2,2,15711,2265.871826171875
+iot_Litnet,GBDT + prior,0,0,7945,1408.269287109375
+iot_Litnet,GBDT + prior,0,1,28718,4979.58984375
+iot_Litnet,GBDT + prior,0,2,15711,1344.700927734375
+iot_Litnet,GBDT + prior,1,0,7945,1409.884033203125
+iot_Litnet,GBDT + prior,1,1,28718,5014.68017578125
+iot_Litnet,GBDT + prior,1,2,15711,1361.7498779296875
+iot_Litnet,GBDT + prior,2,0,7945,1427.672607421875
+iot_Litnet,GBDT + prior,2,1,28718,5002.72216796875
+iot_Litnet,GBDT + prior,2,2,15711,1320.004150390625
+iot_Litnet,RouteNet-style + prior features,0,0,7945,1213.6102294921875
+iot_Litnet,RouteNet-style + prior features,0,1,28718,4502.87646484375
+iot_Litnet,RouteNet-style + prior features,0,2,15711,1464.7249755859375
+iot_Litnet,RouteNet-style + prior features,1,0,7945,1228.5966796875
+iot_Litnet,RouteNet-style + prior features,1,1,28718,4453.87890625
+iot_Litnet,RouteNet-style + prior features,1,2,15711,1460.04736328125
+iot_Litnet,RouteNet-style + prior features,2,0,7945,1262.071044921875
+iot_Litnet,RouteNet-style + prior features,2,1,28718,4540.4521484375
+iot_Litnet,RouteNet-style + prior features,2,2,15711,1441.10302734375
+iot_Litnet,"Ours, prior as readout base only",0,0,7945,1196.571044921875
+iot_Litnet,"Ours, prior as readout base only",0,1,28718,4590.455078125
+iot_Litnet,"Ours, prior as readout base only",0,2,15711,1542.0477294921875
+iot_Litnet,"Ours, prior as readout base only",1,0,7945,1414.751220703125
+iot_Litnet,"Ours, prior as readout base only",1,1,28718,4894.06884765625
+iot_Litnet,"Ours, prior as readout base only",1,2,15711,1449.765380859375
+iot_Litnet,"Ours, prior as readout base only",2,0,7945,1294.788818359375
+iot_Litnet,"Ours, prior as readout base only",2,1,28718,4734.71484375
+iot_Litnet,"Ours, prior as readout base only",2,2,15711,1608.6351318359375
+iot_Litnet,QPR-GNN (ours),0,0,7945,1185.9921875
+iot_Litnet,QPR-GNN (ours),0,1,28718,4370.130859375
+iot_Litnet,QPR-GNN (ours),0,2,15711,1481.3729248046875
+iot_Litnet,QPR-GNN (ours),1,0,7945,1215.560546875
+iot_Litnet,QPR-GNN (ours),1,1,28718,4599.822265625
+iot_Litnet,QPR-GNN (ours),1,2,15711,1494.2791748046875
+iot_Litnet,QPR-GNN (ours),2,0,7945,1160.442138671875
+iot_Litnet,QPR-GNN (ours),2,1,28718,4415.015625
+iot_Litnet,QPR-GNN (ours),2,2,15711,1456.6363525390625

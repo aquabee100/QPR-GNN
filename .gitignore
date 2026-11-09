@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+cache/
+data/zoo/
+data/traces/
+data/raw/real_traces.zip
+data_zoo
+data_traces
+sim_inputs/
+ns3_inputs/
+iot_inputs/

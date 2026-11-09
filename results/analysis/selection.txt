@@ -1,0 +1,10 @@
+Mean best validation MAPE % on the validation splits of the TRAINING topologies
+(3 LOTO folds x seeds 0-2; lower is better; no held-out data involved)
+prior as readout base + input features (FINAL)        5.181  (n=9)
+prior as readout base only                            5.734  (n=9)
+prior as input features only (tx readout)             5.193  (n=9)
+QoS-aware M/M/1/K prior as readout base               5.849  (n=9)
+FIFO M/M/1 prior as readout base                      5.725  (n=9)
+Fermi-style readout tx (1 + softplus r)               6.725  (n=9)
+RouteNet-style 87k (M/M/1 readout)                    6.269  (n=9)
+RouteNet-style 25k (M/M/1 readout)                    6.431  (n=9)

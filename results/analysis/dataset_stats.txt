@@ -1,0 +1,10 @@
+               dataset                 topology nodes  states   flows
+RouteNet-Fermi archive                    GEANT    22     757  315044
+RouteNet-Fermi archive                  Abilene    12     996  131472
+RouteNet-Fermi archive                 Nobel-EU    17     141   34030
+RouteNet-Fermi archive                Germany50    50     286  357995
+        BNNetSimulator 16 Topology Zoo networks 10-45     958 1001004
+                  ns-3 16 Topology Zoo networks 10-45     844  822492
+     ns-3, IoT traffic 16 Topology Zoo networks 10-45     477  496758
+
+held-out archive flows (Abilene + Nobel-EU + Germany50): 523497

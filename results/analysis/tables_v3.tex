@@ -1,0 +1,39 @@
+% Table 1: published methods
+\begin{tabular}{llrrrr}
+\toprule
+Group & Model & Archive & BNNetSimulator & ns-3 & IoT traffic \\
+\midrule
+Ours & \textbf{QPR-GNN (ours)} & \textbf{6.19} & \textbf{3.93} & \textbf{8.58} & \textbf{15.71} \\
+Analytic & M/M/1 & 12.12$^\ddagger$ & 49.46$^\ddagger$ & 57.66$^\ddagger$ & 67.38$^\ddagger$ \\
+Analytic & M/M/1/K & 11.09$^\ddagger$ & 21.78$^\ddagger$ & 21.07$^\ddagger$ & 26.59$^\ddagger$ \\
+Analytic & M/G/1 & 14.55$^\ddagger$ & 17.44$^\ddagger$ & 27.22$^\ddagger$ & 54.58$^\ddagger$ \\
+Classical ML & MLP & 9.52$^\ddagger$ & 9.14$^\ddagger$ & 13.05$^\ddagger$ & 26.58$^\ddagger$ \\
+Classical ML & Gradient-boosted trees & 9.44$^\ddagger$ & 8.70$^\ddagger$ & 14.04$^\ddagger$ & 25.95$^\ddagger$ \\
+GNN & RouteNet-style (25k) & 7.51$^\ddagger$ & 8.38$^\ddagger$ & 13.08$^\ddagger$ & 22.39$^\ddagger$ \\
+GNN & RouteNet-style (87k) & 7.38$^\ddagger$ & 7.12$^\ddagger$ & 12.60$^\ddagger$ & 21.00$^\ddagger$ \\
+GNN & RouteNet-Fermi & 7.27$^\ddagger$ & 4.64$^\ddagger$ & 9.24$^\ddagger$ & 17.40$^\ddagger$ \\
+GNN & MSMP + attention (2024) & 8.38$^\ddagger$ & 5.47$^\ddagger$ & 9.72$^\ddagger$ & 17.67$^\ddagger$ \\
+GNN & QT-RouteNet & 33.25$^\ddagger$ & 10.28$^\ddagger$ & 13.85$^\ddagger$ & 39.77$^\ddagger$ \\
+GNN & QT-RouteNet + tx term* & 8.94$^\ddagger$ & 4.52$^\ddagger$ & 9.25$^\ddagger$ & 19.18$^\ddagger$ \\
+GNN & GCN & 9.36$^\ddagger$ & 9.52$^\ddagger$ & 13.01$^\ddagger$ & 25.46$^\ddagger$ \\
+GNN & GAT & 9.39$^\ddagger$ & 9.57$^\ddagger$ & 13.32$^\ddagger$ & 25.85$^\ddagger$ \\
+GNN & Graph transformer (GPS) & 10.06$^\ddagger$ & 9.15$^\ddagger$ & 12.96$^\ddagger$ & 24.02$^\ddagger$ \\
+\bottomrule
+\end{tabular}
+
+% Table 2: ablation
+\begin{tabular}{llrrrr}
+\toprule
+Group & Model & Archive & BNNetSimulator & ns-3 & IoT traffic \\
+\midrule
+Ours & \textbf{QPR-GNN (ours)} & \textbf{6.19} & \textbf{3.93} & \textbf{8.58} & \textbf{15.71} \\
+Prior & Prior alone (M/M/1/K) & 11.09$^\ddagger$ & 21.78$^\ddagger$ & 21.07$^\ddagger$ & 26.59$^\ddagger$ \\
+QPR-GNN components & QPR-GNN without prior features & 6.72$^\ddagger$ & 4.33$^\ddagger$ & 8.92$^\ddagger$ & 17.34$^\ddagger$ \\
+QPR-GNN components & QPR-GNN with log-ratio loss & 6.39$^{2/3}$ & 4.27$^\ddagger$ & 9.01$^\ddagger$ & 17.54$^\ddagger$ \\
+Prior given to other learners & MLP + prior & 6.96$^\ddagger$ & 4.16$^\ddagger$ & 8.88$^\ddagger$ & 16.37$^\ddagger$ \\
+Prior given to other learners & GBDT + prior & 6.86$^\ddagger$ & 4.14$^{\mathrm{ns}}$ & 9.39$^\ddagger$ & 18.35$^\ddagger$ \\
+Prior given to other learners & GAT + prior & 6.92$^\ddagger$ & 4.05$^{\mathrm{ns}}$ & 8.56$^{\mathrm{ns}}$ & 16.04$^\dagger$ \\
+Prior given to other learners & RouteNet-style + prior features & 6.42$^\ddagger$ & 4.07$^\ddagger$ & 8.66$^{\mathrm{ns}}$ & 15.95$^\ddagger$ \\
+\bottomrule
+\end{tabular}
+

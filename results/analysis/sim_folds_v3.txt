@@ -1,0 +1,110 @@
+BNNetSimulator cross-topology folds: FROZEN METHOD retrained on 12 topologies, tested on 4 held-out (4 folds).
+QPR-GNN trained with the MAPE loss; RouteNet-style + prior features from results/simfold_mape.
+MAPE % per held-out topology (mean over seeds); avg = mean over topologies; pooled = flow-weighted.
+
+model                                           Ai3   Xspedius      Geant   Palmetto    Abilene    Integra Intranetwo     Carnet HiberniaCa        Ibm   SwitchL3      Sanet     Nsfnet        Ans  LambdaNet     Litnet     avg  pooled
+M/M/1 (per-flow packet size)                  39.87      72.49      51.35      44.67      43.91      48.12      77.81      50.10      25.87      40.02      46.55      46.37      38.09      42.30      66.60      57.22   49.46   54.38
+M/M/1/K, aggregate (= our prior alone)        18.93      23.09      21.68      22.62      18.41      23.19      27.55      20.60      19.64      19.92      19.84      24.45      19.37      19.30      28.58      21.28   21.78   22.98
+M/G/1 (Pollaczek-Khinchine)                   14.84      27.70      17.53      14.50      17.10      15.44      29.77      17.83       6.26      13.86      16.84      15.01      13.03      14.70      23.65      20.95   17.44   19.26
+MLP                                            8.81      10.74       8.89       8.69      11.31       9.32      10.41      11.76       6.16       7.41       8.65       7.98       7.61       7.78       8.99      11.76    9.14    9.60
+Gradient-boosted trees                         8.74      10.89       8.67       8.83       7.10       8.61      10.75      11.71       6.09       7.10       8.49       7.92       6.97       7.09       9.18      11.09    8.70    9.47
+RouteNet-style (25k)                           9.47      11.91       8.48       7.54       8.70       9.35      10.09       8.55       6.10       7.73       7.39       8.47       6.47       6.43       9.08       8.40    8.38    8.64
+RouteNet-style (87k)                           6.76       8.95       6.67       6.46       6.96       7.24       8.68       6.77       5.32       6.64       6.27       7.62       6.29       6.26       8.92       8.14    7.12    7.44
+RouteNet-Fermi                                 5.25       5.57       4.28       4.24       4.74       5.35       4.96       5.11       3.72       4.78       3.74       4.36       4.32       4.25       4.98       4.52    4.64    4.62
+MSMP + attention                               6.06       7.19       5.14       4.86       5.14       6.40       5.49       6.68       3.97       5.27       4.63       4.88       4.94       4.87       5.61       6.36    5.47    5.59
+QT-RouteNet                                   13.42      10.02       9.68       9.26      10.75       9.68       9.64       9.85      10.85      10.89       9.84       8.97      11.45      10.47       9.18      10.60   10.28    9.75
+QT-RouteNet + transmission term                5.24       4.92       4.13       3.81       4.52       4.91       5.10       4.67       4.28       4.62       3.56       4.55       3.98       4.19       5.26       4.66    4.52    4.50
+GCN                                            9.47      11.99       8.94       8.87      16.53       8.96      11.29      11.29       6.14       7.12       8.49       7.66       7.48       7.58       9.31      11.16    9.52    9.66
+GAT                                            9.60      11.73       9.03       9.28      15.54       9.05      11.28      11.58       6.27       7.35       8.53       7.91       7.36       7.49       9.44      11.58    9.57    9.82
+Graph transformer (GPS-style)                  9.66      12.53       8.91       8.67      10.16       9.21      12.40      10.40       6.14       7.21       8.24       7.75       7.50       7.62       9.31      10.77    9.15    9.58
+GBDT + prior                                   3.61       4.94       3.60       4.13       4.33       4.20       6.00       3.57       3.48       3.73       3.15       4.50       3.91       3.67       5.85       3.59    4.14    4.28
+RouteNet-style + prior features                3.87       4.75       3.76       3.74       4.37       4.32       4.92       3.74       3.46       3.86       3.20       4.16       4.22       3.65       5.38       3.74    4.07    4.11
+Ours, prior as readout base only               4.17       4.94       4.09       4.11       4.14       4.82       4.99       4.21       3.75       4.21       3.41       4.24       4.25       4.00       5.66       4.23    4.33    4.40
+QPR-GNN with log-ratio loss                   4.67       5.10       3.80       3.78       4.40       4.50       5.16       4.32       3.74       4.31       3.52       4.27       4.28       3.68       5.12       3.75    4.27    4.27
+QPR-GNN (ours)                                 3.78       4.48       3.73       3.64       4.11       4.23       4.72       3.61       3.42       3.82       3.14       4.05       3.95       3.59       5.17       3.47    3.93    3.96
+
+MAPE % by declared load stratum (pooled over held-out topologies, mean over seeds)
+model                                            moderate  near_saturation         overload   traffic_scaled
+M/M/1 (per-flow packet size)                        15.09            23.24           144.00            56.93
+M/M/1/K, aggregate (= our prior alone)              14.90            20.93            25.56            29.46
+M/G/1 (Pollaczek-Khinchine)                          3.50             4.32            61.97            18.55
+MLP                                                  4.51             7.13            17.70            11.93
+Gradient-boosted trees                               4.37             6.58            18.29            10.41
+RouteNet-style (25k)                                 3.22             4.51            20.19            11.22
+RouteNet-style (87k)                                 3.14             4.31            15.89             9.45
+RouteNet-Fermi                                       2.01             2.85            10.43             6.15
+MSMP + attention                                     2.07             3.19            13.71             6.88
+QT-RouteNet                                          9.47             9.31            13.15            10.37
+QT-RouteNet + transmission term                      2.38             3.35             8.26             6.16
+GCN                                                  4.29             6.66            19.07            13.14
+GAT                                                  4.41             6.79            18.97            13.17
+Graph transformer (GPS-style)                        4.29             6.48            19.73            11.37
+GBDT + prior                                         1.80             2.72             8.36             5.81
+RouteNet-style + prior features                      1.96             2.81             7.48             5.88
+Ours, prior as readout base only                     1.97             3.01             8.59             5.98
+QPR-GNN with log-ratio loss                         1.86             2.78             8.49             6.18
+QPR-GNN (ours)                                       1.84             2.75             7.30             5.66
+
+OURS vs each model per held-out topology (sign-flip test over scenarios, Holm over 288 tests)
+GAT                                      mean diff   -5.63   significant wins 16/16, losses 0
+GBDT + prior                             mean diff   -0.21   significant wins 0/16, losses 0
+GCN                                      mean diff   -5.59   significant wins 16/16, losses 0
+Gradient-boosted trees                   mean diff   -4.77   significant wins 16/16, losses 0
+Graph transformer (GPS-style)            mean diff   -5.22   significant wins 16/16, losses 0
+M/G/1 (Pollaczek-Khinchine)              mean diff  -13.51   significant wins 16/16, losses 0
+M/M/1 (per-flow packet size)             mean diff  -45.53   significant wins 16/16, losses 0
+M/M/1/K, aggregate (= our prior alone)   mean diff  -17.85   significant wins 16/16, losses 0
+MLP                                      mean diff   -5.21   significant wins 16/16, losses 0
+MSMP + attention                         mean diff   -1.53   significant wins 9/16, losses 0
+Ours, prior as readout base only         mean diff   -0.39   significant wins 11/16, losses 0
+QPR-GNN with log-ratio loss             mean diff   -0.34   significant wins 4/16, losses 0
+QT-RouteNet                              mean diff   -6.35   significant wins 16/16, losses 0
+QT-RouteNet + transmission term          mean diff   -0.59   significant wins 7/16, losses 0
+RouteNet-Fermi                           mean diff   -0.70   significant wins 5/16, losses 0
+RouteNet-style (25k)                     mean diff   -4.45   significant wins 16/16, losses 0
+RouteNet-style (87k)                     mean diff   -3.19   significant wins 16/16, losses 0
+RouteNet-style + prior features          mean diff   -0.14   significant wins 1/16, losses 0
+
+TOTAL: significant wins 213 / 288, significant losses 0
+
+OURS vs each model across the held-out topologies (per-topology MAPE, mean over seeds; Wilcoxon signed-rank)
+M/M/1 (per-flow packet size)             mean diff  -45.53 ( -92.0%)   ours better on 16/16   p = 0.0000
+M/M/1/K, aggregate (= our prior alone)   mean diff  -17.85 ( -81.9%)   ours better on 16/16   p = 0.0000
+M/G/1 (Pollaczek-Khinchine)              mean diff  -13.51 ( -77.5%)   ours better on 16/16   p = 0.0000
+MLP                                      mean diff   -5.21 ( -57.0%)   ours better on 16/16   p = 0.0000
+Gradient-boosted trees                   mean diff   -4.77 ( -54.8%)   ours better on 16/16   p = 0.0000
+RouteNet-style (25k)                     mean diff   -4.45 ( -53.1%)   ours better on 16/16   p = 0.0000
+RouteNet-style (87k)                     mean diff   -3.19 ( -44.8%)   ours better on 16/16   p = 0.0000
+RouteNet-Fermi                           mean diff   -0.70 ( -15.2%)   ours better on 15/16   p = 0.0001
+MSMP + attention                         mean diff   -1.53 ( -28.1%)   ours better on 16/16   p = 0.0000
+QT-RouteNet                              mean diff   -6.35 ( -61.8%)   ours better on 16/16   p = 0.0000
+QT-RouteNet + transmission term          mean diff   -0.59 ( -13.1%)   ours better on 16/16   p = 0.0000
+GCN                                      mean diff   -5.59 ( -58.7%)   ours better on 16/16   p = 0.0000
+GAT                                      mean diff   -5.63 ( -58.9%)   ours better on 16/16   p = 0.0000
+Graph transformer (GPS-style)            mean diff   -5.22 ( -57.0%)   ours better on 16/16   p = 0.0000
+GBDT + prior                             mean diff   -0.21 (  -5.0%)   ours better on 10/16   p = 0.0934
+RouteNet-style + prior features          mean diff   -0.14 (  -3.4%)   ours better on 16/16   p = 0.0000
+Ours, prior as readout base only         mean diff   -0.39 (  -9.1%)   ours better on 16/16   p = 0.0000
+QPR-GNN with log-ratio loss             mean diff   -0.34 (  -8.0%)   ours better on 15/16   p = 0.0001
+
+MAPE % by traffic class (pooled over held-out topologies and seeds)
+model                                                        ToS 0                     ToS 1                     ToS 2
+M/M/1 (per-flow packet size)                                 86.60                     70.34                     51.72
+M/M/1/K, aggregate (= our prior alone)                       38.05                     30.62                     21.72
+M/G/1 (Pollaczek-Khinchine)                                  38.12                     28.02                     17.74
+MLP                                                           9.80                      9.78                      9.57
+Gradient-boosted trees                                        9.59                      9.76                      9.45
+RouteNet-style (25k)                                         33.52                     20.25                      6.63
+RouteNet-style (87k)                                         17.58                     12.57                      6.60
+RouteNet-Fermi                                                9.11                      6.56                      4.27
+MSMP + attention                                             12.00                      8.46                      5.08
+QT-RouteNet                                                  21.88                     15.45                      8.76
+QT-RouteNet + transmission term                              17.72                     10.81                      3.43
+GCN                                                           9.13                      9.91                      9.68
+GAT                                                           9.73                     10.03                      9.82
+Graph transformer (GPS-style)                                12.35                     10.99                      9.35
+GBDT + prior                                                  8.11                      6.88                      3.92
+RouteNet-style + prior features                               9.95                      6.74                      3.64
+Ours, prior as readout base only                             10.49                      6.97                      3.92
+QPR-GNN with log-ratio loss                                 13.46                      9.05                      3.50
+QPR-GNN (ours)                                                9.11                      6.20                      3.55

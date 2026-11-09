@@ -1,0 +1,51 @@
+1. Archive per held-out topology, QPR-GNN vs RouteNet-Fermi (MAPE %)
+   test_abilene: 2.80 vs 3.64
+   test_germany50: 8.00 vs 9.32
+   test_nobel: 7.76 vs 8.83
+2. Topology-averaged MAPE and error reduction of QPR-GNN
+   Archive: ours 6.19, Fermi 7.27 (-15%), MSMP 8.38 (-26%)
+   BNNetSimulator: ours 3.93, Fermi 4.64 (-15%), MSMP 5.47 (-28%)
+   ns-3: ours 8.58, Fermi 9.24 (-7%), MSMP 9.72 (-12%)
+   IoT: ours 15.71, Fermi 17.40 (-10%), MSMP 17.67 (-11%)
+3. Held-out topologies where QPR-GNN is more accurate; median error reduction per benchmark
+   vs RouteNet-Fermi: 48 of 51; medians: Archive 14%, BNNetSimulator 15%, ns-3 5%, IoT 9%
+   remaining topologies: sim_LambdaNet (5.17 vs 4.98, gap 0.19); ns3_HiberniaCanada (9.91 vs 9.86, gap 0.05); iot_Integra (16.28 vs 16.04, gap 0.24)
+   vs MSMP + attention: 51 of 51; medians: Archive 33%, BNNetSimulator 27%, ns-3 10%, IoT 10%
+4. Per-topology sign-flip tests (Holm) against the 14 published methods
+   619 significant improvements in 714 comparisons; 0 significant losses
+5. Wilcoxon across the 16 topologies against each published method (fewest wins, largest p)
+   BNNetSimulator: at least 15 of 16 topologies, p <= 6.1e-05
+   ns-3: at least 15 of 16 topologies, p <= 6.1e-05
+   IoT: at least 15 of 16 topologies, p <= 9.2e-05
+6. Prior alone (M/M/1/K) relative to QPR-GNN
+   1.7 to 5.5 times the error of QPR-GNN
+7. Ablation: error averaged over the four benchmarks
+   QPR-GNN (ours)                       8.60
+   Prior alone (M/M/1/K)                20.13
+   QPR-GNN without prior features       9.32
+   QPR-GNN with log-ratio loss          9.30
+   MLP + prior                          9.09
+   GBDT + prior                         9.69
+   GAT + prior                          8.89
+   RouteNet-style + prior features      8.77
+8. IoT: QPR-GNN against every learner given the prior
+   better on 12 to 16 of 16 topologies, p <= 0.018
+9. ns-3: QPR-GNN across training seeds, and GAT + prior
+   QPR-GNN seeds 8.56-8.60; mean 8.58; GAT + prior 8.56 (gap 0.02)
+10. Training time of QPR-GNN on IoT traffic (median over 12 runs, CPU)
+   20 minutes
+11. Pooled archive percentiles of absolute percentage error
+   P90: ours 15.60, Fermi 18.96
+   P95: ours 26.41, Fermi 31.85
+12. IoT MAPE by traffic class (ours vs best published)
+   control/alarm: ours 14.94, best published 17.06 (RouteNet-Fermi)
+   telemetry: ours 16.18, best published 18.28 (MSMP + attention)
+   video: ours 10.26, best published 12.09 (MSMP + attention)
+13. Analytic models and generic graph learners on IoT traffic
+   24-67%
+14. Delay-budget violation detection (results/analysis/iot_decision_v3.txt)
+   c=3 recall: ours 55.6%, Fermi 40.2% (38% more violations detected)
+   c=5 F1: ours 0.514, Fermi 0.147 (3.5 times)
+15. Inference cost (results/analysis/efficiency_v3.txt)
+   ns-3 (lab server, default build), Palmetto: median 245 s per sample, max 321 s
+   QPR-GNN (ours)                        25345       99         76.4          31.5             3209x

@@ -1,0 +1,9 @@
+Mean best validation MAPE % on the validation splits of the TRAINING topologies
+(3 leave-one-topology-out folds x seeds 0-2; no held-out data involved)
+log-ratio loss (reference)                               5.181
+log-ratio loss at H=34 (size control)          5.092
+D: decoupled residual (tx * exp(a) + W * exp(b))      5.108  (n=9)
+M: MAPE loss                          4.964  (n=9)
+DM: decoupled residual trained on MAPE                5.028  (n=9)
+
+decision: adopt v3_M

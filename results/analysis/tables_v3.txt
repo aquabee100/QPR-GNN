@@ -1,0 +1,37 @@
+Table 1  comparison with published methods (state of the art and classical models)
+Table 2  ablation study: the prior alone, each component of QPR-GNN, and the prior given to other learners
+         (matched-information controls)
+
+Table 1: published methods
+group                         model                                  Archive  sig.  BNNetSim         better, p    ns-3         better, p     IoT         better, p
+Ours                          QPR-GNN (ours)                            6.19            3.93                      8.58                     15.71                  
+Analytic                      M/M/1                                    12.12   3/3     49.46     16/16, 0.0000   57.66     16/16, 0.0000   67.38     16/16, 0.0000
+Analytic                      M/M/1/K                                  11.09   3/3     21.78     16/16, 0.0000   21.07     16/16, 0.0000   26.59     16/16, 0.0000
+Analytic                      M/G/1                                    14.55   3/3     17.44     16/16, 0.0000   27.22     16/16, 0.0000   54.58     16/16, 0.0000
+Classical ML                  MLP                                       9.52   3/3      9.14     16/16, 0.0000   13.05     16/16, 0.0000   26.58     16/16, 0.0000
+Classical ML                  Gradient-boosted trees                    9.44   3/3      8.70     16/16, 0.0000   14.04     16/16, 0.0000   25.95     16/16, 0.0000
+GNN                           RouteNet-style (25k)                      7.51   3/3      8.38     16/16, 0.0000   13.08     16/16, 0.0000   22.39     16/16, 0.0000
+GNN                           RouteNet-style (87k)                      7.38   3/3      7.12     16/16, 0.0000   12.60     16/16, 0.0000   21.00     16/16, 0.0000
+GNN                           RouteNet-Fermi                            7.27   3/3      4.64     15/16, 0.0001    9.24     15/16, 0.0001   17.40     15/16, 0.0001
+GNN                           MSMP + attention (2024)                   8.38   3/3      5.47     16/16, 0.0000    9.72     16/16, 0.0000   17.67     16/16, 0.0000
+GNN                           QT-RouteNet                              33.25   3/3     10.28     16/16, 0.0000   13.85     16/16, 0.0000   39.77     16/16, 0.0000
+GNN                           QT-RouteNet + tx term*                    8.94   3/3      4.52     16/16, 0.0000    9.25     16/16, 0.0000   19.18     16/16, 0.0000
+GNN                           GCN                                       9.36   3/3      9.52     16/16, 0.0000   13.01     16/16, 0.0000   25.46     16/16, 0.0000
+GNN                           GAT                                       9.39   3/3      9.57     16/16, 0.0000   13.32     16/16, 0.0000   25.85     16/16, 0.0000
+GNN                           Graph transformer (GPS)                  10.06   3/3      9.15     16/16, 0.0000   12.96     16/16, 0.0000   24.02     16/16, 0.0000
+
+Table 2: ablation
+group                         model                                  Archive  sig.  BNNetSim         better, p    ns-3         better, p     IoT         better, p
+Ours                          QPR-GNN (ours)                            6.19            3.93                      8.58                     15.71                  
+Prior                         Prior alone (M/M/1/K)                    11.09   3/3     21.78     16/16, 0.0000   21.07     16/16, 0.0000   26.59     16/16, 0.0000
+QPR-GNN components            QPR-GNN without prior features            6.72   3/3      4.33     16/16, 0.0000    8.92     14/16, 0.0002   17.34     16/16, 0.0000
+QPR-GNN components            QPR-GNN with log-ratio loss               6.39   2/3      4.27     15/16, 0.0001    9.01     14/16, 0.0003   17.54     15/16, 0.0001
+Prior given to other learners MLP + prior                               6.96   3/3      4.16     14/16, 0.0002    8.88     15/16, 0.0002   16.37     15/16, 0.0001
+Prior given to other learners GBDT + prior                              6.86   3/3      4.14     10/16, 0.0934    9.39     16/16, 0.0000   18.35     16/16, 0.0000
+Prior given to other learners GAT + prior                               6.92   3/3      4.05     11/16, 0.0507    8.56      6/16, 0.3225   16.04     12/16, 0.0182
+Prior given to other learners RouteNet-style + prior features           6.42   3/3      4.07     16/16, 0.0000    8.66     11/16, 0.1297   15.95     15/16, 0.0001
+
+sig. = held-out archive topologies where QPR-GNN is significantly better (Holm-corrected).
+better, p = topologies where QPR-GNN is better, Wilcoxon signed-rank p over the 16 topologies.
+IoT = cross-topology folds on IoT backhaul traffic, 16 topologies, 3 seeds.
+* published model with the transmission term added by us. — = not run on that benchmark.
