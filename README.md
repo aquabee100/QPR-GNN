@@ -46,6 +46,9 @@ through the [RouteNet-Fermi repository](https://github.com/BNN-UPC/RouteNet-Ferm
 | Training budget | `scripts/budget_summary.py`, `results/analysis/budget.txt` |
 | Design selection | `scripts/selection_check.py`, `scripts/v3_selection.py`, `results/analysis/selection.txt`, `results/analysis/v3_selection.txt` |
 | Numbers in the text | `scripts/paper_numbers.py`, `results/analysis/paper_numbers.txt` |
+| Paired differences, 95% intervals | `scripts/paired_stats.py`, `results/analysis/paired_stats.txt` |
+| Absolute delay error (ms) | `scripts/abs_error.py`, `results/analysis/abs_error.txt` |
+| Excluded ns-3 states | `scripts/excluded_states.py`, `results/analysis/excluded_states.txt` |
 | Figures 2 to 4 | `figures/plot_headline.py`, `figures/plot_cdf_mismatch.py`, `figures/plot_iot_speed.py` |
 
 ```

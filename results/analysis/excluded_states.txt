@@ -1,0 +1,20 @@
+ns-3: 960 simulated states, 116 excluded (a flow received no packet)
+                 states  excluded  excluded_%
+stratum                                      
+moderate            360        37       10.28
+near_saturation     220        21        9.55
+overload            140        18       12.86
+traffic_scaled      240        40       16.67
+silent flows in excluded states: 223 of 178908 (0.12%); median per state 1
+excluded states per topology: Ai3 1, Ans 4, Carnet 12, Geant 13, Ibm 2, Integra 5, Intranetwork 8, LambdaNet 9, Litnet 20, Nsfnet 1, Palmetto 10, Sanet 10, SwitchL3 14, Xspedius 7
+
+ns-3, IoT traffic: 480 simulated states, 3 excluded (a flow received no packet)
+                 states  excluded  excluded_%
+stratum                                      
+moderate            167         0        0.00
+near_saturation     127         0        0.00
+overload             74         0        0.00
+traffic_scaled      112         3        2.68
+silent flows in excluded states: 15 of 3942 (0.38%); median per state 2
+excluded states per topology: Litnet 1, Nsfnet 1, Palmetto 1
+

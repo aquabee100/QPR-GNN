@@ -1,0 +1,478 @@
+benchmark,topology,model,seed,mean_delay,mae,medae
+Archive,abilene,QPR-GNN (ours),s0,1.8829985,0.088635206,0.0074595157
+Archive,abilene,QPR-GNN (ours),s1,1.8829985,0.08105271,0.007789917
+Archive,abilene,QPR-GNN (ours),s2,1.8829985,0.08719802,0.0070107924
+Archive,abilene,QPR-GNN (ours),s3,1.8829985,0.08412013,0.007878596
+Archive,abilene,QPR-GNN (ours),s4,1.8829985,0.08199602,0.0075324494
+Archive,abilene,RouteNet-Fermi,s0,1.8829985,0.1587358,0.0073814155
+Archive,abilene,RouteNet-Fermi,s1,1.8829985,0.15105599,0.007839698
+Archive,abilene,RouteNet-Fermi,s2,1.8829985,0.1398116,0.0076347208
+Archive,abilene,RouteNet-Fermi,s3,1.8829985,0.13493745,0.008112926
+Archive,abilene,RouteNet-Fermi,s4,1.8829985,0.122720696,0.007657945
+Archive,abilene,MSMP + attention,s0,1.8829985,0.14820385,0.014562946
+Archive,abilene,MSMP + attention,s1,1.8829985,0.16733219,0.019688072
+Archive,abilene,MSMP + attention,s2,1.8829985,0.1611353,0.015284095
+Archive,abilene,MSMP + attention,s3,1.8829985,0.15462445,0.013859593
+Archive,abilene,MSMP + attention,s4,1.8829985,0.15305305,0.013862242
+Archive,nobel,QPR-GNN (ours),s0,3.989206,0.44226038,0.08345884
+Archive,nobel,QPR-GNN (ours),s1,3.989206,0.43610096,0.08418983
+Archive,nobel,QPR-GNN (ours),s2,3.989206,0.4303347,0.08054846
+Archive,nobel,QPR-GNN (ours),s3,3.989206,0.436817,0.08479832
+Archive,nobel,QPR-GNN (ours),s4,3.989206,0.4376154,0.081547976
+Archive,nobel,RouteNet-Fermi,s0,3.989206,0.5457783,0.0828933
+Archive,nobel,RouteNet-Fermi,s1,3.989206,0.56460726,0.080552764
+Archive,nobel,RouteNet-Fermi,s2,3.989206,0.5590184,0.08942891
+Archive,nobel,RouteNet-Fermi,s3,3.989206,0.5656399,0.08071121
+Archive,nobel,RouteNet-Fermi,s4,3.989206,0.50950456,0.07996091
+Archive,nobel,MSMP + attention,s0,3.989206,0.74106085,0.116980866
+Archive,nobel,MSMP + attention,s1,3.989206,0.7225442,0.10531
+Archive,nobel,MSMP + attention,s2,3.989206,0.7395017,0.114322074
+Archive,nobel,MSMP + attention,s3,3.989206,0.73363554,0.11123976
+Archive,nobel,MSMP + attention,s4,3.989206,0.7450946,0.1169178
+Archive,germany50,QPR-GNN (ours),s0,6.7788653,0.8674533,0.07868291
+Archive,germany50,QPR-GNN (ours),s1,6.7788653,0.87210983,0.08250214
+Archive,germany50,QPR-GNN (ours),s2,6.7788653,0.8512716,0.07472141
+Archive,germany50,QPR-GNN (ours),s3,6.7788653,0.8657356,0.07948908
+Archive,germany50,QPR-GNN (ours),s4,6.7788653,0.8690254,0.07998873
+Archive,germany50,RouteNet-Fermi,s0,6.7788653,1.116333,0.095278956
+Archive,germany50,RouteNet-Fermi,s1,6.7788653,1.1215476,0.095347404
+Archive,germany50,RouteNet-Fermi,s2,6.7788653,1.1179627,0.08793175
+Archive,germany50,RouteNet-Fermi,s3,6.7788653,1.2052617,0.10063732
+Archive,germany50,RouteNet-Fermi,s4,6.7788653,1.0975033,0.08583849
+Archive,germany50,MSMP + attention,s0,6.7788653,1.227459,0.09221048
+Archive,germany50,MSMP + attention,s1,6.7788653,1.204134,0.123924576
+Archive,germany50,MSMP + attention,s2,6.7788653,1.1770122,0.07981807
+Archive,germany50,MSMP + attention,s3,6.7788653,1.174247,0.08444919
+Archive,germany50,MSMP + attention,s4,6.7788653,1.1921402,0.07408415
+BNNetSimulator,f0_sim_Ai3,QPR-GNN (ours),0,180.23262,14.120241,1.7496179
+BNNetSimulator,f0_sim_Ai3,QPR-GNN (ours),1,180.23262,12.388527,1.7599537
+BNNetSimulator,f0_sim_Ai3,QPR-GNN (ours),2,180.23262,11.97115,1.7725639
+BNNetSimulator,f0_sim_Ai3,RouteNet-Fermi,0,180.23262,38.103107,1.951375
+BNNetSimulator,f0_sim_Ai3,RouteNet-Fermi,1,180.23262,39.063736,2.1379776
+BNNetSimulator,f0_sim_Ai3,RouteNet-Fermi,2,180.23262,40.4594,1.919305
+BNNetSimulator,f0_sim_Ai3,MSMP + attention,0,180.23262,40.653316,2.0907893
+BNNetSimulator,f0_sim_Ai3,MSMP + attention,1,180.23262,42.2306,2.1203198
+BNNetSimulator,f0_sim_Ai3,MSMP + attention,2,180.23262,41.171173,2.7465522
+BNNetSimulator,f0_sim_Geant,QPR-GNN (ours),0,131.76816,9.1329775,1.1170377
+BNNetSimulator,f0_sim_Geant,QPR-GNN (ours),1,131.76816,8.516147,1.1054649
+BNNetSimulator,f0_sim_Geant,QPR-GNN (ours),2,131.76816,8.554449,1.0979996
+BNNetSimulator,f0_sim_Geant,RouteNet-Fermi,0,131.76816,14.249902,1.2080483
+BNNetSimulator,f0_sim_Geant,RouteNet-Fermi,1,131.76816,13.816704,1.2015216
+BNNetSimulator,f0_sim_Geant,RouteNet-Fermi,2,131.76816,13.396653,1.2825708
+BNNetSimulator,f0_sim_Geant,MSMP + attention,0,131.76816,16.458769,1.3648235
+BNNetSimulator,f0_sim_Geant,MSMP + attention,1,131.76816,17.134495,1.2965724
+BNNetSimulator,f0_sim_Geant,MSMP + attention,2,131.76816,16.198986,1.3629562
+BNNetSimulator,f0_sim_Palmetto,QPR-GNN (ours),0,94.07575,6.58982,0.68716705
+BNNetSimulator,f0_sim_Palmetto,QPR-GNN (ours),1,94.07575,6.352422,0.68922156
+BNNetSimulator,f0_sim_Palmetto,QPR-GNN (ours),2,94.07575,5.9621773,0.67443657
+BNNetSimulator,f0_sim_Palmetto,RouteNet-Fermi,0,94.07575,13.165075,0.73085076
+BNNetSimulator,f0_sim_Palmetto,RouteNet-Fermi,1,94.07575,12.870827,0.7201394
+BNNetSimulator,f0_sim_Palmetto,RouteNet-Fermi,2,94.07575,12.984102,0.7910086
+BNNetSimulator,f0_sim_Palmetto,MSMP + attention,0,94.07575,16.260075,0.8178074
+BNNetSimulator,f0_sim_Palmetto,MSMP + attention,1,94.07575,16.272501,0.71889347
+BNNetSimulator,f0_sim_Palmetto,MSMP + attention,2,94.07575,15.950461,0.7431898
+BNNetSimulator,f0_sim_Xspedius,QPR-GNN (ours),0,126.450745,10.825033,1.0797195
+BNNetSimulator,f0_sim_Xspedius,QPR-GNN (ours),1,126.450745,10.989978,1.081977
+BNNetSimulator,f0_sim_Xspedius,QPR-GNN (ours),2,126.450745,9.881596,1.085557
+BNNetSimulator,f0_sim_Xspedius,RouteNet-Fermi,0,126.450745,24.296137,1.13315
+BNNetSimulator,f0_sim_Xspedius,RouteNet-Fermi,1,126.450745,24.630266,1.1103507
+BNNetSimulator,f0_sim_Xspedius,RouteNet-Fermi,2,126.450745,23.195093,1.1789948
+BNNetSimulator,f0_sim_Xspedius,MSMP + attention,0,126.450745,29.003082,1.3305117
+BNNetSimulator,f0_sim_Xspedius,MSMP + attention,1,126.450745,30.280127,1.3143644
+BNNetSimulator,f0_sim_Xspedius,MSMP + attention,2,126.450745,28.853722,1.3618488
+BNNetSimulator,f1_sim_Abilene,QPR-GNN (ours),0,173.83308,10.61442,2.2393708
+BNNetSimulator,f1_sim_Abilene,QPR-GNN (ours),1,173.83308,8.889259,2.320176
+BNNetSimulator,f1_sim_Abilene,QPR-GNN (ours),2,173.83308,9.602129,2.2604818
+BNNetSimulator,f1_sim_Abilene,RouteNet-Fermi,0,173.83308,16.727232,2.5303736
+BNNetSimulator,f1_sim_Abilene,RouteNet-Fermi,1,173.83308,17.733982,2.5536418
+BNNetSimulator,f1_sim_Abilene,RouteNet-Fermi,2,173.83308,16.875174,2.4923384
+BNNetSimulator,f1_sim_Abilene,MSMP + attention,0,173.83308,17.487978,2.4802833
+BNNetSimulator,f1_sim_Abilene,MSMP + attention,1,173.83308,18.240335,2.5555193
+BNNetSimulator,f1_sim_Abilene,MSMP + attention,2,173.83308,17.380917,2.6362314
+BNNetSimulator,f1_sim_Carnet,QPR-GNN (ours),0,89.651695,6.386516,0.7463321
+BNNetSimulator,f1_sim_Carnet,QPR-GNN (ours),1,89.651695,5.5143423,0.7467605
+BNNetSimulator,f1_sim_Carnet,QPR-GNN (ours),2,89.651695,5.325751,0.7093605
+BNNetSimulator,f1_sim_Carnet,RouteNet-Fermi,0,89.651695,10.601458,0.76917
+BNNetSimulator,f1_sim_Carnet,RouteNet-Fermi,1,89.651695,12.46845,0.86083263
+BNNetSimulator,f1_sim_Carnet,RouteNet-Fermi,2,89.651695,11.020687,0.7905178
+BNNetSimulator,f1_sim_Carnet,MSMP + attention,0,89.651695,14.905755,0.97830963
+BNNetSimulator,f1_sim_Carnet,MSMP + attention,1,89.651695,14.792653,0.89776516
+BNNetSimulator,f1_sim_Carnet,MSMP + attention,2,89.651695,14.7844925,0.90288746
+BNNetSimulator,f1_sim_Integra,QPR-GNN (ours),0,123.86967,9.828842,1.2070034
+BNNetSimulator,f1_sim_Integra,QPR-GNN (ours),1,123.86967,8.088719,1.1946559
+BNNetSimulator,f1_sim_Integra,QPR-GNN (ours),2,123.86967,8.056869,1.1621025
+BNNetSimulator,f1_sim_Integra,RouteNet-Fermi,0,123.86967,17.283192,1.2344196
+BNNetSimulator,f1_sim_Integra,RouteNet-Fermi,1,123.86967,20.206026,1.3244562
+BNNetSimulator,f1_sim_Integra,RouteNet-Fermi,2,123.86967,17.541258,1.3018754
+BNNetSimulator,f1_sim_Integra,MSMP + attention,0,123.86967,20.536892,1.2673717
+BNNetSimulator,f1_sim_Integra,MSMP + attention,1,123.86967,22.148506,1.3137088
+BNNetSimulator,f1_sim_Integra,MSMP + attention,2,123.86967,20.636097,1.3447683
+BNNetSimulator,f1_sim_Intranetwork,QPR-GNN (ours),0,78.57246,5.295098,0.9027203
+BNNetSimulator,f1_sim_Intranetwork,QPR-GNN (ours),1,78.57246,5.9750857,0.92384964
+BNNetSimulator,f1_sim_Intranetwork,QPR-GNN (ours),2,78.57246,6.1326528,0.8874079
+BNNetSimulator,f1_sim_Intranetwork,RouteNet-Fermi,0,78.57246,6.7155614,0.9203921
+BNNetSimulator,f1_sim_Intranetwork,RouteNet-Fermi,1,78.57246,7.5037603,1.0114256
+BNNetSimulator,f1_sim_Intranetwork,RouteNet-Fermi,2,78.57246,6.842792,0.9227656
+BNNetSimulator,f1_sim_Intranetwork,MSMP + attention,0,78.57246,7.4483523,0.92462826
+BNNetSimulator,f1_sim_Intranetwork,MSMP + attention,1,78.57246,8.63023,0.8880226
+BNNetSimulator,f1_sim_Intranetwork,MSMP + attention,2,78.57246,7.3982425,0.9254012
+BNNetSimulator,f2_sim_HiberniaCanada,QPR-GNN (ours),0,163.55176,6.43412,2.0043514
+BNNetSimulator,f2_sim_HiberniaCanada,QPR-GNN (ours),1,163.55176,7.1463575,2.0031781
+BNNetSimulator,f2_sim_HiberniaCanada,QPR-GNN (ours),2,163.55176,6.0658913,2.092611
+BNNetSimulator,f2_sim_HiberniaCanada,RouteNet-Fermi,0,163.55176,12.628557,2.0602458
+BNNetSimulator,f2_sim_HiberniaCanada,RouteNet-Fermi,1,163.55176,13.951356,2.1032338
+BNNetSimulator,f2_sim_HiberniaCanada,RouteNet-Fermi,2,163.55176,12.812487,2.221644
+BNNetSimulator,f2_sim_HiberniaCanada,MSMP + attention,0,163.55176,14.281119,2.2731833
+BNNetSimulator,f2_sim_HiberniaCanada,MSMP + attention,1,163.55176,14.400322,2.2926033
+BNNetSimulator,f2_sim_HiberniaCanada,MSMP + attention,2,163.55176,14.014168,2.2127256
+BNNetSimulator,f2_sim_Ibm,QPR-GNN (ours),0,150.66875,10.045694,1.4242083
+BNNetSimulator,f2_sim_Ibm,QPR-GNN (ours),1,150.66875,12.286515,1.4203415
+BNNetSimulator,f2_sim_Ibm,QPR-GNN (ours),2,150.66875,11.707379,1.4624466
+BNNetSimulator,f2_sim_Ibm,RouteNet-Fermi,0,150.66875,23.584957,1.5788972
+BNNetSimulator,f2_sim_Ibm,RouteNet-Fermi,1,150.66875,24.632841,1.5375633
+BNNetSimulator,f2_sim_Ibm,RouteNet-Fermi,2,150.66875,24.101292,1.5570838
+BNNetSimulator,f2_sim_Ibm,MSMP + attention,0,150.66875,26.315298,1.7224736
+BNNetSimulator,f2_sim_Ibm,MSMP + attention,1,150.66875,27.154697,1.6635861
+BNNetSimulator,f2_sim_Ibm,MSMP + attention,2,150.66875,25.389154,1.7041415
+BNNetSimulator,f2_sim_Sanet,QPR-GNN (ours),0,67.375465,4.2241516,0.58320534
+BNNetSimulator,f2_sim_Sanet,QPR-GNN (ours),1,67.375465,4.6362042,0.6038388
+BNNetSimulator,f2_sim_Sanet,QPR-GNN (ours),2,67.375465,4.495628,0.60113007
+BNNetSimulator,f2_sim_Sanet,RouteNet-Fermi,0,67.375465,6.6806593,0.6214008
+BNNetSimulator,f2_sim_Sanet,RouteNet-Fermi,1,67.375465,6.936656,0.6172452
+BNNetSimulator,f2_sim_Sanet,RouteNet-Fermi,2,67.375465,6.858637,0.61352366
+BNNetSimulator,f2_sim_Sanet,MSMP + attention,0,67.375465,8.312846,0.64560956
+BNNetSimulator,f2_sim_Sanet,MSMP + attention,1,67.375465,8.461102,0.60372704
+BNNetSimulator,f2_sim_Sanet,MSMP + attention,2,67.375465,8.088767,0.5958034
+BNNetSimulator,f2_sim_SwitchL3,QPR-GNN (ours),0,93.98386,5.01683,0.6988868
+BNNetSimulator,f2_sim_SwitchL3,QPR-GNN (ours),1,93.98386,5.6971865,0.72208697
+BNNetSimulator,f2_sim_SwitchL3,QPR-GNN (ours),2,93.98386,5.48024,0.71537215
+BNNetSimulator,f2_sim_SwitchL3,RouteNet-Fermi,0,93.98386,10.325281,0.77511
+BNNetSimulator,f2_sim_SwitchL3,RouteNet-Fermi,1,93.98386,10.327859,0.74500406
+BNNetSimulator,f2_sim_SwitchL3,RouteNet-Fermi,2,93.98386,10.207632,0.74105895
+BNNetSimulator,f2_sim_SwitchL3,MSMP + attention,0,93.98386,12.387199,0.8891458
+BNNetSimulator,f2_sim_SwitchL3,MSMP + attention,1,93.98386,12.72885,0.8321684
+BNNetSimulator,f2_sim_SwitchL3,MSMP + attention,2,93.98386,11.912701,0.86814445
+BNNetSimulator,f3_sim_Ans,QPR-GNN (ours),0,133.1281,8.4990225,1.4660991
+BNNetSimulator,f3_sim_Ans,QPR-GNN (ours),1,133.1281,7.661512,1.4099963
+BNNetSimulator,f3_sim_Ans,QPR-GNN (ours),2,133.1281,7.0770893,1.4488213
+BNNetSimulator,f3_sim_Ans,RouteNet-Fermi,0,133.1281,13.094523,1.507204
+BNNetSimulator,f3_sim_Ans,RouteNet-Fermi,1,133.1281,12.6542635,1.6165711
+BNNetSimulator,f3_sim_Ans,RouteNet-Fermi,2,133.1281,13.224143,1.6924143
+BNNetSimulator,f3_sim_Ans,MSMP + attention,0,133.1281,15.239681,1.6542747
+BNNetSimulator,f3_sim_Ans,MSMP + attention,1,133.1281,15.526847,1.5332159
+BNNetSimulator,f3_sim_Ans,MSMP + attention,2,133.1281,15.089634,1.6127583
+BNNetSimulator,f3_sim_LambdaNet,QPR-GNN (ours),0,78.572044,8.296354,0.8643521
+BNNetSimulator,f3_sim_LambdaNet,QPR-GNN (ours),1,78.572044,7.6191354,0.81015193
+BNNetSimulator,f3_sim_LambdaNet,QPR-GNN (ours),2,78.572044,7.768769,0.86849743
+BNNetSimulator,f3_sim_LambdaNet,RouteNet-Fermi,0,78.572044,10.373931,0.87523276
+BNNetSimulator,f3_sim_LambdaNet,RouteNet-Fermi,1,78.572044,10.388254,0.8273879
+BNNetSimulator,f3_sim_LambdaNet,RouteNet-Fermi,2,78.572044,10.263477,0.82166773
+BNNetSimulator,f3_sim_LambdaNet,MSMP + attention,0,78.572044,12.311969,0.86427575
+BNNetSimulator,f3_sim_LambdaNet,MSMP + attention,1,78.572044,12.180186,0.82753694
+BNNetSimulator,f3_sim_LambdaNet,MSMP + attention,2,78.572044,11.96878,0.81318986
+BNNetSimulator,f3_sim_Litnet,QPR-GNN (ours),0,105.2063,9.294058,0.8782251
+BNNetSimulator,f3_sim_Litnet,QPR-GNN (ours),1,105.2063,7.132297,0.80141056
+BNNetSimulator,f3_sim_Litnet,QPR-GNN (ours),2,105.2063,6.338934,0.86064124
+BNNetSimulator,f3_sim_Litnet,RouteNet-Fermi,0,105.2063,16.036757,0.88707453
+BNNetSimulator,f3_sim_Litnet,RouteNet-Fermi,1,105.2063,15.384097,0.9004772
+BNNetSimulator,f3_sim_Litnet,RouteNet-Fermi,2,105.2063,15.752888,0.9525269
+BNNetSimulator,f3_sim_Litnet,MSMP + attention,0,105.2063,20.005287,1.0145158
+BNNetSimulator,f3_sim_Litnet,MSMP + attention,1,105.2063,20.67253,1.0592705
+BNNetSimulator,f3_sim_Litnet,MSMP + attention,2,105.2063,20.335348,1.026053
+BNNetSimulator,f3_sim_Nsfnet,QPR-GNN (ours),0,166.93265,11.558841,1.7038584
+BNNetSimulator,f3_sim_Nsfnet,QPR-GNN (ours),1,166.93265,9.945842,1.6861744
+BNNetSimulator,f3_sim_Nsfnet,QPR-GNN (ours),2,166.93265,9.721569,1.6697589
+BNNetSimulator,f3_sim_Nsfnet,RouteNet-Fermi,0,166.93265,22.857288,1.8669218
+BNNetSimulator,f3_sim_Nsfnet,RouteNet-Fermi,1,166.93265,22.506886,1.9529723
+BNNetSimulator,f3_sim_Nsfnet,RouteNet-Fermi,2,166.93265,23.750805,2.1979287
+BNNetSimulator,f3_sim_Nsfnet,MSMP + attention,0,166.93265,25.577213,2.0692832
+BNNetSimulator,f3_sim_Nsfnet,MSMP + attention,1,166.93265,25.680906,1.9093305
+BNNetSimulator,f3_sim_Nsfnet,MSMP + attention,2,166.93265,25.503857,1.9998271
+ns-3,f0_ns3_Ai3,QPR-GNN (ours),0,1.8395177,0.5283351,0.032221638
+ns-3,f0_ns3_Ai3,QPR-GNN (ours),1,1.8395177,0.5301619,0.032364666
+ns-3,f0_ns3_Ai3,QPR-GNN (ours),2,1.8395177,0.52872574,0.03250831
+ns-3,f0_ns3_Ai3,RouteNet-Fermi,0,1.8395177,0.59430873,0.03416231
+ns-3,f0_ns3_Ai3,RouteNet-Fermi,1,1.8395177,0.5871402,0.031887524
+ns-3,f0_ns3_Ai3,RouteNet-Fermi,2,1.8395177,0.60112166,0.036664482
+ns-3,f0_ns3_Ai3,MSMP + attention,0,1.8395177,0.5981323,0.035425823
+ns-3,f0_ns3_Ai3,MSMP + attention,1,1.8395177,0.60671467,0.033103045
+ns-3,f0_ns3_Ai3,MSMP + attention,2,1.8395177,0.59509975,0.03133941
+ns-3,f0_ns3_Geant,QPR-GNN (ours),0,2.055777,0.8023351,0.02246168
+ns-3,f0_ns3_Geant,QPR-GNN (ours),1,2.055777,0.81017643,0.022666674
+ns-3,f0_ns3_Geant,QPR-GNN (ours),2,2.055777,0.80553156,0.022543885
+ns-3,f0_ns3_Geant,RouteNet-Fermi,0,2.055777,0.93210655,0.023393514
+ns-3,f0_ns3_Geant,RouteNet-Fermi,1,2.055777,0.91809106,0.022741005
+ns-3,f0_ns3_Geant,RouteNet-Fermi,2,2.055777,0.95316017,0.023071697
+ns-3,f0_ns3_Geant,MSMP + attention,0,2.055777,0.9588946,0.02313964
+ns-3,f0_ns3_Geant,MSMP + attention,1,2.055777,0.9813873,0.022819877
+ns-3,f0_ns3_Geant,MSMP + attention,2,2.055777,0.95648664,0.022379419
+ns-3,f0_ns3_Palmetto,QPR-GNN (ours),0,1.9359763,1.1653095,0.012881697
+ns-3,f0_ns3_Palmetto,QPR-GNN (ours),1,1.9359763,1.1665113,0.012725475
+ns-3,f0_ns3_Palmetto,QPR-GNN (ours),2,1.9359763,1.1624222,0.012864111
+ns-3,f0_ns3_Palmetto,RouteNet-Fermi,0,1.9359763,1.1954818,0.0131459525
+ns-3,f0_ns3_Palmetto,RouteNet-Fermi,1,1.9359763,1.1914648,0.01291703
+ns-3,f0_ns3_Palmetto,RouteNet-Fermi,2,1.9359763,1.1989784,0.012958146
+ns-3,f0_ns3_Palmetto,MSMP + attention,0,1.9359763,1.2054497,0.012845442
+ns-3,f0_ns3_Palmetto,MSMP + attention,1,1.9359763,1.2065622,0.01272963
+ns-3,f0_ns3_Palmetto,MSMP + attention,2,1.9359763,1.1998061,0.012720237
+ns-3,f0_ns3_Xspedius,QPR-GNN (ours),0,2.7338066,1.4341035,0.021639803
+ns-3,f0_ns3_Xspedius,QPR-GNN (ours),1,2.7338066,1.4528905,0.021509884
+ns-3,f0_ns3_Xspedius,QPR-GNN (ours),2,2.7338066,1.4368371,0.021583866
+ns-3,f0_ns3_Xspedius,RouteNet-Fermi,0,2.7338066,1.6631087,0.02212361
+ns-3,f0_ns3_Xspedius,RouteNet-Fermi,1,2.7338066,1.64426,0.021905042
+ns-3,f0_ns3_Xspedius,RouteNet-Fermi,2,2.7338066,1.6758298,0.021818487
+ns-3,f0_ns3_Xspedius,MSMP + attention,0,2.7338066,1.6732781,0.022016466
+ns-3,f0_ns3_Xspedius,MSMP + attention,1,2.7338066,1.6995666,0.021581335
+ns-3,f0_ns3_Xspedius,MSMP + attention,2,2.7338066,1.6741132,0.021409549
+ns-3,f1_ns3_Abilene,QPR-GNN (ours),0,2.200805,0.82306236,0.035469014
+ns-3,f1_ns3_Abilene,QPR-GNN (ours),1,2.200805,0.8189501,0.03565679
+ns-3,f1_ns3_Abilene,QPR-GNN (ours),2,2.200805,0.81801206,0.035665523
+ns-3,f1_ns3_Abilene,RouteNet-Fermi,0,2.200805,0.8455839,0.038272295
+ns-3,f1_ns3_Abilene,RouteNet-Fermi,1,2.200805,0.8726293,0.03704708
+ns-3,f1_ns3_Abilene,RouteNet-Fermi,2,2.200805,0.87510604,0.037566293
+ns-3,f1_ns3_Abilene,MSMP + attention,0,2.200805,0.8976003,0.03825483
+ns-3,f1_ns3_Abilene,MSMP + attention,1,2.200805,0.8994102,0.037239164
+ns-3,f1_ns3_Abilene,MSMP + attention,2,2.200805,0.8933313,0.037954394
+ns-3,f1_ns3_Carnet,QPR-GNN (ours),0,0.7898951,0.12422513,0.012630306
+ns-3,f1_ns3_Carnet,QPR-GNN (ours),1,0.7898951,0.12518205,0.012746314
+ns-3,f1_ns3_Carnet,QPR-GNN (ours),2,0.7898951,0.12487506,0.012879737
+ns-3,f1_ns3_Carnet,RouteNet-Fermi,0,0.7898951,0.1380839,0.013415236
+ns-3,f1_ns3_Carnet,RouteNet-Fermi,1,0.7898951,0.141456,0.012806824
+ns-3,f1_ns3_Carnet,RouteNet-Fermi,2,0.7898951,0.139171,0.012574135
+ns-3,f1_ns3_Carnet,MSMP + attention,0,0.7898951,0.15068269,0.013729769
+ns-3,f1_ns3_Carnet,MSMP + attention,1,0.7898951,0.15311673,0.013198595
+ns-3,f1_ns3_Carnet,MSMP + attention,2,0.7898951,0.14910497,0.012919568
+ns-3,f1_ns3_Integra,QPR-GNN (ours),0,2.7481215,1.5258234,0.025816495
+ns-3,f1_ns3_Integra,QPR-GNN (ours),1,2.7481215,1.52277,0.025829926
+ns-3,f1_ns3_Integra,QPR-GNN (ours),2,2.7481215,1.5186032,0.02559224
+ns-3,f1_ns3_Integra,RouteNet-Fermi,0,2.7481215,1.6359385,0.026089342
+ns-3,f1_ns3_Integra,RouteNet-Fermi,1,2.7481215,1.684151,0.02553541
+ns-3,f1_ns3_Integra,RouteNet-Fermi,2,2.7481215,1.6853508,0.025194662
+ns-3,f1_ns3_Integra,MSMP + attention,0,2.7481215,1.7023597,0.02746255
+ns-3,f1_ns3_Integra,MSMP + attention,1,2.7481215,1.7209526,0.026837341
+ns-3,f1_ns3_Integra,MSMP + attention,2,2.7481215,1.6958088,0.026895083
+ns-3,f1_ns3_Intranetwork,QPR-GNN (ours),0,1.6352731,0.81160766,0.012515884
+ns-3,f1_ns3_Intranetwork,QPR-GNN (ours),1,1.6352731,0.81340784,0.012554257
+ns-3,f1_ns3_Intranetwork,QPR-GNN (ours),2,1.6352731,0.81415695,0.012757396
+ns-3,f1_ns3_Intranetwork,RouteNet-Fermi,0,1.6352731,0.8513742,0.013129713
+ns-3,f1_ns3_Intranetwork,RouteNet-Fermi,1,1.6352731,0.8719669,0.012810651
+ns-3,f1_ns3_Intranetwork,RouteNet-Fermi,2,1.6352731,0.8609308,0.012536781
+ns-3,f1_ns3_Intranetwork,MSMP + attention,0,1.6352731,0.87854385,0.013066368
+ns-3,f1_ns3_Intranetwork,MSMP + attention,1,1.6352731,0.8853427,0.0122124115
+ns-3,f1_ns3_Intranetwork,MSMP + attention,2,1.6352731,0.8765877,0.013102894
+ns-3,f2_ns3_HiberniaCanada,QPR-GNN (ours),0,1.6718388,0.38149023,0.02873171
+ns-3,f2_ns3_HiberniaCanada,QPR-GNN (ours),1,1.6718388,0.37816167,0.028313894
+ns-3,f2_ns3_HiberniaCanada,QPR-GNN (ours),2,1.6718388,0.37994555,0.028881965
+ns-3,f2_ns3_HiberniaCanada,RouteNet-Fermi,0,1.6718388,0.49974146,0.030978918
+ns-3,f2_ns3_HiberniaCanada,RouteNet-Fermi,1,1.6718388,0.4549336,0.028680122
+ns-3,f2_ns3_HiberniaCanada,RouteNet-Fermi,2,1.6718388,0.49428234,0.030495882
+ns-3,f2_ns3_HiberniaCanada,MSMP + attention,0,1.6718388,0.5063343,0.028576965
+ns-3,f2_ns3_HiberniaCanada,MSMP + attention,1,1.6718388,0.5174493,0.028623093
+ns-3,f2_ns3_HiberniaCanada,MSMP + attention,2,1.6718388,0.5072775,0.028965892
+ns-3,f2_ns3_Ibm,QPR-GNN (ours),0,1.9606014,0.49362013,0.027427828
+ns-3,f2_ns3_Ibm,QPR-GNN (ours),1,1.9606014,0.48972446,0.027727801
+ns-3,f2_ns3_Ibm,QPR-GNN (ours),2,1.9606014,0.49237016,0.028129652
+ns-3,f2_ns3_Ibm,RouteNet-Fermi,0,1.9606014,0.573501,0.03094715
+ns-3,f2_ns3_Ibm,RouteNet-Fermi,1,1.9606014,0.5504215,0.02980826
+ns-3,f2_ns3_Ibm,RouteNet-Fermi,2,1.9606014,0.5681602,0.029788295
+ns-3,f2_ns3_Ibm,MSMP + attention,0,1.9606014,0.57190615,0.028074311
+ns-3,f2_ns3_Ibm,MSMP + attention,1,1.9606014,0.58852625,0.028038107
+ns-3,f2_ns3_Ibm,MSMP + attention,2,1.9606014,0.5751205,0.028347261
+ns-3,f2_ns3_Sanet,QPR-GNN (ours),0,1.0091168,0.41664678,0.008480143
+ns-3,f2_ns3_Sanet,QPR-GNN (ours),1,1.0091168,0.41272223,0.008197196
+ns-3,f2_ns3_Sanet,QPR-GNN (ours),2,1.0091168,0.41621292,0.008335934
+ns-3,f2_ns3_Sanet,RouteNet-Fermi,0,1.0091168,0.43733975,0.008745381
+ns-3,f2_ns3_Sanet,RouteNet-Fermi,1,1.0091168,0.434815,0.008690927
+ns-3,f2_ns3_Sanet,RouteNet-Fermi,2,1.0091168,0.43882385,0.008578616
+ns-3,f2_ns3_Sanet,MSMP + attention,0,1.0091168,0.44548443,0.008953401
+ns-3,f2_ns3_Sanet,MSMP + attention,1,1.0091168,0.44652608,0.00827419
+ns-3,f2_ns3_Sanet,MSMP + attention,2,1.0091168,0.4462936,0.008342347
+ns-3,f2_ns3_SwitchL3,QPR-GNN (ours),0,1.2984554,0.48699948,0.014566948
+ns-3,f2_ns3_SwitchL3,QPR-GNN (ours),1,1.2984554,0.4854967,0.014524223
+ns-3,f2_ns3_SwitchL3,QPR-GNN (ours),2,1.2984554,0.49038744,0.014773904
+ns-3,f2_ns3_SwitchL3,RouteNet-Fermi,0,1.2984554,0.4980156,0.015426864
+ns-3,f2_ns3_SwitchL3,RouteNet-Fermi,1,1.2984554,0.4962292,0.015551697
+ns-3,f2_ns3_SwitchL3,RouteNet-Fermi,2,1.2984554,0.49878576,0.015036844
+ns-3,f2_ns3_SwitchL3,MSMP + attention,0,1.2984554,0.50999665,0.015261641
+ns-3,f2_ns3_SwitchL3,MSMP + attention,1,1.2984554,0.51313937,0.015075115
+ns-3,f2_ns3_SwitchL3,MSMP + attention,2,1.2984554,0.5115243,0.015058824
+ns-3,f3_ns3_Ans,QPR-GNN (ours),0,2.9083726,1.5176095,0.031438366
+ns-3,f3_ns3_Ans,QPR-GNN (ours),1,2.9083726,1.5134254,0.031147502
+ns-3,f3_ns3_Ans,QPR-GNN (ours),2,2.9083726,1.513941,0.03095428
+ns-3,f3_ns3_Ans,RouteNet-Fermi,0,2.9083726,1.6668109,0.030220544
+ns-3,f3_ns3_Ans,RouteNet-Fermi,1,2.9083726,1.6283137,0.030805677
+ns-3,f3_ns3_Ans,RouteNet-Fermi,2,2.9083726,1.6369593,0.031674746
+ns-3,f3_ns3_Ans,MSMP + attention,0,2.9083726,1.6410788,0.031515896
+ns-3,f3_ns3_Ans,MSMP + attention,1,2.9083726,1.6835687,0.03149478
+ns-3,f3_ns3_Ans,MSMP + attention,2,2.9083726,1.6505526,0.030975293
+ns-3,f3_ns3_LambdaNet,QPR-GNN (ours),0,1.0703235,0.3836287,0.013000987
+ns-3,f3_ns3_LambdaNet,QPR-GNN (ours),1,1.0703235,0.38216096,0.012871315
+ns-3,f3_ns3_LambdaNet,QPR-GNN (ours),2,1.0703235,0.3816897,0.012599921
+ns-3,f3_ns3_LambdaNet,RouteNet-Fermi,0,1.0703235,0.42194635,0.01268681
+ns-3,f3_ns3_LambdaNet,RouteNet-Fermi,1,1.0703235,0.41023028,0.013447876
+ns-3,f3_ns3_LambdaNet,RouteNet-Fermi,2,1.0703235,0.41419372,0.012853998
+ns-3,f3_ns3_LambdaNet,MSMP + attention,0,1.0703235,0.41544574,0.01261197
+ns-3,f3_ns3_LambdaNet,MSMP + attention,1,1.0703235,0.42831334,0.012256358
+ns-3,f3_ns3_LambdaNet,MSMP + attention,2,1.0703235,0.42005733,0.012136122
+ns-3,f3_ns3_Litnet,QPR-GNN (ours),0,1.5234355,0.5887246,0.014229445
+ns-3,f3_ns3_Litnet,QPR-GNN (ours),1,1.5234355,0.59396607,0.014098914
+ns-3,f3_ns3_Litnet,QPR-GNN (ours),2,1.5234355,0.5831978,0.0144789815
+ns-3,f3_ns3_Litnet,RouteNet-Fermi,0,1.5234355,0.7212672,0.014468417
+ns-3,f3_ns3_Litnet,RouteNet-Fermi,1,1.5234355,0.68478364,0.016005222
+ns-3,f3_ns3_Litnet,RouteNet-Fermi,2,1.5234355,0.698655,0.01496388
+ns-3,f3_ns3_Litnet,MSMP + attention,0,1.5234355,0.74641204,0.015015437
+ns-3,f3_ns3_Litnet,MSMP + attention,1,1.5234355,0.7451524,0.01505077
+ns-3,f3_ns3_Litnet,MSMP + attention,2,1.5234355,0.7395889,0.014870195
+ns-3,f3_ns3_Nsfnet,QPR-GNN (ours),0,3.0026386,1.3879497,0.044896267
+ns-3,f3_ns3_Nsfnet,QPR-GNN (ours),1,3.0026386,1.3836383,0.043929555
+ns-3,f3_ns3_Nsfnet,QPR-GNN (ours),2,3.0026386,1.3850474,0.04417263
+ns-3,f3_ns3_Nsfnet,RouteNet-Fermi,0,3.0026386,1.5718713,0.0452743
+ns-3,f3_ns3_Nsfnet,RouteNet-Fermi,1,3.0026386,1.5288337,0.046762463
+ns-3,f3_ns3_Nsfnet,RouteNet-Fermi,2,3.0026386,1.538773,0.04735525
+ns-3,f3_ns3_Nsfnet,MSMP + attention,0,3.0026386,1.5401373,0.045377586
+ns-3,f3_ns3_Nsfnet,MSMP + attention,1,3.0026386,1.5748241,0.046324857
+ns-3,f3_ns3_Nsfnet,MSMP + attention,2,3.0026386,1.5469333,0.044353336
+IoT traffic,f0_iot_Ai3,QPR-GNN (ours),0,3.237951,2.2713306,0.039590172
+IoT traffic,f0_iot_Ai3,QPR-GNN (ours),1,3.237951,2.2911005,0.0348431
+IoT traffic,f0_iot_Ai3,QPR-GNN (ours),2,3.237951,2.2661839,0.036033336
+IoT traffic,f0_iot_Ai3,RouteNet-Fermi,0,3.237951,2.4292912,0.043003414
+IoT traffic,f0_iot_Ai3,RouteNet-Fermi,1,3.237951,2.4349217,0.036059223
+IoT traffic,f0_iot_Ai3,RouteNet-Fermi,2,3.237951,2.4394927,0.035095252
+IoT traffic,f0_iot_Ai3,MSMP + attention,0,3.237951,2.4078925,0.044037223
+IoT traffic,f0_iot_Ai3,MSMP + attention,1,3.237951,2.4033983,0.046265844
+IoT traffic,f0_iot_Ai3,MSMP + attention,2,3.237951,2.3961847,0.04339748
+IoT traffic,f0_iot_Geant,QPR-GNN (ours),0,1.260265,0.609092,0.01719818
+IoT traffic,f0_iot_Geant,QPR-GNN (ours),1,1.260265,0.60048085,0.016528273
+IoT traffic,f0_iot_Geant,QPR-GNN (ours),2,1.260265,0.60143197,0.016265905
+IoT traffic,f0_iot_Geant,RouteNet-Fermi,0,1.260265,0.7413011,0.017402831
+IoT traffic,f0_iot_Geant,RouteNet-Fermi,1,1.260265,0.7482169,0.016468184
+IoT traffic,f0_iot_Geant,RouteNet-Fermi,2,1.260265,0.74813366,0.01643182
+IoT traffic,f0_iot_Geant,MSMP + attention,0,1.260265,0.7124522,0.018889979
+IoT traffic,f0_iot_Geant,MSMP + attention,1,1.260265,0.72257036,0.018562801
+IoT traffic,f0_iot_Geant,MSMP + attention,2,1.260265,0.71352917,0.01943035
+IoT traffic,f0_iot_Palmetto,QPR-GNN (ours),0,1.1887485,0.79713076,0.0095878495
+IoT traffic,f0_iot_Palmetto,QPR-GNN (ours),1,1.1887485,0.8045534,0.009012855
+IoT traffic,f0_iot_Palmetto,QPR-GNN (ours),2,1.1887485,0.79538655,0.00903973
+IoT traffic,f0_iot_Palmetto,RouteNet-Fermi,0,1.1887485,0.88266146,0.009596264
+IoT traffic,f0_iot_Palmetto,RouteNet-Fermi,1,1.1887485,0.88604134,0.010039526
+IoT traffic,f0_iot_Palmetto,RouteNet-Fermi,2,1.1887485,0.8871483,0.009559357
+IoT traffic,f0_iot_Palmetto,MSMP + attention,0,1.1887485,0.8608337,0.01055744
+IoT traffic,f0_iot_Palmetto,MSMP + attention,1,1.1887485,0.8679167,0.010126715
+IoT traffic,f0_iot_Palmetto,MSMP + attention,2,1.1887485,0.8575733,0.011953289
+IoT traffic,f0_iot_Xspedius,QPR-GNN (ours),0,1.2699658,0.8349722,0.0134121515
+IoT traffic,f0_iot_Xspedius,QPR-GNN (ours),1,1.2699658,0.83279455,0.012805642
+IoT traffic,f0_iot_Xspedius,QPR-GNN (ours),2,1.2699658,0.83404124,0.012758457
+IoT traffic,f0_iot_Xspedius,RouteNet-Fermi,0,1.2699658,0.8938034,0.0144118965
+IoT traffic,f0_iot_Xspedius,RouteNet-Fermi,1,1.2699658,0.89351326,0.013133227
+IoT traffic,f0_iot_Xspedius,RouteNet-Fermi,2,1.2699658,0.89267623,0.01294
+IoT traffic,f0_iot_Xspedius,MSMP + attention,0,1.2699658,0.8806012,0.014624306
+IoT traffic,f0_iot_Xspedius,MSMP + attention,1,1.2699658,0.8850097,0.014525118
+IoT traffic,f0_iot_Xspedius,MSMP + attention,2,1.2699658,0.88051474,0.015556583
+IoT traffic,f1_iot_Abilene,QPR-GNN (ours),0,3.1199045,2.204699,0.040112294
+IoT traffic,f1_iot_Abilene,QPR-GNN (ours),1,3.1199045,2.209073,0.04095814
+IoT traffic,f1_iot_Abilene,QPR-GNN (ours),2,3.1199045,2.222032,0.03513085
+IoT traffic,f1_iot_Abilene,RouteNet-Fermi,0,3.1199045,2.3259554,0.035862423
+IoT traffic,f1_iot_Abilene,RouteNet-Fermi,1,3.1199045,2.3226817,0.035718273
+IoT traffic,f1_iot_Abilene,RouteNet-Fermi,2,3.1199045,2.3274367,0.03914258
+IoT traffic,f1_iot_Abilene,MSMP + attention,0,3.1199045,2.2941813,0.044010818
+IoT traffic,f1_iot_Abilene,MSMP + attention,1,3.1199045,2.3127425,0.04616192
+IoT traffic,f1_iot_Abilene,MSMP + attention,2,3.1199045,2.30698,0.04746632
+IoT traffic,f1_iot_Carnet,QPR-GNN (ours),0,1.5581219,1.0067174,0.016233971
+IoT traffic,f1_iot_Carnet,QPR-GNN (ours),1,1.5581219,0.99748874,0.015867896
+IoT traffic,f1_iot_Carnet,QPR-GNN (ours),2,1.5581219,1.0090538,0.01660554
+IoT traffic,f1_iot_Carnet,RouteNet-Fermi,0,1.5581219,1.1030262,0.017774371
+IoT traffic,f1_iot_Carnet,RouteNet-Fermi,1,1.5581219,1.1027622,0.017462388
+IoT traffic,f1_iot_Carnet,RouteNet-Fermi,2,1.5581219,1.1089789,0.01847302
+IoT traffic,f1_iot_Carnet,MSMP + attention,0,1.5581219,1.0800173,0.01920297
+IoT traffic,f1_iot_Carnet,MSMP + attention,1,1.5581219,1.0886055,0.019374872
+IoT traffic,f1_iot_Carnet,MSMP + attention,2,1.5581219,1.0857797,0.019867076
+IoT traffic,f1_iot_Integra,QPR-GNN (ours),0,2.157985,1.5683541,0.01740172
+IoT traffic,f1_iot_Integra,QPR-GNN (ours),1,2.157985,1.5713097,0.01620044
+IoT traffic,f1_iot_Integra,QPR-GNN (ours),2,2.157985,1.5822625,0.016144993
+IoT traffic,f1_iot_Integra,RouteNet-Fermi,0,2.157985,1.6886078,0.015990023
+IoT traffic,f1_iot_Integra,RouteNet-Fermi,1,2.157985,1.6878908,0.015708473
+IoT traffic,f1_iot_Integra,RouteNet-Fermi,2,2.157985,1.6910561,0.016164917
+IoT traffic,f1_iot_Integra,MSMP + attention,0,2.157985,1.6639434,0.018257609
+IoT traffic,f1_iot_Integra,MSMP + attention,1,2.157985,1.6713232,0.017820887
+IoT traffic,f1_iot_Integra,MSMP + attention,2,2.157985,1.6663268,0.019263083
+IoT traffic,f1_iot_Intranetwork,QPR-GNN (ours),0,1.022132,0.51204324,0.016593127
+IoT traffic,f1_iot_Intranetwork,QPR-GNN (ours),1,1.022132,0.51742345,0.015525046
+IoT traffic,f1_iot_Intranetwork,QPR-GNN (ours),2,1.022132,0.532757,0.016498033
+IoT traffic,f1_iot_Intranetwork,RouteNet-Fermi,0,1.022132,0.6491249,0.016302176
+IoT traffic,f1_iot_Intranetwork,RouteNet-Fermi,1,1.022132,0.64861345,0.015565471
+IoT traffic,f1_iot_Intranetwork,RouteNet-Fermi,2,1.022132,0.6530851,0.016003134
+IoT traffic,f1_iot_Intranetwork,MSMP + attention,0,1.022132,0.6193391,0.017478334
+IoT traffic,f1_iot_Intranetwork,MSMP + attention,1,1.022132,0.62577,0.017176727
+IoT traffic,f1_iot_Intranetwork,MSMP + attention,2,1.022132,0.620499,0.018645456
+IoT traffic,f2_iot_HiberniaCanada,QPR-GNN (ours),0,1.6910564,0.9802558,0.028117603
+IoT traffic,f2_iot_HiberniaCanada,QPR-GNN (ours),1,1.6910564,0.98253894,0.029461106
+IoT traffic,f2_iot_HiberniaCanada,QPR-GNN (ours),2,1.6910564,0.98110306,0.026258131
+IoT traffic,f2_iot_HiberniaCanada,RouteNet-Fermi,0,1.6910564,1.0529423,0.027914722
+IoT traffic,f2_iot_HiberniaCanada,RouteNet-Fermi,1,1.6910564,1.0507085,0.028355585
+IoT traffic,f2_iot_HiberniaCanada,RouteNet-Fermi,2,1.6910564,1.0456997,0.027792325
+IoT traffic,f2_iot_HiberniaCanada,MSMP + attention,0,1.6910564,1.0374072,0.031307165
+IoT traffic,f2_iot_HiberniaCanada,MSMP + attention,1,1.6910564,1.0411468,0.030851217
+IoT traffic,f2_iot_HiberniaCanada,MSMP + attention,2,1.6910564,1.0411718,0.03386769
+IoT traffic,f2_iot_Ibm,QPR-GNN (ours),0,2.6409793,1.6849376,0.0271959
+IoT traffic,f2_iot_Ibm,QPR-GNN (ours),1,2.6409793,1.6685746,0.028773692
+IoT traffic,f2_iot_Ibm,QPR-GNN (ours),2,2.6409793,1.6549063,0.026192559
+IoT traffic,f2_iot_Ibm,RouteNet-Fermi,0,2.6409793,1.9360052,0.0287992
+IoT traffic,f2_iot_Ibm,RouteNet-Fermi,1,2.6409793,1.9354916,0.032881506
+IoT traffic,f2_iot_Ibm,RouteNet-Fermi,2,2.6409793,1.9203805,0.027155576
+IoT traffic,f2_iot_Ibm,MSMP + attention,0,2.6409793,1.852252,0.030629314
+IoT traffic,f2_iot_Ibm,MSMP + attention,1,2.6409793,1.8794535,0.030796058
+IoT traffic,f2_iot_Ibm,MSMP + attention,2,2.6409793,1.8611958,0.0338307
+IoT traffic,f2_iot_Sanet,QPR-GNN (ours),0,0.71644515,0.3605591,0.009721389
+IoT traffic,f2_iot_Sanet,QPR-GNN (ours),1,0.71644515,0.3622524,0.010250947
+IoT traffic,f2_iot_Sanet,QPR-GNN (ours),2,0.71644515,0.35943037,0.008604449
+IoT traffic,f2_iot_Sanet,RouteNet-Fermi,0,0.71644515,0.42313337,0.011598837
+IoT traffic,f2_iot_Sanet,RouteNet-Fermi,1,0.71644515,0.41787997,0.010115778
+IoT traffic,f2_iot_Sanet,RouteNet-Fermi,2,0.71644515,0.4155622,0.009693322
+IoT traffic,f2_iot_Sanet,MSMP + attention,0,0.71644515,0.4075528,0.010331591
+IoT traffic,f2_iot_Sanet,MSMP + attention,1,0.71644515,0.40857607,0.009878804
+IoT traffic,f2_iot_Sanet,MSMP + attention,2,0.71644515,0.41129896,0.010488154
+IoT traffic,f2_iot_SwitchL3,QPR-GNN (ours),0,0.8694128,0.45285383,0.010679232
+IoT traffic,f2_iot_SwitchL3,QPR-GNN (ours),1,0.8694128,0.45292157,0.011490774
+IoT traffic,f2_iot_SwitchL3,QPR-GNN (ours),2,0.8694128,0.45007187,0.010411808
+IoT traffic,f2_iot_SwitchL3,RouteNet-Fermi,0,0.8694128,0.49595565,0.011249533
+IoT traffic,f2_iot_SwitchL3,RouteNet-Fermi,1,0.8694128,0.49386016,0.01258195
+IoT traffic,f2_iot_SwitchL3,RouteNet-Fermi,2,0.8694128,0.48940068,0.01094889
+IoT traffic,f2_iot_SwitchL3,MSMP + attention,0,0.8694128,0.47766066,0.012476295
+IoT traffic,f2_iot_SwitchL3,MSMP + attention,1,0.8694128,0.48354378,0.012909906
+IoT traffic,f2_iot_SwitchL3,MSMP + attention,2,0.8694128,0.4836152,0.012515993
+IoT traffic,f3_iot_Ans,QPR-GNN (ours),0,1.4829016,0.84310466,0.023598935
+IoT traffic,f3_iot_Ans,QPR-GNN (ours),1,1.4829016,0.8408036,0.022278102
+IoT traffic,f3_iot_Ans,QPR-GNN (ours),2,1.4829016,0.8363903,0.023008965
+IoT traffic,f3_iot_Ans,RouteNet-Fermi,0,1.4829016,0.917507,0.022675289
+IoT traffic,f3_iot_Ans,RouteNet-Fermi,1,1.4829016,0.9332226,0.022730317
+IoT traffic,f3_iot_Ans,RouteNet-Fermi,2,1.4829016,0.9197597,0.021637097
+IoT traffic,f3_iot_Ans,MSMP + attention,0,1.4829016,0.9012929,0.027303003
+IoT traffic,f3_iot_Ans,MSMP + attention,1,1.4829016,0.9178974,0.025231501
+IoT traffic,f3_iot_Ans,MSMP + attention,2,1.4829016,0.9003529,0.028495582
+IoT traffic,f3_iot_LambdaNet,QPR-GNN (ours),0,0.7934928,0.4280906,0.0079389615
+IoT traffic,f3_iot_LambdaNet,QPR-GNN (ours),1,0.7934928,0.418846,0.008382296
+IoT traffic,f3_iot_LambdaNet,QPR-GNN (ours),2,0.7934928,0.42399082,0.008248593
+IoT traffic,f3_iot_LambdaNet,RouteNet-Fermi,0,0.7934928,0.51293296,0.008336221
+IoT traffic,f3_iot_LambdaNet,RouteNet-Fermi,1,0.7934928,0.5375235,0.0081135165
+IoT traffic,f3_iot_LambdaNet,RouteNet-Fermi,2,0.7934928,0.5138031,0.008842402
+IoT traffic,f3_iot_LambdaNet,MSMP + attention,0,0.7934928,0.48086652,0.008623618
+IoT traffic,f3_iot_LambdaNet,MSMP + attention,1,0.7934928,0.5005915,0.008217172
+IoT traffic,f3_iot_LambdaNet,MSMP + attention,2,0.7934928,0.47771505,0.009042917
+IoT traffic,f3_iot_Litnet,QPR-GNN (ours),0,1.3156364,0.82580847,0.014703877
+IoT traffic,f3_iot_Litnet,QPR-GNN (ours),1,1.3156364,0.84156036,0.014861755
+IoT traffic,f3_iot_Litnet,QPR-GNN (ours),2,1.3156364,0.8323923,0.013708821
+IoT traffic,f3_iot_Litnet,RouteNet-Fermi,0,1.3156364,0.91454715,0.014740581
+IoT traffic,f3_iot_Litnet,RouteNet-Fermi,1,1.3156364,0.9313457,0.01424933
+IoT traffic,f3_iot_Litnet,RouteNet-Fermi,2,1.3156364,0.91495496,0.015553058
+IoT traffic,f3_iot_Litnet,MSMP + attention,0,1.3156364,0.8968005,0.018439446
+IoT traffic,f3_iot_Litnet,MSMP + attention,1,1.3156364,0.90811306,0.01676628
+IoT traffic,f3_iot_Litnet,MSMP + attention,2,1.3156364,0.89174604,0.016165119
+IoT traffic,f3_iot_Nsfnet,QPR-GNN (ours),0,1.9227879,1.1335907,0.025003755
+IoT traffic,f3_iot_Nsfnet,QPR-GNN (ours),1,1.9227879,1.160539,0.02510662
+IoT traffic,f3_iot_Nsfnet,QPR-GNN (ours),2,1.9227879,1.1231936,0.025236579
+IoT traffic,f3_iot_Nsfnet,RouteNet-Fermi,0,1.9227879,1.3022375,0.025738046
+IoT traffic,f3_iot_Nsfnet,RouteNet-Fermi,1,1.9227879,1.3189926,0.024130186
+IoT traffic,f3_iot_Nsfnet,RouteNet-Fermi,2,1.9227879,1.3015821,0.023757959
+IoT traffic,f3_iot_Nsfnet,MSMP + attention,0,1.9227879,1.269184,0.02950683
+IoT traffic,f3_iot_Nsfnet,MSMP + attention,1,1.9227879,1.2966356,0.02816994
+IoT traffic,f3_iot_Nsfnet,MSMP + attention,2,1.9227879,1.2642885,0.032626152

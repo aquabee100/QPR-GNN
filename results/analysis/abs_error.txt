@@ -1,0 +1,17 @@
+Absolute delay error (ms): mean over held-out topologies and seeds of the per-topology mean (mae) and
+median (medae) absolute error; mean_delay = mean simulated delay of the held-out flows.
+
+                                 mean_delay    mae  medae
+benchmark      model                                     
+Archive        MSMP + attention       4.217  0.696  0.073
+               QPR-GNN (ours)         4.217  0.462  0.057
+               RouteNet-Fermi         4.217  0.607  0.061
+BNNetSimulator MSMP + attention     122.367 18.717  1.397
+               QPR-GNN (ours)       122.367  8.107  1.208
+               RouteNet-Fermi       122.367 16.273  1.320
+IoT traffic    MSMP + attention       1.640  1.119  0.023
+               QPR-GNN (ours)         1.640  1.033  0.019
+               RouteNet-Fermi         1.640  1.143  0.020
+ns-3           MSMP + attention       1.899  0.907  0.023
+               QPR-GNN (ours)         1.899  0.804  0.022
+               RouteNet-Fermi         1.899  0.888  0.023
